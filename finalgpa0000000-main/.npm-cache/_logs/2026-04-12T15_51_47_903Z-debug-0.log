@@ -1,0 +1,1480 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.6.2
+2 info using node@v24.13.0
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:E:\samirapi\finalgpa0000000-main\finalgpa0000000-main\.npmrc
+5 silly config load:file:C:\Users\User\.npmrc
+6 silly config load:file:C:\Users\User\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install
+8 verbose argv "install" "--cache" ".npm-cache" "--no-audit"
+9 verbose logfile logs-max:10 dir:E:\samirapi\finalgpa0000000-main\finalgpa0000000-main\.npm-cache\_logs\2026-04-12T15_51_47_903Z-
+10 verbose logfile E:\samirapi\finalgpa0000000-main\finalgpa0000000-main\.npm-cache\_logs\2026-04-12T15_51_47_903Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:2348810240 maxSize:587202560 maxEntrySize:293601280
+13 silly idealTree buildDeps
+14 silly reify mark retired [
+14 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\acorn'
+14 silly reify ]
+15 silly reify mark retired [
+15 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\acorn-jsx'
+15 silly reify ]
+16 silly reify mark retired [
+16 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\ajv'
+16 silly reify ]
+17 silly reify mark retired [
+17 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\ansi-styles'
+17 silly reify ]
+18 silly reify mark retired [
+18 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\any-promise'
+18 silly reify ]
+19 silly reify mark retired [
+19 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\anymatch'
+19 silly reify ]
+20 silly reify mark retired [
+20 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\arg'
+20 silly reify ]
+21 silly reify mark retired [
+21 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\autoprefixer'
+21 silly reify ]
+22 silly reify mark retired [
+22 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\balanced-match'
+22 silly reify ]
+23 silly reify mark retired [
+23 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\baseline-browser-mapping'
+23 silly reify ]
+24 silly reify mark retired [
+24 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\binary-extensions'
+24 silly reify ]
+25 silly reify mark retired [
+25 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\boolbase'
+25 silly reify ]
+26 silly reify mark retired [
+26 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\brace-expansion'
+26 silly reify ]
+27 silly reify mark retired [
+27 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\braces'
+27 silly reify ]
+28 silly reify mark retired [
+28 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\browserslist'
+28 silly reify ]
+29 silly reify mark retired [
+29 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\camelcase-css'
+29 silly reify ]
+30 silly reify mark retired [
+30 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\caniuse-lite'
+30 silly reify ]
+31 silly reify mark retired [
+31 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\chokidar'
+31 silly reify ]
+32 silly reify mark retired [
+32 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\client-only'
+32 silly reify ]
+33 silly reify mark retired [
+33 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\chalk'
+33 silly reify ]
+34 silly reify mark retired [
+34 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\color-convert'
+34 silly reify ]
+35 silly reify mark retired [
+35 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\color-name'
+35 silly reify ]
+36 silly reify mark retired [
+36 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\commander'
+36 silly reify ]
+37 silly reify mark retired [
+37 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\critters'
+37 silly reify ]
+38 silly reify mark retired [
+38 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\cross-spawn'
+38 silly reify ]
+39 silly reify mark retired [
+39 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\css-select'
+39 silly reify ]
+40 silly reify mark retired [
+40 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\css-what'
+40 silly reify ]
+41 silly reify mark retired [
+41 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\cssesc'
+41 silly reify ]
+42 silly reify mark retired [
+42 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\csstype'
+42 silly reify ]
+43 silly reify mark retired [
+43 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\deep-is'
+43 silly reify ]
+44 silly reify mark retired [
+44 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\debug'
+44 silly reify ]
+45 silly reify mark retired [
+45 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\detect-libc'
+45 silly reify ]
+46 silly reify mark retired [
+46 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\didyoumean'
+46 silly reify ]
+47 silly reify mark retired [
+47 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\dlv'
+47 silly reify ]
+48 silly reify mark retired [
+48 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\dom-serializer'
+48 silly reify ]
+49 silly reify mark retired [
+49 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\domelementtype'
+49 silly reify ]
+50 silly reify mark retired [
+50 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\domhandler'
+50 silly reify ]
+51 silly reify mark retired [
+51 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\domutils'
+51 silly reify ]
+52 silly reify mark retired [
+52 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\electron-to-chromium'
+52 silly reify ]
+53 silly reify mark retired [
+53 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\entities'
+53 silly reify ]
+54 silly reify mark retired [
+54 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\escalade'
+54 silly reify ]
+55 silly reify mark retired [
+55 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\escape-string-regexp'
+55 silly reify ]
+56 silly reify mark retired [
+56 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\eslint'
+56 silly reify ]
+57 silly reify mark retired [
+57 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\eslint-scope'
+57 silly reify ]
+58 silly reify mark retired [
+58 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\eslint-visitor-keys'
+58 silly reify ]
+59 silly reify mark retired [
+59 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\espree'
+59 silly reify ]
+60 silly reify mark retired [
+60 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\esquery'
+60 silly reify ]
+61 silly reify mark retired [
+61 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\esrecurse'
+61 silly reify ]
+62 silly reify mark retired [
+62 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\estraverse'
+62 silly reify ]
+63 silly reify mark retired [
+63 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\esutils'
+63 silly reify ]
+64 silly reify mark retired [
+64 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\fast-deep-equal'
+64 silly reify ]
+65 silly reify mark retired [
+65 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\fast-glob'
+65 silly reify ]
+66 silly reify mark retired [
+66 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\fast-json-stable-stringify'
+66 silly reify ]
+67 silly reify mark retired [
+67 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\fast-levenshtein'
+67 silly reify ]
+68 silly reify mark retired [
+68 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\fastq'
+68 silly reify ]
+69 silly reify mark retired [
+69 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\file-entry-cache'
+69 silly reify ]
+70 silly reify mark retired [
+70 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\fill-range'
+70 silly reify ]
+71 silly reify mark retired [
+71 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\find-up'
+71 silly reify ]
+72 silly reify mark retired [
+72 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\flatted'
+72 silly reify ]
+73 silly reify mark retired [
+73 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\fraction.js'
+73 silly reify ]
+74 silly reify mark retired [
+74 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\flat-cache'
+74 silly reify ]
+75 silly reify mark retired [
+75 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\function-bind'
+75 silly reify ]
+76 silly reify mark retired [
+76 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\glob-parent'
+76 silly reify ]
+77 silly reify mark retired [
+77 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\has-flag'
+77 silly reify ]
+78 silly reify mark retired [
+78 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\hasown'
+78 silly reify ]
+79 silly reify mark retired [
+79 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\htmlparser2'
+79 silly reify ]
+80 silly reify mark retired [
+80 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\ignore'
+80 silly reify ]
+81 silly reify mark retired [
+81 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\imurmurhash'
+81 silly reify ]
+82 silly reify mark retired [
+82 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\is-binary-path'
+82 silly reify ]
+83 silly reify mark retired [
+83 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\is-core-module'
+83 silly reify ]
+84 silly reify mark retired [
+84 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\is-extglob'
+84 silly reify ]
+85 silly reify mark retired [
+85 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\is-glob'
+85 silly reify ]
+86 silly reify mark retired [
+86 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\is-number'
+86 silly reify ]
+87 silly reify mark retired [
+87 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\isexe'
+87 silly reify ]
+88 silly reify mark retired [
+88 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\jiti'
+88 silly reify ]
+89 silly reify mark retired [
+89 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\json-buffer'
+89 silly reify ]
+90 silly reify mark retired [
+90 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\json-schema-traverse'
+90 silly reify ]
+91 silly reify mark retired [
+91 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\json-stable-stringify-without-jsonify'
+91 silly reify ]
+92 silly reify mark retired [
+92 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\keyv'
+92 silly reify ]
+93 silly reify mark retired [
+93 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\levn'
+93 silly reify ]
+94 silly reify mark retired [
+94 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\lilconfig'
+94 silly reify ]
+95 silly reify mark retired [
+95 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\lines-and-columns'
+95 silly reify ]
+96 silly reify mark retired [
+96 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\locate-path'
+96 silly reify ]
+97 silly reify mark retired [
+97 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\merge2'
+97 silly reify ]
+98 silly reify mark retired [
+98 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\micromatch'
+98 silly reify ]
+99 silly reify mark retired [
+99 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\minimatch'
+99 silly reify ]
+100 silly reify mark retired [
+100 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\ms'
+100 silly reify ]
+101 silly reify mark retired [
+101 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\mz'
+101 silly reify ]
+102 silly reify mark retired [
+102 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\nanoid'
+102 silly reify ]
+103 silly reify mark retired [
+103 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\natural-compare'
+103 silly reify ]
+104 silly reify mark retired [
+104 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\next'
+104 silly reify ]
+105 silly reify mark retired [
+105 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\node-releases'
+105 silly reify ]
+106 silly reify mark retired [
+106 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\normalize-path'
+106 silly reify ]
+107 silly reify mark retired [
+107 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\nth-check'
+107 silly reify ]
+108 silly reify mark retired [
+108 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\object-assign'
+108 silly reify ]
+109 silly reify mark retired [
+109 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\object-hash'
+109 silly reify ]
+110 silly reify mark retired [
+110 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\optionator'
+110 silly reify ]
+111 silly reify mark retired [
+111 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\p-limit'
+111 silly reify ]
+112 silly reify mark retired [
+112 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\p-locate'
+112 silly reify ]
+113 silly reify mark retired [
+113 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\path-exists'
+113 silly reify ]
+114 silly reify mark retired [
+114 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\path-key'
+114 silly reify ]
+115 silly reify mark retired [
+115 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\path-parse'
+115 silly reify ]
+116 silly reify mark retired [
+116 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\picocolors'
+116 silly reify ]
+117 silly reify mark retired [
+117 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\picomatch'
+117 silly reify ]
+118 silly reify mark retired [
+118 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\pify'
+118 silly reify ]
+119 silly reify mark retired [
+119 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\pirates'
+119 silly reify ]
+120 silly reify mark retired [
+120 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\postcss'
+120 silly reify ]
+121 silly reify mark retired [
+121 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\postcss-import'
+121 silly reify ]
+122 silly reify mark retired [
+122 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\postcss-js'
+122 silly reify ]
+123 silly reify mark retired [
+123 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\postcss-load-config'
+123 silly reify ]
+124 silly reify mark retired [
+124 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\postcss-media-query-parser'
+124 silly reify ]
+125 silly reify mark retired [
+125 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\postcss-nested'
+125 silly reify ]
+126 silly reify mark retired [
+126 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\postcss-selector-parser'
+126 silly reify ]
+127 silly reify mark retired [
+127 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\postcss-value-parser'
+127 silly reify ]
+128 silly reify mark retired [
+128 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\prelude-ls'
+128 silly reify ]
+129 silly reify mark retired [
+129 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\punycode'
+129 silly reify ]
+130 silly reify mark retired [
+130 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\queue-microtask'
+130 silly reify ]
+131 silly reify mark retired [
+131 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\react'
+131 silly reify ]
+132 silly reify mark retired [
+132 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\react-dom'
+132 silly reify ]
+133 silly reify mark retired [
+133 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\read-cache'
+133 silly reify ]
+134 silly reify mark retired [
+134 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\readdirp'
+134 silly reify ]
+135 silly reify mark retired [
+135 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\resolve'
+135 silly reify ]
+136 silly reify mark retired [
+136 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\reusify'
+136 silly reify ]
+137 silly reify mark retired [
+137 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\run-parallel'
+137 silly reify ]
+138 silly reify mark retired [
+138 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\scheduler'
+138 silly reify ]
+139 silly reify mark retired [
+139 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\semver'
+139 silly reify ]
+140 silly reify mark retired [
+140 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\sharp'
+140 silly reify ]
+141 silly reify mark retired [
+141 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\shebang-command'
+141 silly reify ]
+142 silly reify mark retired [
+142 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\shebang-regex'
+142 silly reify ]
+143 silly reify mark retired [
+143 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\source-map-js'
+143 silly reify ]
+144 silly reify mark retired [
+144 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\styled-jsx'
+144 silly reify ]
+145 silly reify mark retired [
+145 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\sucrase'
+145 silly reify ]
+146 silly reify mark retired [
+146 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\supports-color'
+146 silly reify ]
+147 silly reify mark retired [
+147 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\supports-preserve-symlinks-flag'
+147 silly reify ]
+148 silly reify mark retired [
+148 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\tailwindcss'
+148 silly reify ]
+149 silly reify mark retired [
+149 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\thenify'
+149 silly reify ]
+150 silly reify mark retired [
+150 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\thenify-all'
+150 silly reify ]
+151 silly reify mark retired [
+151 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\tinyglobby'
+151 silly reify ]
+152 silly reify mark retired [
+152 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\to-regex-range'
+152 silly reify ]
+153 silly reify mark retired [
+153 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\ts-interface-checker'
+153 silly reify ]
+154 silly reify mark retired [
+154 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\tslib'
+154 silly reify ]
+155 silly reify mark retired [
+155 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\type-check'
+155 silly reify ]
+156 silly reify mark retired [
+156 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\typescript'
+156 silly reify ]
+157 silly reify mark retired [
+157 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\undici-types'
+157 silly reify ]
+158 silly reify mark retired [
+158 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\update-browserslist-db'
+158 silly reify ]
+159 silly reify mark retired [
+159 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\uri-js'
+159 silly reify ]
+160 silly reify mark retired [
+160 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\util-deprecate'
+160 silly reify ]
+161 silly reify mark retired [
+161 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\which'
+161 silly reify ]
+162 silly reify mark retired [
+162 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\word-wrap'
+162 silly reify ]
+163 silly reify mark retired [
+163 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\yocto-queue'
+163 silly reify ]
+164 silly reify mark retired [
+164 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\@alloc\\quick-lru'
+164 silly reify ]
+165 silly reify mark retired [
+165 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\@eslint\\config-array'
+165 silly reify ]
+166 silly reify mark retired [
+166 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\@eslint\\config-helpers'
+166 silly reify ]
+167 silly reify mark retired [
+167 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\@eslint\\core'
+167 silly reify ]
+168 silly reify mark retired [
+168 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\@eslint\\object-schema'
+168 silly reify ]
+169 silly reify mark retired [
+169 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\@eslint\\plugin-kit'
+169 silly reify ]
+170 silly reify mark retired [
+170 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\@eslint-community\\eslint-utils'
+170 silly reify ]
+171 silly reify mark retired [
+171 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\@eslint-community\\regexpp'
+171 silly reify ]
+172 silly reify mark retired [
+172 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\@humanfs\\core'
+172 silly reify ]
+173 silly reify mark retired [
+173 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\@humanfs\\node'
+173 silly reify ]
+174 silly reify mark retired [
+174 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\@humanwhocodes\\module-importer'
+174 silly reify ]
+175 silly reify mark retired [
+175 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\@humanwhocodes\\retry'
+175 silly reify ]
+176 silly reify mark retired [
+176 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\@img\\colour'
+176 silly reify ]
+177 silly reify mark retired [
+177 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\@img\\sharp-win32-x64'
+177 silly reify ]
+178 silly reify mark retired [
+178 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\@jridgewell\\gen-mapping'
+178 silly reify ]
+179 silly reify mark retired [
+179 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\@jridgewell\\resolve-uri'
+179 silly reify ]
+180 silly reify mark retired [
+180 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\@jridgewell\\trace-mapping'
+180 silly reify ]
+181 silly reify mark retired [
+181 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\@jridgewell\\sourcemap-codec'
+181 silly reify ]
+182 silly reify mark retired [
+182 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\@next\\env'
+182 silly reify ]
+183 silly reify mark retired [
+183 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\@next\\swc-win32-x64-msvc'
+183 silly reify ]
+184 silly reify mark retired [
+184 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\@nodelib\\fs.scandir'
+184 silly reify ]
+185 silly reify mark retired [
+185 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\@nodelib\\fs.stat'
+185 silly reify ]
+186 silly reify mark retired [
+186 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\@nodelib\\fs.walk'
+186 silly reify ]
+187 silly reify mark retired [
+187 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\@swc\\helpers'
+187 silly reify ]
+188 silly reify mark retired [
+188 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\@types\\esrecurse'
+188 silly reify ]
+189 silly reify mark retired [
+189 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\@types\\json-schema'
+189 silly reify ]
+190 silly reify mark retired [
+190 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\@types\\estree'
+190 silly reify ]
+191 silly reify mark retired [
+191 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\@types\\node'
+191 silly reify ]
+192 silly reify mark retired [
+192 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\@types\\react'
+192 silly reify ]
+193 silly reify moves {
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\acorn': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.acorn-DWUbOYLy',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\acorn-jsx': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.acorn-jsx-uUJ3gjiN',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\ajv': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.ajv-Vpin0UUD',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\ansi-styles': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.ansi-styles-iQUgxGTx',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\any-promise': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.any-promise-kQD8oDp4',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\anymatch': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.anymatch-feEU8ksu',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\arg': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.arg-kz54Q7UC',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\autoprefixer': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.autoprefixer-OhV42sTv',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\balanced-match': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.balanced-match-eq3YmEfn',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\baseline-browser-mapping': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.baseline-browser-mapping-JrDVO3gC',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\binary-extensions': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.binary-extensions-OpZnyBOF',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\boolbase': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.boolbase-7x1TtHSs',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\brace-expansion': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.brace-expansion-VZcB5d5n',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\braces': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.braces-fyrtWxAX',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\browserslist': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.browserslist-KExOUVlj',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\camelcase-css': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.camelcase-css-5NxZayzm',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\caniuse-lite': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.caniuse-lite-jIY6VyiW',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\chokidar': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.chokidar-DotnAKRy',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\client-only': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.client-only-AJPshEl7',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\chalk': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.chalk-34r18vuV',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\color-convert': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.color-convert-1N9qZerG',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\color-name': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.color-name-rYYp8dp9',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\commander': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.commander-Qgm0z1Zz',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\critters': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.critters-OtWp7hfa',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\cross-spawn': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.cross-spawn-qCnyUguF',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\css-select': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.css-select-PnSrfadh',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\css-what': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.css-what-lEwDq18h',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\cssesc': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.cssesc-dER0xjoJ',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\csstype': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.csstype-Zo4UQoeP',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\deep-is': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.deep-is-WvzOep83',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\debug': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.debug-E0C3O0Oy',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\detect-libc': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.detect-libc-Zzsv5wx5',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\didyoumean': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.didyoumean-MAjTmYVw',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\dlv': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.dlv-G5MF6i2R',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\dom-serializer': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.dom-serializer-DWj8ztN7',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\domelementtype': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.domelementtype-opW5ZLLH',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\domhandler': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.domhandler-rHPBLkHZ',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\domutils': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.domutils-WyT0s9Lu',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\electron-to-chromium': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.electron-to-chromium-fNoImqOf',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\entities': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.entities-oFCNe4Up',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\escalade': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.escalade-KC7gtAjI',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\escape-string-regexp': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.escape-string-regexp-6jx2MvlL',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\eslint': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.eslint-Tzus8Whd',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\eslint-scope': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.eslint-scope-WZ6Vx4XW',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\eslint-visitor-keys': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.eslint-visitor-keys-N2zYt1PB',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\espree': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.espree-FnT7dMbE',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\esquery': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.esquery-63QNNEhb',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\esrecurse': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.esrecurse-zKk0aNK7',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\estraverse': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.estraverse-m66rDse2',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\esutils': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.esutils-ds7aEP1R',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\fast-deep-equal': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.fast-deep-equal-uGCLM7UN',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\fast-glob': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.fast-glob-qmfHifB5',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\fast-json-stable-stringify': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.fast-json-stable-stringify-ngQwtJqU',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\fast-levenshtein': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.fast-levenshtein-WXrT3J1o',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\fastq': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.fastq-Ls4mrgMg',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\file-entry-cache': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.file-entry-cache-C9dbLYfa',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\fill-range': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.fill-range-lapJSo7w',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\find-up': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.find-up-bexq66db',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\flatted': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.flatted-a8nXuOwu',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\fraction.js': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.fraction.js-0HKjQodQ',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\flat-cache': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.flat-cache-sNLg5vxD',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\function-bind': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.function-bind-wLYzqMV4',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\glob-parent': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.glob-parent-gpO1FS4j',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\has-flag': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.has-flag-uCLb4Dhl',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\hasown': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.hasown-O8fCl0sT',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\htmlparser2': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.htmlparser2-69vtCr3j',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\ignore': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.ignore-cUPLGCV4',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\imurmurhash': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.imurmurhash-FqSdvfNw',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\is-binary-path': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.is-binary-path-VmIwjes9',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\is-core-module': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.is-core-module-GE5TZR28',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\is-extglob': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.is-extglob-vIaNooED',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\is-glob': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.is-glob-4FrxgmjH',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\is-number': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.is-number-XTGm7ULr',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\isexe': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.isexe-h30CA9da',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\jiti': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.jiti-twpJJsM4',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\json-buffer': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.json-buffer-OB0ewYRb',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\json-schema-traverse': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.json-schema-traverse-6ibXDPK2',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\json-stable-stringify-without-jsonify': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.json-stable-stringify-without-jsonify-rPJOsq8D',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\keyv': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.keyv-2qjfgz6S',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\levn': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.levn-3zopq8Te',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\lilconfig': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.lilconfig-SazCq6ee',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\lines-and-columns': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.lines-and-columns-aX2okKdF',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\locate-path': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.locate-path-nUQ1nUc5',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\merge2': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.merge2-dNq1HU6x',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\micromatch': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.micromatch-p5UKRonf',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\minimatch': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.minimatch-PuPNZYZM',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\ms': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.ms-Hma5vVPB',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\mz': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.mz-1SVRZgMW',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\nanoid': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.nanoid-dcgdyWTa',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\natural-compare': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.natural-compare-t9bK4V28',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\next': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.next-dMROdUiP',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\node-releases': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.node-releases-laTdeXiN',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\normalize-path': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.normalize-path-m0LrtKYx',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\nth-check': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.nth-check-r3qnPY6l',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\object-assign': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.object-assign-H3JAEKMc',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\object-hash': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.object-hash-FBWcToVA',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\optionator': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.optionator-nXgUHIYC',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\p-limit': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.p-limit-cXmtAYpz',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\p-locate': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.p-locate-V1xPdJWY',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\path-exists': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.path-exists-eSlzsEND',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\path-key': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.path-key-04fHcWt1',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\path-parse': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.path-parse-hJcvbjlv',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\picocolors': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.picocolors-obYgxMSn',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\picomatch': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.picomatch-N1DkU4oZ',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\pify': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.pify-FJIGGPVx',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\pirates': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.pirates-G8nAGGyB',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\postcss': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.postcss-4yLJVKKj',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\postcss-import': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.postcss-import-q1HKEV7N',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\postcss-js': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.postcss-js-A7s4YEfv',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\postcss-load-config': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.postcss-load-config-tvEUzryZ',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\postcss-media-query-parser': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.postcss-media-query-parser-qxxOddC1',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\postcss-nested': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.postcss-nested-hjdgTEhV',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\postcss-selector-parser': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.postcss-selector-parser-lIem1YFe',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\postcss-value-parser': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.postcss-value-parser-dkkUEx6l',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\prelude-ls': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.prelude-ls-ROkXNk2F',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\punycode': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.punycode-KOWj6Ah1',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\queue-microtask': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.queue-microtask-wPk2Uuxf',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\react': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.react-9t5nis9a',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\react-dom': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.react-dom-W6nILNPD',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\read-cache': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.read-cache-aBsHcBrl',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\readdirp': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.readdirp-N3HlZXab',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\resolve': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.resolve-FfQ750S9',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\reusify': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.reusify-Kv4sbP65',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\run-parallel': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.run-parallel-RrJnC8Os',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\scheduler': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.scheduler-Zz9lOEhm',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\semver': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.semver-0olbhvY1',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\sharp': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.sharp-zVn2G7No',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\shebang-command': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.shebang-command-56cjEkj1',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\shebang-regex': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.shebang-regex-Qcm7k6H6',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\source-map-js': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.source-map-js-DEC7786i',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\styled-jsx': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.styled-jsx-Q7bme30E',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\sucrase': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.sucrase-tlkLIWsO',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\supports-color': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.supports-color-1o1eXu1S',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\supports-preserve-symlinks-flag': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.supports-preserve-symlinks-flag-GsRUzvQZ',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\tailwindcss': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.tailwindcss-1Hq7WoO9',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\thenify': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.thenify-UhFbCbRb',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\thenify-all': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.thenify-all-iblYHwjK',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\tinyglobby': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.tinyglobby-FsEIuUQl',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\to-regex-range': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.to-regex-range-rPfbN84Y',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\ts-interface-checker': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.ts-interface-checker-dDvVnmEo',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\tslib': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.tslib-7wEq42mi',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\type-check': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.type-check-Xu3hF806',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\typescript': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.typescript-n6HhwqyJ',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\undici-types': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.undici-types-2WtBNwEf',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\update-browserslist-db': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.update-browserslist-db-qTZctroj',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\uri-js': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.uri-js-Is2H1GYq',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\util-deprecate': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.util-deprecate-AruH6D7a',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\which': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.which-x8bGUFUA',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\word-wrap': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.word-wrap-Dxm9Ad5N',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\yocto-queue': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\.yocto-queue-NLk0rLjT',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\@alloc\\quick-lru': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\@alloc\\.quick-lru-mfOSWVXt',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\@eslint\\config-array': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\@eslint\\.config-array-IhtDtqAf',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\@eslint\\config-helpers': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\@eslint\\.config-helpers-3VcACyt6',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\@eslint\\core': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\@eslint\\.core-gHB4ZQEK',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\@eslint\\object-schema': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\@eslint\\.object-schema-tmuGWydG',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\@eslint\\plugin-kit': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\@eslint\\.plugin-kit-2njGnGWL',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\@eslint-community\\eslint-utils': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\@eslint-community\\.eslint-utils-mbnZJctP',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\@eslint-community\\regexpp': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\@eslint-community\\.regexpp-GYH9R1B9',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\@humanfs\\core': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\@humanfs\\.core-BW9OCas1',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\@humanfs\\node': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\@humanfs\\.node-FpvInzEo',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\@humanwhocodes\\module-importer': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\@humanwhocodes\\.module-importer-gIOjgzky',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\@humanwhocodes\\retry': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\@humanwhocodes\\.retry-hh6KLZxW',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\@img\\colour': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\@img\\.colour-yhaZp0rp',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\@img\\sharp-win32-x64': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\@img\\.sharp-win32-x64-mdiPXHTi',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\@jridgewell\\gen-mapping': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\@jridgewell\\.gen-mapping-Z0DRFhCb',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\@jridgewell\\resolve-uri': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\@jridgewell\\.resolve-uri-jSeFVBuE',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\@jridgewell\\trace-mapping': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\@jridgewell\\.trace-mapping-4JCIQ5e9',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\@jridgewell\\sourcemap-codec': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\@jridgewell\\.sourcemap-codec-GWNuuMQg',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\@next\\env': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\@next\\.env-WwYTKG1q',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\@next\\swc-win32-x64-msvc': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\@next\\.swc-win32-x64-msvc-sJgxzso7',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\@nodelib\\fs.scandir': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\@nodelib\\.fs.scandir-lP5EozhM',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\@nodelib\\fs.stat': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\@nodelib\\.fs.stat-o8mU644M',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\@nodelib\\fs.walk': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\@nodelib\\.fs.walk-OfKiG7GU',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\@swc\\helpers': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\@swc\\.helpers-csVZhsAY',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\@types\\esrecurse': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\@types\\.esrecurse-w80KJZT7',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\@types\\json-schema': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\@types\\.json-schema-HmTDCB3D',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\@types\\estree': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\@types\\.estree-AiFBqN5S',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\@types\\node': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\@types\\.node-7Uup4cMG',
+193 silly reify   'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\@types\\react': 'E:\\samirapi\\finalgpa0000000-main\\finalgpa0000000-main\\node_modules\\@types\\.react-XCVRUtUE'
+193 silly reify }
+194 http cache @types/react@https://registry.npmjs.org/@types/react/-/react-19.2.14.tgz 1ms (cache hit)
+195 http cache @types/node@https://registry.npmjs.org/@types/node/-/node-25.3.5.tgz 0ms (cache hit)
+196 http cache @types/json-schema@https://registry.npmjs.org/@types/json-schema/-/json-schema-7.0.15.tgz 0ms (cache hit)
+197 http cache @types/esrecurse@https://registry.npmjs.org/@types/esrecurse/-/esrecurse-4.3.1.tgz 0ms (cache hit)
+198 http cache @types/estree@https://registry.npmjs.org/@types/estree/-/estree-1.0.8.tgz 0ms (cache hit)
+199 http cache @swc/helpers@https://registry.npmjs.org/@swc/helpers/-/helpers-0.5.15.tgz 0ms (cache hit)
+200 http cache @next/swc-win32-x64-msvc@https://registry.npmjs.org/@next/swc-win32-x64-msvc/-/swc-win32-x64-msvc-15.5.12.tgz 0ms (cache hit)
+201 http cache @nodelib/fs.stat@https://registry.npmjs.org/@nodelib/fs.stat/-/fs.stat-2.0.5.tgz 0ms (cache hit)
+202 http cache @nodelib/fs.scandir@https://registry.npmjs.org/@nodelib/fs.scandir/-/fs.scandir-2.1.5.tgz 0ms (cache hit)
+203 http cache @next/env@https://registry.npmjs.org/@next/env/-/env-15.5.12.tgz 0ms (cache hit)
+204 http cache @jridgewell/sourcemap-codec@https://registry.npmjs.org/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.5.5.tgz 0ms (cache hit)
+205 http cache @nodelib/fs.walk@https://registry.npmjs.org/@nodelib/fs.walk/-/fs.walk-1.2.8.tgz 0ms (cache hit)
+206 http cache @jridgewell/trace-mapping@https://registry.npmjs.org/@jridgewell/trace-mapping/-/trace-mapping-0.3.31.tgz 0ms (cache hit)
+207 http cache @img/sharp-win32-x64@https://registry.npmjs.org/@img/sharp-win32-x64/-/sharp-win32-x64-0.34.5.tgz 0ms (cache hit)
+208 http cache @jridgewell/resolve-uri@https://registry.npmjs.org/@jridgewell/resolve-uri/-/resolve-uri-3.1.2.tgz 0ms (cache hit)
+209 http cache @jridgewell/gen-mapping@https://registry.npmjs.org/@jridgewell/gen-mapping/-/gen-mapping-0.3.13.tgz 0ms (cache hit)
+210 http cache @img/colour@https://registry.npmjs.org/@img/colour/-/colour-1.1.0.tgz 0ms (cache hit)
+211 http cache @humanfs/node@https://registry.npmjs.org/@humanfs/node/-/node-0.16.7.tgz 0ms (cache hit)
+212 http cache @humanwhocodes/module-importer@https://registry.npmjs.org/@humanwhocodes/module-importer/-/module-importer-1.0.1.tgz 0ms (cache hit)
+213 http cache @humanfs/core@https://registry.npmjs.org/@humanfs/core/-/core-0.19.1.tgz 0ms (cache hit)
+214 http cache @humanwhocodes/retry@https://registry.npmjs.org/@humanwhocodes/retry/-/retry-0.4.3.tgz 0ms (cache hit)
+215 http cache @eslint-community/regexpp@https://registry.npmjs.org/@eslint-community/regexpp/-/regexpp-4.12.2.tgz 0ms (cache hit)
+216 http cache @eslint-community/eslint-utils@https://registry.npmjs.org/@eslint-community/eslint-utils/-/eslint-utils-4.9.1.tgz 0ms (cache hit)
+217 http cache @eslint/plugin-kit@https://registry.npmjs.org/@eslint/plugin-kit/-/plugin-kit-0.6.1.tgz 0ms (cache hit)
+218 http cache @eslint/object-schema@https://registry.npmjs.org/@eslint/object-schema/-/object-schema-3.0.3.tgz 0ms (cache hit)
+219 http cache @eslint/core@https://registry.npmjs.org/@eslint/core/-/core-1.1.1.tgz 0ms (cache hit)
+220 http cache @eslint/config-array@https://registry.npmjs.org/@eslint/config-array/-/config-array-0.23.3.tgz 0ms (cache hit)
+221 http cache @eslint/config-helpers@https://registry.npmjs.org/@eslint/config-helpers/-/config-helpers-0.5.3.tgz 0ms (cache hit)
+222 http cache @alloc/quick-lru@https://registry.npmjs.org/@alloc/quick-lru/-/quick-lru-5.2.0.tgz 0ms (cache hit)
+223 http cache yocto-queue@https://registry.npmjs.org/yocto-queue/-/yocto-queue-0.1.0.tgz 0ms (cache hit)
+224 http cache word-wrap@https://registry.npmjs.org/word-wrap/-/word-wrap-1.2.5.tgz 0ms (cache hit)
+225 http cache util-deprecate@https://registry.npmjs.org/util-deprecate/-/util-deprecate-1.0.2.tgz 0ms (cache hit)
+226 http cache which@https://registry.npmjs.org/which/-/which-2.0.2.tgz 0ms (cache hit)
+227 http cache uri-js@https://registry.npmjs.org/uri-js/-/uri-js-4.4.1.tgz 0ms (cache hit)
+228 http cache undici-types@https://registry.npmjs.org/undici-types/-/undici-types-7.18.2.tgz 0ms (cache hit)
+229 http cache update-browserslist-db@https://registry.npmjs.org/update-browserslist-db/-/update-browserslist-db-1.2.3.tgz 0ms (cache hit)
+230 http cache type-check@https://registry.npmjs.org/type-check/-/type-check-0.4.0.tgz 0ms (cache hit)
+231 http cache tslib@https://registry.npmjs.org/tslib/-/tslib-2.8.1.tgz 0ms (cache hit)
+232 http cache ts-interface-checker@https://registry.npmjs.org/ts-interface-checker/-/ts-interface-checker-0.1.13.tgz 0ms (cache hit)
+233 http cache typescript@https://registry.npmjs.org/typescript/-/typescript-5.9.3.tgz 0ms (cache hit)
+234 http cache to-regex-range@https://registry.npmjs.org/to-regex-range/-/to-regex-range-5.0.1.tgz 0ms (cache hit)
+235 http cache tinyglobby@https://registry.npmjs.org/tinyglobby/-/tinyglobby-0.2.15.tgz 0ms (cache hit)
+236 http cache thenify-all@https://registry.npmjs.org/thenify-all/-/thenify-all-1.6.0.tgz 0ms (cache hit)
+237 http cache thenify@https://registry.npmjs.org/thenify/-/thenify-3.3.1.tgz 0ms (cache hit)
+238 http cache tailwindcss@https://registry.npmjs.org/tailwindcss/-/tailwindcss-3.4.19.tgz 0ms (cache hit)
+239 http cache supports-preserve-symlinks-flag@https://registry.npmjs.org/supports-preserve-symlinks-flag/-/supports-preserve-symlinks-flag-1.0.0.tgz 0ms (cache hit)
+240 http cache supports-color@https://registry.npmjs.org/supports-color/-/supports-color-7.2.0.tgz 0ms (cache hit)
+241 http cache sucrase@https://registry.npmjs.org/sucrase/-/sucrase-3.35.1.tgz 0ms (cache hit)
+242 http cache styled-jsx@https://registry.npmjs.org/styled-jsx/-/styled-jsx-5.1.6.tgz 0ms (cache hit)
+243 http cache source-map-js@https://registry.npmjs.org/source-map-js/-/source-map-js-1.2.1.tgz 0ms (cache hit)
+244 http cache shebang-regex@https://registry.npmjs.org/shebang-regex/-/shebang-regex-3.0.0.tgz 0ms (cache hit)
+245 http cache shebang-command@https://registry.npmjs.org/shebang-command/-/shebang-command-2.0.0.tgz 0ms (cache hit)
+246 http cache semver@https://registry.npmjs.org/semver/-/semver-7.7.4.tgz 0ms (cache hit)
+247 http cache scheduler@https://registry.npmjs.org/scheduler/-/scheduler-0.27.0.tgz 0ms (cache hit)
+248 http cache run-parallel@https://registry.npmjs.org/run-parallel/-/run-parallel-1.2.0.tgz 0ms (cache hit)
+249 http cache reusify@https://registry.npmjs.org/reusify/-/reusify-1.1.0.tgz 0ms (cache hit)
+250 http cache resolve@https://registry.npmjs.org/resolve/-/resolve-1.22.11.tgz 0ms (cache hit)
+251 http cache readdirp@https://registry.npmjs.org/readdirp/-/readdirp-3.6.0.tgz 0ms (cache hit)
+252 http cache read-cache@https://registry.npmjs.org/read-cache/-/read-cache-1.0.0.tgz 0ms (cache hit)
+253 http cache sharp@https://registry.npmjs.org/sharp/-/sharp-0.34.5.tgz 0ms (cache hit)
+254 http cache react-dom@https://registry.npmjs.org/react-dom/-/react-dom-19.2.4.tgz 0ms (cache hit)
+255 http cache react@https://registry.npmjs.org/react/-/react-19.2.4.tgz 0ms (cache hit)
+256 http cache queue-microtask@https://registry.npmjs.org/queue-microtask/-/queue-microtask-1.2.3.tgz 0ms (cache hit)
+257 http cache punycode@https://registry.npmjs.org/punycode/-/punycode-2.3.1.tgz 0ms (cache hit)
+258 http cache postcss-value-parser@https://registry.npmjs.org/postcss-value-parser/-/postcss-value-parser-4.2.0.tgz 0ms (cache hit)
+259 http cache prelude-ls@https://registry.npmjs.org/prelude-ls/-/prelude-ls-1.2.1.tgz 0ms (cache hit)
+260 http cache postcss-nested@https://registry.npmjs.org/postcss-nested/-/postcss-nested-6.2.0.tgz 0ms (cache hit)
+261 http cache postcss-selector-parser@https://registry.npmjs.org/postcss-selector-parser/-/postcss-selector-parser-6.1.2.tgz 0ms (cache hit)
+262 http cache postcss-media-query-parser@https://registry.npmjs.org/postcss-media-query-parser/-/postcss-media-query-parser-0.2.3.tgz 0ms (cache hit)
+263 http cache postcss-load-config@https://registry.npmjs.org/postcss-load-config/-/postcss-load-config-6.0.1.tgz 0ms (cache hit)
+264 http cache postcss-js@https://registry.npmjs.org/postcss-js/-/postcss-js-4.1.0.tgz 0ms (cache hit)
+265 http cache postcss-import@https://registry.npmjs.org/postcss-import/-/postcss-import-15.1.0.tgz 0ms (cache hit)
+266 http cache pirates@https://registry.npmjs.org/pirates/-/pirates-4.0.7.tgz 0ms (cache hit)
+267 http cache postcss@https://registry.npmjs.org/postcss/-/postcss-8.5.8.tgz 0ms (cache hit)
+268 http cache pify@https://registry.npmjs.org/pify/-/pify-2.3.0.tgz 0ms (cache hit)
+269 http cache picomatch@https://registry.npmjs.org/picomatch/-/picomatch-2.3.1.tgz 0ms (cache hit)
+270 http cache picocolors@https://registry.npmjs.org/picocolors/-/picocolors-1.1.1.tgz 0ms (cache hit)
+271 http cache path-key@https://registry.npmjs.org/path-key/-/path-key-3.1.1.tgz 0ms (cache hit)
+272 http cache path-parse@https://registry.npmjs.org/path-parse/-/path-parse-1.0.7.tgz 0ms (cache hit)
+273 http cache path-exists@https://registry.npmjs.org/path-exists/-/path-exists-4.0.0.tgz 0ms (cache hit)
+274 http cache p-locate@https://registry.npmjs.org/p-locate/-/p-locate-5.0.0.tgz 0ms (cache hit)
+275 http cache p-limit@https://registry.npmjs.org/p-limit/-/p-limit-3.1.0.tgz 0ms (cache hit)
+276 http cache object-hash@https://registry.npmjs.org/object-hash/-/object-hash-3.0.0.tgz 0ms (cache hit)
+277 http cache optionator@https://registry.npmjs.org/optionator/-/optionator-0.9.4.tgz 0ms (cache hit)
+278 http cache object-assign@https://registry.npmjs.org/object-assign/-/object-assign-4.1.1.tgz 0ms (cache hit)
+279 http cache nth-check@https://registry.npmjs.org/nth-check/-/nth-check-2.1.1.tgz 0ms (cache hit)
+280 http cache normalize-path@https://registry.npmjs.org/normalize-path/-/normalize-path-3.0.0.tgz 0ms (cache hit)
+281 http cache natural-compare@https://registry.npmjs.org/natural-compare/-/natural-compare-1.4.0.tgz 0ms (cache hit)
+282 http cache next@https://registry.npmjs.org/next/-/next-15.5.12.tgz 0ms (cache hit)
+283 http cache node-releases@https://registry.npmjs.org/node-releases/-/node-releases-2.0.36.tgz 0ms (cache hit)
+284 http cache nanoid@https://registry.npmjs.org/nanoid/-/nanoid-3.3.11.tgz 0ms (cache hit)
+285 http cache ms@https://registry.npmjs.org/ms/-/ms-2.1.3.tgz 0ms (cache hit)
+286 http cache mz@https://registry.npmjs.org/mz/-/mz-2.7.0.tgz 0ms (cache hit)
+287 http cache minimatch@https://registry.npmjs.org/minimatch/-/minimatch-10.2.4.tgz 0ms (cache hit)
+288 http cache micromatch@https://registry.npmjs.org/micromatch/-/micromatch-4.0.8.tgz 0ms (cache hit)
+289 http cache locate-path@https://registry.npmjs.org/locate-path/-/locate-path-6.0.0.tgz 0ms (cache hit)
+290 http cache merge2@https://registry.npmjs.org/merge2/-/merge2-1.4.1.tgz 0ms (cache hit)
+291 http cache lines-and-columns@https://registry.npmjs.org/lines-and-columns/-/lines-and-columns-1.2.4.tgz 0ms (cache hit)
+292 http cache lilconfig@https://registry.npmjs.org/lilconfig/-/lilconfig-3.1.3.tgz 0ms (cache hit)
+293 http cache levn@https://registry.npmjs.org/levn/-/levn-0.4.1.tgz 0ms (cache hit)
+294 http cache keyv@https://registry.npmjs.org/keyv/-/keyv-4.5.4.tgz 0ms (cache hit)
+295 http cache json-stable-stringify-without-jsonify@https://registry.npmjs.org/json-stable-stringify-without-jsonify/-/json-stable-stringify-without-jsonify-1.0.1.tgz 0ms (cache hit)
+296 http cache json-schema-traverse@https://registry.npmjs.org/json-schema-traverse/-/json-schema-traverse-0.4.1.tgz 0ms (cache hit)
+297 http cache json-buffer@https://registry.npmjs.org/json-buffer/-/json-buffer-3.0.1.tgz 0ms (cache hit)
+298 http cache jiti@https://registry.npmjs.org/jiti/-/jiti-1.21.7.tgz 0ms (cache hit)
+299 http cache isexe@https://registry.npmjs.org/isexe/-/isexe-2.0.0.tgz 0ms (cache hit)
+300 http cache is-number@https://registry.npmjs.org/is-number/-/is-number-7.0.0.tgz 0ms (cache hit)
+301 http cache is-glob@https://registry.npmjs.org/is-glob/-/is-glob-4.0.3.tgz 0ms (cache hit)
+302 http cache imurmurhash@https://registry.npmjs.org/imurmurhash/-/imurmurhash-0.1.4.tgz 0ms (cache hit)
+303 http cache is-binary-path@https://registry.npmjs.org/is-binary-path/-/is-binary-path-2.1.0.tgz 0ms (cache hit)
+304 http cache ignore@https://registry.npmjs.org/ignore/-/ignore-5.3.2.tgz 0ms (cache hit)
+305 http cache is-core-module@https://registry.npmjs.org/is-core-module/-/is-core-module-2.16.1.tgz 0ms (cache hit)
+306 http cache is-extglob@https://registry.npmjs.org/is-extglob/-/is-extglob-2.1.1.tgz 0ms (cache hit)
+307 http cache htmlparser2@https://registry.npmjs.org/htmlparser2/-/htmlparser2-8.0.2.tgz 0ms (cache hit)
+308 http cache hasown@https://registry.npmjs.org/hasown/-/hasown-2.0.2.tgz 0ms (cache hit)
+309 http cache has-flag@https://registry.npmjs.org/has-flag/-/has-flag-4.0.0.tgz 0ms (cache hit)
+310 http cache function-bind@https://registry.npmjs.org/function-bind/-/function-bind-1.1.2.tgz 0ms (cache hit)
+311 http cache glob-parent@https://registry.npmjs.org/glob-parent/-/glob-parent-6.0.2.tgz 0ms (cache hit)
+312 http cache flat-cache@https://registry.npmjs.org/flat-cache/-/flat-cache-4.0.1.tgz 0ms (cache hit)
+313 http cache fraction.js@https://registry.npmjs.org/fraction.js/-/fraction.js-5.3.4.tgz 0ms (cache hit)
+314 http cache flatted@https://registry.npmjs.org/flatted/-/flatted-3.4.1.tgz 0ms (cache hit)
+315 http cache find-up@https://registry.npmjs.org/find-up/-/find-up-5.0.0.tgz 0ms (cache hit)
+316 http cache fill-range@https://registry.npmjs.org/fill-range/-/fill-range-7.1.1.tgz 0ms (cache hit)
+317 http cache file-entry-cache@https://registry.npmjs.org/file-entry-cache/-/file-entry-cache-8.0.0.tgz 0ms (cache hit)
+318 http cache fastq@https://registry.npmjs.org/fastq/-/fastq-1.20.1.tgz 0ms (cache hit)
+319 http cache fast-levenshtein@https://registry.npmjs.org/fast-levenshtein/-/fast-levenshtein-2.0.6.tgz 0ms (cache hit)
+320 http cache fast-json-stable-stringify@https://registry.npmjs.org/fast-json-stable-stringify/-/fast-json-stable-stringify-2.1.0.tgz 0ms (cache hit)
+321 http cache fast-glob@https://registry.npmjs.org/fast-glob/-/fast-glob-3.3.3.tgz 0ms (cache hit)
+322 http cache fast-deep-equal@https://registry.npmjs.org/fast-deep-equal/-/fast-deep-equal-3.1.3.tgz 0ms (cache hit)
+323 http cache esutils@https://registry.npmjs.org/esutils/-/esutils-2.0.3.tgz 0ms (cache hit)
+324 http cache estraverse@https://registry.npmjs.org/estraverse/-/estraverse-5.3.0.tgz 0ms (cache hit)
+325 http cache esrecurse@https://registry.npmjs.org/esrecurse/-/esrecurse-4.3.0.tgz 0ms (cache hit)
+326 http cache esquery@https://registry.npmjs.org/esquery/-/esquery-1.7.0.tgz 0ms (cache hit)
+327 http cache espree@https://registry.npmjs.org/espree/-/espree-11.2.0.tgz 0ms (cache hit)
+328 http cache eslint-scope@https://registry.npmjs.org/eslint-scope/-/eslint-scope-9.1.2.tgz 0ms (cache hit)
+329 http cache eslint@https://registry.npmjs.org/eslint/-/eslint-10.0.3.tgz 0ms (cache hit)
+330 http cache escape-string-regexp@https://registry.npmjs.org/escape-string-regexp/-/escape-string-regexp-4.0.0.tgz 0ms (cache hit)
+331 http cache escalade@https://registry.npmjs.org/escalade/-/escalade-3.2.0.tgz 0ms (cache hit)
+332 http cache entities@https://registry.npmjs.org/entities/-/entities-4.5.0.tgz 0ms (cache hit)
+333 http cache domhandler@https://registry.npmjs.org/domhandler/-/domhandler-5.0.3.tgz 0ms (cache hit)
+334 http cache eslint-visitor-keys@https://registry.npmjs.org/eslint-visitor-keys/-/eslint-visitor-keys-5.0.1.tgz 0ms (cache hit)
+335 http cache domutils@https://registry.npmjs.org/domutils/-/domutils-3.2.2.tgz 0ms (cache hit)
+336 http cache electron-to-chromium@https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.5.307.tgz 0ms (cache hit)
+337 http cache domelementtype@https://registry.npmjs.org/domelementtype/-/domelementtype-2.3.0.tgz 0ms (cache hit)
+338 http cache dlv@https://registry.npmjs.org/dlv/-/dlv-1.1.3.tgz 0ms (cache hit)
+339 http cache detect-libc@https://registry.npmjs.org/detect-libc/-/detect-libc-2.1.2.tgz 0ms (cache hit)
+340 http cache didyoumean@https://registry.npmjs.org/didyoumean/-/didyoumean-1.2.2.tgz 0ms (cache hit)
+341 http cache debug@https://registry.npmjs.org/debug/-/debug-4.4.3.tgz 0ms (cache hit)
+342 http cache dom-serializer@https://registry.npmjs.org/dom-serializer/-/dom-serializer-2.0.0.tgz 0ms (cache hit)
+343 http cache deep-is@https://registry.npmjs.org/deep-is/-/deep-is-0.1.4.tgz 0ms (cache hit)
+344 http cache csstype@https://registry.npmjs.org/csstype/-/csstype-3.2.3.tgz 0ms (cache hit)
+345 http cache css-what@https://registry.npmjs.org/css-what/-/css-what-6.2.2.tgz 0ms (cache hit)
+346 http cache cssesc@https://registry.npmjs.org/cssesc/-/cssesc-3.0.0.tgz 0ms (cache hit)
+347 http cache cross-spawn@https://registry.npmjs.org/cross-spawn/-/cross-spawn-7.0.6.tgz 0ms (cache hit)
+348 http cache critters@https://registry.npmjs.org/critters/-/critters-0.0.23.tgz 0ms (cache hit)
+349 http cache commander@https://registry.npmjs.org/commander/-/commander-4.1.1.tgz 0ms (cache hit)
+350 http cache css-select@https://registry.npmjs.org/css-select/-/css-select-5.2.2.tgz 0ms (cache hit)
+351 http cache color-name@https://registry.npmjs.org/color-name/-/color-name-1.1.4.tgz 0ms (cache hit)
+352 http cache color-convert@https://registry.npmjs.org/color-convert/-/color-convert-2.0.1.tgz 0ms (cache hit)
+353 http cache chalk@https://registry.npmjs.org/chalk/-/chalk-4.1.2.tgz 0ms (cache hit)
+354 http cache client-only@https://registry.npmjs.org/client-only/-/client-only-0.0.1.tgz 0ms (cache hit)
+355 http cache chokidar@https://registry.npmjs.org/chokidar/-/chokidar-3.6.0.tgz 0ms (cache hit)
+356 http cache caniuse-lite@https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001777.tgz 0ms (cache hit)
+357 http cache camelcase-css@https://registry.npmjs.org/camelcase-css/-/camelcase-css-2.0.1.tgz 0ms (cache hit)
+358 http cache browserslist@https://registry.npmjs.org/browserslist/-/browserslist-4.28.1.tgz 0ms (cache hit)
+359 http cache boolbase@https://registry.npmjs.org/boolbase/-/boolbase-1.0.0.tgz 0ms (cache hit)
+360 http cache brace-expansion@https://registry.npmjs.org/brace-expansion/-/brace-expansion-5.0.4.tgz 0ms (cache hit)
+361 http cache binary-extensions@https://registry.npmjs.org/binary-extensions/-/binary-extensions-2.3.0.tgz 0ms (cache hit)
+362 http cache braces@https://registry.npmjs.org/braces/-/braces-3.0.3.tgz 0ms (cache hit)
+363 http cache baseline-browser-mapping@https://registry.npmjs.org/baseline-browser-mapping/-/baseline-browser-mapping-2.10.0.tgz 0ms (cache hit)
+364 http cache autoprefixer@https://registry.npmjs.org/autoprefixer/-/autoprefixer-10.4.27.tgz 1ms (cache hit)
+365 http cache anymatch@https://registry.npmjs.org/anymatch/-/anymatch-3.1.3.tgz 0ms (cache hit)
+366 http cache arg@https://registry.npmjs.org/arg/-/arg-5.0.2.tgz 0ms (cache hit)
+367 http cache any-promise@https://registry.npmjs.org/any-promise/-/any-promise-1.3.0.tgz 0ms (cache hit)
+368 http cache balanced-match@https://registry.npmjs.org/balanced-match/-/balanced-match-4.0.4.tgz 0ms (cache hit)
+369 http cache ajv@https://registry.npmjs.org/ajv/-/ajv-6.14.0.tgz 0ms (cache hit)
+370 http cache acorn-jsx@https://registry.npmjs.org/acorn-jsx/-/acorn-jsx-5.3.2.tgz 0ms (cache hit)
+371 http cache acorn@https://registry.npmjs.org/acorn/-/acorn-8.16.0.tgz 0ms (cache hit)
+372 http cache eslint-visitor-keys@https://registry.npmjs.org/eslint-visitor-keys/-/eslint-visitor-keys-3.4.3.tgz 0ms (cache hit)
+373 http cache ansi-styles@https://registry.npmjs.org/ansi-styles/-/ansi-styles-4.3.0.tgz 0ms (cache hit)
+374 http cache fdir@https://registry.npmjs.org/fdir/-/fdir-6.5.0.tgz 0ms (cache hit)
+375 http cache postcss@https://registry.npmjs.org/postcss/-/postcss-8.4.31.tgz 0ms (cache hit)
+376 http cache picomatch@https://registry.npmjs.org/picomatch/-/picomatch-4.0.3.tgz 0ms (cache hit)
+377 silly tarball no local data for @types/react@https://registry.npmjs.org/@types/react/-/react-19.2.14.tgz. Extracting by manifest.
+378 silly tarball no local data for @types/node@https://registry.npmjs.org/@types/node/-/node-25.3.5.tgz. Extracting by manifest.
+379 silly tarball no local data for @types/json-schema@https://registry.npmjs.org/@types/json-schema/-/json-schema-7.0.15.tgz. Extracting by manifest.
+380 silly tarball no local data for @types/esrecurse@https://registry.npmjs.org/@types/esrecurse/-/esrecurse-4.3.1.tgz. Extracting by manifest.
+381 http cache glob-parent@https://registry.npmjs.org/glob-parent/-/glob-parent-5.1.2.tgz 1ms (cache hit)
+382 silly tarball no local data for @types/estree@https://registry.npmjs.org/@types/estree/-/estree-1.0.8.tgz. Extracting by manifest.
+383 silly tarball no local data for @swc/helpers@https://registry.npmjs.org/@swc/helpers/-/helpers-0.5.15.tgz. Extracting by manifest.
+384 silly tarball no local data for @next/swc-win32-x64-msvc@https://registry.npmjs.org/@next/swc-win32-x64-msvc/-/swc-win32-x64-msvc-15.5.12.tgz. Extracting by manifest.
+385 silly tarball no local data for @nodelib/fs.stat@https://registry.npmjs.org/@nodelib/fs.stat/-/fs.stat-2.0.5.tgz. Extracting by manifest.
+386 http cache glob-parent@https://registry.npmjs.org/glob-parent/-/glob-parent-5.1.2.tgz 0ms (cache hit)
+387 silly tarball no local data for @nodelib/fs.scandir@https://registry.npmjs.org/@nodelib/fs.scandir/-/fs.scandir-2.1.5.tgz. Extracting by manifest.
+388 silly tarball no local data for @next/env@https://registry.npmjs.org/@next/env/-/env-15.5.12.tgz. Extracting by manifest.
+389 silly tarball no local data for @jridgewell/sourcemap-codec@https://registry.npmjs.org/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.5.5.tgz. Extracting by manifest.
+390 silly tarball no local data for @nodelib/fs.walk@https://registry.npmjs.org/@nodelib/fs.walk/-/fs.walk-1.2.8.tgz. Extracting by manifest.
+391 silly tarball no local data for @jridgewell/trace-mapping@https://registry.npmjs.org/@jridgewell/trace-mapping/-/trace-mapping-0.3.31.tgz. Extracting by manifest.
+392 silly tarball no local data for @img/sharp-win32-x64@https://registry.npmjs.org/@img/sharp-win32-x64/-/sharp-win32-x64-0.34.5.tgz. Extracting by manifest.
+393 silly tarball no local data for @jridgewell/resolve-uri@https://registry.npmjs.org/@jridgewell/resolve-uri/-/resolve-uri-3.1.2.tgz. Extracting by manifest.
+394 silly tarball no local data for @jridgewell/gen-mapping@https://registry.npmjs.org/@jridgewell/gen-mapping/-/gen-mapping-0.3.13.tgz. Extracting by manifest.
+395 silly tarball no local data for @img/colour@https://registry.npmjs.org/@img/colour/-/colour-1.1.0.tgz. Extracting by manifest.
+396 silly tarball no local data for @humanfs/node@https://registry.npmjs.org/@humanfs/node/-/node-0.16.7.tgz. Extracting by manifest.
+397 silly tarball no local data for @humanwhocodes/module-importer@https://registry.npmjs.org/@humanwhocodes/module-importer/-/module-importer-1.0.1.tgz. Extracting by manifest.
+398 silly tarball no local data for @humanfs/core@https://registry.npmjs.org/@humanfs/core/-/core-0.19.1.tgz. Extracting by manifest.
+399 silly tarball no local data for @humanwhocodes/retry@https://registry.npmjs.org/@humanwhocodes/retry/-/retry-0.4.3.tgz. Extracting by manifest.
+400 silly tarball no local data for @eslint-community/regexpp@https://registry.npmjs.org/@eslint-community/regexpp/-/regexpp-4.12.2.tgz. Extracting by manifest.
+401 silly tarball no local data for @eslint-community/eslint-utils@https://registry.npmjs.org/@eslint-community/eslint-utils/-/eslint-utils-4.9.1.tgz. Extracting by manifest.
+402 silly tarball no local data for @eslint/plugin-kit@https://registry.npmjs.org/@eslint/plugin-kit/-/plugin-kit-0.6.1.tgz. Extracting by manifest.
+403 silly tarball no local data for @eslint/object-schema@https://registry.npmjs.org/@eslint/object-schema/-/object-schema-3.0.3.tgz. Extracting by manifest.
+404 silly tarball no local data for @eslint/core@https://registry.npmjs.org/@eslint/core/-/core-1.1.1.tgz. Extracting by manifest.
+405 silly tarball no local data for @eslint/config-array@https://registry.npmjs.org/@eslint/config-array/-/config-array-0.23.3.tgz. Extracting by manifest.
+406 silly tarball no local data for @eslint/config-helpers@https://registry.npmjs.org/@eslint/config-helpers/-/config-helpers-0.5.3.tgz. Extracting by manifest.
+407 silly tarball no local data for @alloc/quick-lru@https://registry.npmjs.org/@alloc/quick-lru/-/quick-lru-5.2.0.tgz. Extracting by manifest.
+408 silly tarball no local data for yocto-queue@https://registry.npmjs.org/yocto-queue/-/yocto-queue-0.1.0.tgz. Extracting by manifest.
+409 silly tarball no local data for word-wrap@https://registry.npmjs.org/word-wrap/-/word-wrap-1.2.5.tgz. Extracting by manifest.
+410 silly tarball no local data for util-deprecate@https://registry.npmjs.org/util-deprecate/-/util-deprecate-1.0.2.tgz. Extracting by manifest.
+411 silly tarball no local data for which@https://registry.npmjs.org/which/-/which-2.0.2.tgz. Extracting by manifest.
+412 silly tarball no local data for uri-js@https://registry.npmjs.org/uri-js/-/uri-js-4.4.1.tgz. Extracting by manifest.
+413 silly tarball no local data for undici-types@https://registry.npmjs.org/undici-types/-/undici-types-7.18.2.tgz. Extracting by manifest.
+414 silly tarball no local data for update-browserslist-db@https://registry.npmjs.org/update-browserslist-db/-/update-browserslist-db-1.2.3.tgz. Extracting by manifest.
+415 silly tarball no local data for type-check@https://registry.npmjs.org/type-check/-/type-check-0.4.0.tgz. Extracting by manifest.
+416 silly tarball no local data for tslib@https://registry.npmjs.org/tslib/-/tslib-2.8.1.tgz. Extracting by manifest.
+417 silly tarball no local data for ts-interface-checker@https://registry.npmjs.org/ts-interface-checker/-/ts-interface-checker-0.1.13.tgz. Extracting by manifest.
+418 silly tarball no local data for typescript@https://registry.npmjs.org/typescript/-/typescript-5.9.3.tgz. Extracting by manifest.
+419 silly tarball no local data for to-regex-range@https://registry.npmjs.org/to-regex-range/-/to-regex-range-5.0.1.tgz. Extracting by manifest.
+420 silly tarball no local data for tinyglobby@https://registry.npmjs.org/tinyglobby/-/tinyglobby-0.2.15.tgz. Extracting by manifest.
+421 silly tarball no local data for thenify-all@https://registry.npmjs.org/thenify-all/-/thenify-all-1.6.0.tgz. Extracting by manifest.
+422 silly tarball no local data for thenify@https://registry.npmjs.org/thenify/-/thenify-3.3.1.tgz. Extracting by manifest.
+423 silly tarball no local data for tailwindcss@https://registry.npmjs.org/tailwindcss/-/tailwindcss-3.4.19.tgz. Extracting by manifest.
+424 silly tarball no local data for supports-preserve-symlinks-flag@https://registry.npmjs.org/supports-preserve-symlinks-flag/-/supports-preserve-symlinks-flag-1.0.0.tgz. Extracting by manifest.
+425 silly tarball no local data for supports-color@https://registry.npmjs.org/supports-color/-/supports-color-7.2.0.tgz. Extracting by manifest.
+426 silly tarball no local data for sucrase@https://registry.npmjs.org/sucrase/-/sucrase-3.35.1.tgz. Extracting by manifest.
+427 silly tarball no local data for styled-jsx@https://registry.npmjs.org/styled-jsx/-/styled-jsx-5.1.6.tgz. Extracting by manifest.
+428 silly tarball no local data for source-map-js@https://registry.npmjs.org/source-map-js/-/source-map-js-1.2.1.tgz. Extracting by manifest.
+429 silly tarball no local data for shebang-regex@https://registry.npmjs.org/shebang-regex/-/shebang-regex-3.0.0.tgz. Extracting by manifest.
+430 silly tarball no local data for shebang-command@https://registry.npmjs.org/shebang-command/-/shebang-command-2.0.0.tgz. Extracting by manifest.
+431 silly tarball no local data for semver@https://registry.npmjs.org/semver/-/semver-7.7.4.tgz. Extracting by manifest.
+432 silly tarball no local data for scheduler@https://registry.npmjs.org/scheduler/-/scheduler-0.27.0.tgz. Extracting by manifest.
+433 silly tarball no local data for run-parallel@https://registry.npmjs.org/run-parallel/-/run-parallel-1.2.0.tgz. Extracting by manifest.
+434 silly tarball no local data for reusify@https://registry.npmjs.org/reusify/-/reusify-1.1.0.tgz. Extracting by manifest.
+435 silly tarball no local data for resolve@https://registry.npmjs.org/resolve/-/resolve-1.22.11.tgz. Extracting by manifest.
+436 silly tarball no local data for readdirp@https://registry.npmjs.org/readdirp/-/readdirp-3.6.0.tgz. Extracting by manifest.
+437 silly tarball no local data for read-cache@https://registry.npmjs.org/read-cache/-/read-cache-1.0.0.tgz. Extracting by manifest.
+438 silly tarball no local data for sharp@https://registry.npmjs.org/sharp/-/sharp-0.34.5.tgz. Extracting by manifest.
+439 silly tarball no local data for react-dom@https://registry.npmjs.org/react-dom/-/react-dom-19.2.4.tgz. Extracting by manifest.
+440 silly tarball no local data for react@https://registry.npmjs.org/react/-/react-19.2.4.tgz. Extracting by manifest.
+441 silly tarball no local data for queue-microtask@https://registry.npmjs.org/queue-microtask/-/queue-microtask-1.2.3.tgz. Extracting by manifest.
+442 silly tarball no local data for punycode@https://registry.npmjs.org/punycode/-/punycode-2.3.1.tgz. Extracting by manifest.
+443 silly tarball no local data for postcss-value-parser@https://registry.npmjs.org/postcss-value-parser/-/postcss-value-parser-4.2.0.tgz. Extracting by manifest.
+444 silly tarball no local data for prelude-ls@https://registry.npmjs.org/prelude-ls/-/prelude-ls-1.2.1.tgz. Extracting by manifest.
+445 silly tarball no local data for postcss-nested@https://registry.npmjs.org/postcss-nested/-/postcss-nested-6.2.0.tgz. Extracting by manifest.
+446 silly tarball no local data for postcss-selector-parser@https://registry.npmjs.org/postcss-selector-parser/-/postcss-selector-parser-6.1.2.tgz. Extracting by manifest.
+447 silly tarball no local data for postcss-media-query-parser@https://registry.npmjs.org/postcss-media-query-parser/-/postcss-media-query-parser-0.2.3.tgz. Extracting by manifest.
+448 silly tarball no local data for postcss-load-config@https://registry.npmjs.org/postcss-load-config/-/postcss-load-config-6.0.1.tgz. Extracting by manifest.
+449 silly tarball no local data for postcss-js@https://registry.npmjs.org/postcss-js/-/postcss-js-4.1.0.tgz. Extracting by manifest.
+450 silly tarball no local data for postcss-import@https://registry.npmjs.org/postcss-import/-/postcss-import-15.1.0.tgz. Extracting by manifest.
+451 silly tarball no local data for pirates@https://registry.npmjs.org/pirates/-/pirates-4.0.7.tgz. Extracting by manifest.
+452 silly tarball no local data for postcss@https://registry.npmjs.org/postcss/-/postcss-8.5.8.tgz. Extracting by manifest.
+453 silly tarball no local data for pify@https://registry.npmjs.org/pify/-/pify-2.3.0.tgz. Extracting by manifest.
+454 silly tarball no local data for picomatch@https://registry.npmjs.org/picomatch/-/picomatch-2.3.1.tgz. Extracting by manifest.
+455 silly tarball no local data for picocolors@https://registry.npmjs.org/picocolors/-/picocolors-1.1.1.tgz. Extracting by manifest.
+456 silly tarball no local data for path-key@https://registry.npmjs.org/path-key/-/path-key-3.1.1.tgz. Extracting by manifest.
+457 silly tarball no local data for path-parse@https://registry.npmjs.org/path-parse/-/path-parse-1.0.7.tgz. Extracting by manifest.
+458 silly tarball no local data for path-exists@https://registry.npmjs.org/path-exists/-/path-exists-4.0.0.tgz. Extracting by manifest.
+459 silly tarball no local data for p-locate@https://registry.npmjs.org/p-locate/-/p-locate-5.0.0.tgz. Extracting by manifest.
+460 silly tarball no local data for p-limit@https://registry.npmjs.org/p-limit/-/p-limit-3.1.0.tgz. Extracting by manifest.
+461 silly tarball no local data for object-hash@https://registry.npmjs.org/object-hash/-/object-hash-3.0.0.tgz. Extracting by manifest.
+462 silly tarball no local data for optionator@https://registry.npmjs.org/optionator/-/optionator-0.9.4.tgz. Extracting by manifest.
+463 silly tarball no local data for object-assign@https://registry.npmjs.org/object-assign/-/object-assign-4.1.1.tgz. Extracting by manifest.
+464 silly tarball no local data for nth-check@https://registry.npmjs.org/nth-check/-/nth-check-2.1.1.tgz. Extracting by manifest.
+465 silly tarball no local data for normalize-path@https://registry.npmjs.org/normalize-path/-/normalize-path-3.0.0.tgz. Extracting by manifest.
+466 silly tarball no local data for natural-compare@https://registry.npmjs.org/natural-compare/-/natural-compare-1.4.0.tgz. Extracting by manifest.
+467 silly tarball no local data for next@https://registry.npmjs.org/next/-/next-15.5.12.tgz. Extracting by manifest.
+468 silly tarball no local data for node-releases@https://registry.npmjs.org/node-releases/-/node-releases-2.0.36.tgz. Extracting by manifest.
+469 silly tarball no local data for nanoid@https://registry.npmjs.org/nanoid/-/nanoid-3.3.11.tgz. Extracting by manifest.
+470 silly tarball no local data for ms@https://registry.npmjs.org/ms/-/ms-2.1.3.tgz. Extracting by manifest.
+471 silly tarball no local data for mz@https://registry.npmjs.org/mz/-/mz-2.7.0.tgz. Extracting by manifest.
+472 silly tarball no local data for minimatch@https://registry.npmjs.org/minimatch/-/minimatch-10.2.4.tgz. Extracting by manifest.
+473 silly tarball no local data for micromatch@https://registry.npmjs.org/micromatch/-/micromatch-4.0.8.tgz. Extracting by manifest.
+474 silly tarball no local data for locate-path@https://registry.npmjs.org/locate-path/-/locate-path-6.0.0.tgz. Extracting by manifest.
+475 silly tarball no local data for merge2@https://registry.npmjs.org/merge2/-/merge2-1.4.1.tgz. Extracting by manifest.
+476 silly tarball no local data for lines-and-columns@https://registry.npmjs.org/lines-and-columns/-/lines-and-columns-1.2.4.tgz. Extracting by manifest.
+477 silly tarball no local data for lilconfig@https://registry.npmjs.org/lilconfig/-/lilconfig-3.1.3.tgz. Extracting by manifest.
+478 silly tarball no local data for levn@https://registry.npmjs.org/levn/-/levn-0.4.1.tgz. Extracting by manifest.
+479 silly tarball no local data for keyv@https://registry.npmjs.org/keyv/-/keyv-4.5.4.tgz. Extracting by manifest.
+480 silly tarball no local data for json-stable-stringify-without-jsonify@https://registry.npmjs.org/json-stable-stringify-without-jsonify/-/json-stable-stringify-without-jsonify-1.0.1.tgz. Extracting by manifest.
+481 silly tarball no local data for json-schema-traverse@https://registry.npmjs.org/json-schema-traverse/-/json-schema-traverse-0.4.1.tgz. Extracting by manifest.
+482 silly tarball no local data for json-buffer@https://registry.npmjs.org/json-buffer/-/json-buffer-3.0.1.tgz. Extracting by manifest.
+483 silly tarball no local data for jiti@https://registry.npmjs.org/jiti/-/jiti-1.21.7.tgz. Extracting by manifest.
+484 silly tarball no local data for isexe@https://registry.npmjs.org/isexe/-/isexe-2.0.0.tgz. Extracting by manifest.
+485 silly tarball no local data for is-number@https://registry.npmjs.org/is-number/-/is-number-7.0.0.tgz. Extracting by manifest.
+486 silly tarball no local data for is-glob@https://registry.npmjs.org/is-glob/-/is-glob-4.0.3.tgz. Extracting by manifest.
+487 silly tarball no local data for imurmurhash@https://registry.npmjs.org/imurmurhash/-/imurmurhash-0.1.4.tgz. Extracting by manifest.
+488 silly tarball no local data for is-binary-path@https://registry.npmjs.org/is-binary-path/-/is-binary-path-2.1.0.tgz. Extracting by manifest.
+489 silly tarball no local data for ignore@https://registry.npmjs.org/ignore/-/ignore-5.3.2.tgz. Extracting by manifest.
+490 silly tarball no local data for is-core-module@https://registry.npmjs.org/is-core-module/-/is-core-module-2.16.1.tgz. Extracting by manifest.
+491 silly tarball no local data for is-extglob@https://registry.npmjs.org/is-extglob/-/is-extglob-2.1.1.tgz. Extracting by manifest.
+492 silly tarball no local data for htmlparser2@https://registry.npmjs.org/htmlparser2/-/htmlparser2-8.0.2.tgz. Extracting by manifest.
+493 silly tarball no local data for hasown@https://registry.npmjs.org/hasown/-/hasown-2.0.2.tgz. Extracting by manifest.
+494 silly tarball no local data for has-flag@https://registry.npmjs.org/has-flag/-/has-flag-4.0.0.tgz. Extracting by manifest.
+495 silly tarball no local data for function-bind@https://registry.npmjs.org/function-bind/-/function-bind-1.1.2.tgz. Extracting by manifest.
+496 silly tarball no local data for glob-parent@https://registry.npmjs.org/glob-parent/-/glob-parent-6.0.2.tgz. Extracting by manifest.
+497 silly tarball no local data for flat-cache@https://registry.npmjs.org/flat-cache/-/flat-cache-4.0.1.tgz. Extracting by manifest.
+498 silly tarball no local data for fraction.js@https://registry.npmjs.org/fraction.js/-/fraction.js-5.3.4.tgz. Extracting by manifest.
+499 silly tarball no local data for flatted@https://registry.npmjs.org/flatted/-/flatted-3.4.1.tgz. Extracting by manifest.
+500 silly tarball no local data for find-up@https://registry.npmjs.org/find-up/-/find-up-5.0.0.tgz. Extracting by manifest.
+501 silly tarball no local data for fill-range@https://registry.npmjs.org/fill-range/-/fill-range-7.1.1.tgz. Extracting by manifest.
+502 silly tarball no local data for file-entry-cache@https://registry.npmjs.org/file-entry-cache/-/file-entry-cache-8.0.0.tgz. Extracting by manifest.
+503 silly tarball no local data for fastq@https://registry.npmjs.org/fastq/-/fastq-1.20.1.tgz. Extracting by manifest.
+504 silly tarball no local data for fast-levenshtein@https://registry.npmjs.org/fast-levenshtein/-/fast-levenshtein-2.0.6.tgz. Extracting by manifest.
+505 silly tarball no local data for fast-json-stable-stringify@https://registry.npmjs.org/fast-json-stable-stringify/-/fast-json-stable-stringify-2.1.0.tgz. Extracting by manifest.
+506 silly tarball no local data for fast-glob@https://registry.npmjs.org/fast-glob/-/fast-glob-3.3.3.tgz. Extracting by manifest.
+507 silly tarball no local data for fast-deep-equal@https://registry.npmjs.org/fast-deep-equal/-/fast-deep-equal-3.1.3.tgz. Extracting by manifest.
+508 silly tarball no local data for esutils@https://registry.npmjs.org/esutils/-/esutils-2.0.3.tgz. Extracting by manifest.
+509 silly tarball no local data for estraverse@https://registry.npmjs.org/estraverse/-/estraverse-5.3.0.tgz. Extracting by manifest.
+510 silly tarball no local data for esrecurse@https://registry.npmjs.org/esrecurse/-/esrecurse-4.3.0.tgz. Extracting by manifest.
+511 silly tarball no local data for esquery@https://registry.npmjs.org/esquery/-/esquery-1.7.0.tgz. Extracting by manifest.
+512 silly tarball no local data for espree@https://registry.npmjs.org/espree/-/espree-11.2.0.tgz. Extracting by manifest.
+513 silly tarball no local data for eslint-scope@https://registry.npmjs.org/eslint-scope/-/eslint-scope-9.1.2.tgz. Extracting by manifest.
+514 silly tarball no local data for eslint@https://registry.npmjs.org/eslint/-/eslint-10.0.3.tgz. Extracting by manifest.
+515 silly tarball no local data for escape-string-regexp@https://registry.npmjs.org/escape-string-regexp/-/escape-string-regexp-4.0.0.tgz. Extracting by manifest.
+516 silly tarball no local data for escalade@https://registry.npmjs.org/escalade/-/escalade-3.2.0.tgz. Extracting by manifest.
+517 silly tarball no local data for entities@https://registry.npmjs.org/entities/-/entities-4.5.0.tgz. Extracting by manifest.
+518 silly tarball no local data for domhandler@https://registry.npmjs.org/domhandler/-/domhandler-5.0.3.tgz. Extracting by manifest.
+519 silly tarball no local data for eslint-visitor-keys@https://registry.npmjs.org/eslint-visitor-keys/-/eslint-visitor-keys-5.0.1.tgz. Extracting by manifest.
+520 silly tarball no local data for domutils@https://registry.npmjs.org/domutils/-/domutils-3.2.2.tgz. Extracting by manifest.
+521 silly tarball no local data for electron-to-chromium@https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.5.307.tgz. Extracting by manifest.
+522 silly tarball no local data for domelementtype@https://registry.npmjs.org/domelementtype/-/domelementtype-2.3.0.tgz. Extracting by manifest.
+523 silly tarball no local data for dlv@https://registry.npmjs.org/dlv/-/dlv-1.1.3.tgz. Extracting by manifest.
+524 silly tarball no local data for detect-libc@https://registry.npmjs.org/detect-libc/-/detect-libc-2.1.2.tgz. Extracting by manifest.
+525 silly tarball no local data for didyoumean@https://registry.npmjs.org/didyoumean/-/didyoumean-1.2.2.tgz. Extracting by manifest.
+526 silly tarball no local data for debug@https://registry.npmjs.org/debug/-/debug-4.4.3.tgz. Extracting by manifest.
+527 silly tarball no local data for dom-serializer@https://registry.npmjs.org/dom-serializer/-/dom-serializer-2.0.0.tgz. Extracting by manifest.
+528 silly tarball no local data for deep-is@https://registry.npmjs.org/deep-is/-/deep-is-0.1.4.tgz. Extracting by manifest.
+529 silly tarball no local data for csstype@https://registry.npmjs.org/csstype/-/csstype-3.2.3.tgz. Extracting by manifest.
+530 silly tarball no local data for css-what@https://registry.npmjs.org/css-what/-/css-what-6.2.2.tgz. Extracting by manifest.
+531 silly tarball no local data for cssesc@https://registry.npmjs.org/cssesc/-/cssesc-3.0.0.tgz. Extracting by manifest.
+532 silly tarball no local data for cross-spawn@https://registry.npmjs.org/cross-spawn/-/cross-spawn-7.0.6.tgz. Extracting by manifest.
+533 silly tarball no local data for critters@https://registry.npmjs.org/critters/-/critters-0.0.23.tgz. Extracting by manifest.
+534 silly tarball no local data for commander@https://registry.npmjs.org/commander/-/commander-4.1.1.tgz. Extracting by manifest.
+535 silly tarball no local data for css-select@https://registry.npmjs.org/css-select/-/css-select-5.2.2.tgz. Extracting by manifest.
+536 silly tarball no local data for color-name@https://registry.npmjs.org/color-name/-/color-name-1.1.4.tgz. Extracting by manifest.
+537 silly tarball no local data for color-convert@https://registry.npmjs.org/color-convert/-/color-convert-2.0.1.tgz. Extracting by manifest.
+538 silly tarball no local data for chalk@https://registry.npmjs.org/chalk/-/chalk-4.1.2.tgz. Extracting by manifest.
+539 silly tarball no local data for client-only@https://registry.npmjs.org/client-only/-/client-only-0.0.1.tgz. Extracting by manifest.
+540 silly tarball no local data for chokidar@https://registry.npmjs.org/chokidar/-/chokidar-3.6.0.tgz. Extracting by manifest.
+541 silly tarball no local data for caniuse-lite@https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001777.tgz. Extracting by manifest.
+542 silly tarball no local data for camelcase-css@https://registry.npmjs.org/camelcase-css/-/camelcase-css-2.0.1.tgz. Extracting by manifest.
+543 silly tarball no local data for browserslist@https://registry.npmjs.org/browserslist/-/browserslist-4.28.1.tgz. Extracting by manifest.
+544 silly tarball no local data for boolbase@https://registry.npmjs.org/boolbase/-/boolbase-1.0.0.tgz. Extracting by manifest.
+545 silly tarball no local data for brace-expansion@https://registry.npmjs.org/brace-expansion/-/brace-expansion-5.0.4.tgz. Extracting by manifest.
+546 silly tarball no local data for binary-extensions@https://registry.npmjs.org/binary-extensions/-/binary-extensions-2.3.0.tgz. Extracting by manifest.
+547 silly tarball no local data for braces@https://registry.npmjs.org/braces/-/braces-3.0.3.tgz. Extracting by manifest.
+548 silly tarball no local data for baseline-browser-mapping@https://registry.npmjs.org/baseline-browser-mapping/-/baseline-browser-mapping-2.10.0.tgz. Extracting by manifest.
+549 silly tarball no local data for autoprefixer@https://registry.npmjs.org/autoprefixer/-/autoprefixer-10.4.27.tgz. Extracting by manifest.
+550 silly tarball no local data for anymatch@https://registry.npmjs.org/anymatch/-/anymatch-3.1.3.tgz. Extracting by manifest.
+551 silly tarball no local data for arg@https://registry.npmjs.org/arg/-/arg-5.0.2.tgz. Extracting by manifest.
+552 silly tarball no local data for any-promise@https://registry.npmjs.org/any-promise/-/any-promise-1.3.0.tgz. Extracting by manifest.
+553 silly tarball no local data for balanced-match@https://registry.npmjs.org/balanced-match/-/balanced-match-4.0.4.tgz. Extracting by manifest.
+554 silly tarball no local data for ajv@https://registry.npmjs.org/ajv/-/ajv-6.14.0.tgz. Extracting by manifest.
+555 silly tarball no local data for acorn-jsx@https://registry.npmjs.org/acorn-jsx/-/acorn-jsx-5.3.2.tgz. Extracting by manifest.
+556 silly tarball no local data for acorn@https://registry.npmjs.org/acorn/-/acorn-8.16.0.tgz. Extracting by manifest.
+557 silly tarball no local data for eslint-visitor-keys@https://registry.npmjs.org/eslint-visitor-keys/-/eslint-visitor-keys-3.4.3.tgz. Extracting by manifest.
+558 silly tarball no local data for ansi-styles@https://registry.npmjs.org/ansi-styles/-/ansi-styles-4.3.0.tgz. Extracting by manifest.
+559 silly tarball no local data for fdir@https://registry.npmjs.org/fdir/-/fdir-6.5.0.tgz. Extracting by manifest.
+560 silly tarball no local data for postcss@https://registry.npmjs.org/postcss/-/postcss-8.4.31.tgz. Extracting by manifest.
+561 silly tarball no local data for picomatch@https://registry.npmjs.org/picomatch/-/picomatch-4.0.3.tgz. Extracting by manifest.
+562 silly tarball no local data for glob-parent@https://registry.npmjs.org/glob-parent/-/glob-parent-5.1.2.tgz. Extracting by manifest.
+563 silly tarball no local data for glob-parent@https://registry.npmjs.org/glob-parent/-/glob-parent-5.1.2.tgz. Extracting by manifest.
+564 http fetch GET 200 https://registry.npmjs.org/@types/esrecurse/-/esrecurse-4.3.1.tgz 475ms (cache miss)
+565 http fetch GET 200 https://registry.npmjs.org/@next/env/-/env-15.5.12.tgz 474ms (cache miss)
+566 http fetch GET 200 https://registry.npmjs.org/@types/estree/-/estree-1.0.8.tgz 484ms (cache miss)
+567 http fetch GET 200 https://registry.npmjs.org/@types/json-schema/-/json-schema-7.0.15.tgz 487ms (cache miss)
+568 http fetch GET 200 https://registry.npmjs.org/@jridgewell/resolve-uri/-/resolve-uri-3.1.2.tgz 541ms (cache miss)
+569 http fetch GET 200 https://registry.npmjs.org/@nodelib/fs.stat/-/fs.stat-2.0.5.tgz 607ms (cache miss)
+570 http fetch GET 200 https://registry.npmjs.org/@img/colour/-/colour-1.1.0.tgz 604ms (cache miss)
+571 http fetch GET 200 https://registry.npmjs.org/@humanwhocodes/module-importer/-/module-importer-1.0.1.tgz 631ms (cache miss)
+572 http fetch GET 200 https://registry.npmjs.org/@humanfs/node/-/node-0.16.7.tgz 638ms (cache miss)
+573 http fetch GET 200 https://registry.npmjs.org/@humanfs/core/-/core-0.19.1.tgz 674ms (cache miss)
+574 http fetch GET 200 https://registry.npmjs.org/@humanwhocodes/retry/-/retry-0.4.3.tgz 675ms (cache miss)
+575 http fetch GET 200 https://registry.npmjs.org/@types/react/-/react-19.2.14.tgz 694ms (cache miss)
+576 http fetch GET 200 https://registry.npmjs.org/yocto-queue/-/yocto-queue-0.1.0.tgz 706ms (cache miss)
+577 http fetch GET 200 https://registry.npmjs.org/util-deprecate/-/util-deprecate-1.0.2.tgz 708ms (cache miss)
+578 http fetch GET 200 https://registry.npmjs.org/@alloc/quick-lru/-/quick-lru-5.2.0.tgz 711ms (cache miss)
+579 http fetch GET 200 https://registry.npmjs.org/word-wrap/-/word-wrap-1.2.5.tgz 717ms (cache miss)
+580 http fetch GET 200 https://registry.npmjs.org/@eslint/core/-/core-1.1.1.tgz 727ms (cache miss)
+581 http fetch GET 200 https://registry.npmjs.org/@nodelib/fs.scandir/-/fs.scandir-2.1.5.tgz 734ms (cache miss)
+582 http fetch GET 200 https://registry.npmjs.org/@eslint/plugin-kit/-/plugin-kit-0.6.1.tgz 733ms (cache miss)
+583 http fetch GET 200 https://registry.npmjs.org/@eslint-community/regexpp/-/regexpp-4.12.2.tgz 743ms (cache miss)
+584 http fetch GET 200 https://registry.npmjs.org/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.5.5.tgz 747ms (cache miss)
+585 http fetch GET 200 https://registry.npmjs.org/which/-/which-2.0.2.tgz 745ms (cache miss)
+586 http fetch GET 200 https://registry.npmjs.org/@eslint/object-schema/-/object-schema-3.0.3.tgz 750ms (cache miss)
+587 http fetch GET 200 https://registry.npmjs.org/@nodelib/fs.walk/-/fs.walk-1.2.8.tgz 761ms (cache miss)
+588 http fetch GET 200 https://registry.npmjs.org/@eslint-community/eslint-utils/-/eslint-utils-4.9.1.tgz 758ms (cache miss)
+589 http fetch GET 200 https://registry.npmjs.org/update-browserslist-db/-/update-browserslist-db-1.2.3.tgz 758ms (cache miss)
+590 http fetch GET 200 https://registry.npmjs.org/@eslint/config-helpers/-/config-helpers-0.5.3.tgz 763ms (cache miss)
+591 http fetch GET 200 https://registry.npmjs.org/@jridgewell/gen-mapping/-/gen-mapping-0.3.13.tgz 790ms (cache miss)
+592 http fetch GET 200 https://registry.npmjs.org/undici-types/-/undici-types-7.18.2.tgz 816ms (cache miss)
+593 http fetch GET 200 https://registry.npmjs.org/@eslint/config-array/-/config-array-0.23.3.tgz 841ms (cache miss)
+594 http fetch GET 200 https://registry.npmjs.org/type-check/-/type-check-0.4.0.tgz 840ms (cache miss)
+595 http fetch GET 200 https://registry.npmjs.org/to-regex-range/-/to-regex-range-5.0.1.tgz 839ms (cache miss)
+596 http fetch GET 200 https://registry.npmjs.org/tinyglobby/-/tinyglobby-0.2.15.tgz 950ms (cache miss)
+597 http fetch GET 200 https://registry.npmjs.org/@swc/helpers/-/helpers-0.5.15.tgz 1082ms (cache miss)
+598 http fetch GET 200 https://registry.npmjs.org/thenify/-/thenify-3.3.1.tgz 1129ms (cache miss)
+599 http fetch GET 200 https://registry.npmjs.org/thenify-all/-/thenify-all-1.6.0.tgz 1132ms (cache miss)
+600 http fetch GET 200 https://registry.npmjs.org/@jridgewell/trace-mapping/-/trace-mapping-0.3.31.tgz 1156ms (cache miss)
+601 http fetch GET 200 https://registry.npmjs.org/tslib/-/tslib-2.8.1.tgz 1154ms (cache miss)
+602 http fetch GET 200 https://registry.npmjs.org/ts-interface-checker/-/ts-interface-checker-0.1.13.tgz 1224ms (cache miss)
+603 http fetch GET 200 https://registry.npmjs.org/supports-color/-/supports-color-7.2.0.tgz 1247ms (cache miss)
+604 http fetch GET 200 https://registry.npmjs.org/supports-preserve-symlinks-flag/-/supports-preserve-symlinks-flag-1.0.0.tgz 1254ms (cache miss)
+605 http fetch GET 200 https://registry.npmjs.org/uri-js/-/uri-js-4.4.1.tgz 1292ms (cache miss)
+606 http fetch GET 200 https://registry.npmjs.org/shebang-regex/-/shebang-regex-3.0.0.tgz 1332ms (cache miss)
+607 http fetch GET 200 https://registry.npmjs.org/shebang-command/-/shebang-command-2.0.0.tgz 1346ms (cache miss)
+608 http fetch GET 200 https://registry.npmjs.org/source-map-js/-/source-map-js-1.2.1.tgz 1356ms (cache miss)
+609 http fetch GET 200 https://registry.npmjs.org/semver/-/semver-7.7.4.tgz 1399ms (cache miss)
+610 http fetch GET 200 https://registry.npmjs.org/scheduler/-/scheduler-0.27.0.tgz 1475ms (cache miss)
+611 http fetch GET 200 https://registry.npmjs.org/run-parallel/-/run-parallel-1.2.0.tgz 1481ms (cache miss)
+612 http fetch GET 200 https://registry.npmjs.org/reusify/-/reusify-1.1.0.tgz 1493ms (cache miss)
+613 http fetch GET 200 https://registry.npmjs.org/styled-jsx/-/styled-jsx-5.1.6.tgz 1511ms (cache miss)
+614 http fetch GET 200 https://registry.npmjs.org/resolve/-/resolve-1.22.11.tgz 1601ms (cache miss)
+615 http fetch GET 200 https://registry.npmjs.org/readdirp/-/readdirp-3.6.0.tgz 1839ms (cache miss)
+616 http fetch GET 200 https://registry.npmjs.org/read-cache/-/read-cache-1.0.0.tgz 1844ms (cache miss)
+617 http fetch GET 200 https://registry.npmjs.org/sharp/-/sharp-0.34.5.tgz 1971ms (cache miss)
+618 http fetch GET 200 https://registry.npmjs.org/queue-microtask/-/queue-microtask-1.2.3.tgz 2061ms (cache miss)
+619 http fetch GET 200 https://registry.npmjs.org/punycode/-/punycode-2.3.1.tgz 2073ms (cache miss)
+620 http fetch GET 200 https://registry.npmjs.org/postcss-value-parser/-/postcss-value-parser-4.2.0.tgz 2097ms (cache miss)
+621 http fetch GET 200 https://registry.npmjs.org/@types/node/-/node-25.3.5.tgz 2127ms (cache miss)
+622 http fetch GET 200 https://registry.npmjs.org/prelude-ls/-/prelude-ls-1.2.1.tgz 2110ms (cache miss)
+623 http fetch GET 200 https://registry.npmjs.org/react/-/react-19.2.4.tgz 2447ms (cache miss)
+624 http fetch GET 200 https://registry.npmjs.org/postcss-media-query-parser/-/postcss-media-query-parser-0.2.3.tgz 2523ms (cache miss)
+625 http fetch GET 200 https://registry.npmjs.org/postcss-js/-/postcss-js-4.1.0.tgz 2589ms (cache miss)
+626 http fetch GET 200 https://registry.npmjs.org/postcss-import/-/postcss-import-15.1.0.tgz 2605ms (cache miss)
+627 http fetch GET 200 https://registry.npmjs.org/pirates/-/pirates-4.0.7.tgz 2609ms (cache miss)
+628 http fetch GET 200 https://registry.npmjs.org/postcss-nested/-/postcss-nested-6.2.0.tgz 2729ms (cache miss)
+629 http fetch GET 200 https://registry.npmjs.org/postcss/-/postcss-8.5.8.tgz 2761ms (cache miss)
+630 http fetch GET 200 https://registry.npmjs.org/pify/-/pify-2.3.0.tgz 2782ms (cache miss)
+631 http fetch GET 200 https://registry.npmjs.org/postcss-load-config/-/postcss-load-config-6.0.1.tgz 2819ms (cache miss)
+632 http fetch GET 200 https://registry.npmjs.org/picocolors/-/picocolors-1.1.1.tgz 2948ms (cache miss)
+633 http fetch GET 200 https://registry.npmjs.org/path-key/-/path-key-3.1.1.tgz 2961ms (cache miss)
+634 http fetch GET 200 https://registry.npmjs.org/path-parse/-/path-parse-1.0.7.tgz 2975ms (cache miss)
+635 http fetch GET 200 https://registry.npmjs.org/path-exists/-/path-exists-4.0.0.tgz 3021ms (cache miss)
+636 http fetch GET 200 https://registry.npmjs.org/postcss-selector-parser/-/postcss-selector-parser-6.1.2.tgz 3093ms (cache miss)
+637 http fetch GET 200 https://registry.npmjs.org/p-locate/-/p-locate-5.0.0.tgz 3097ms (cache miss)
+638 http fetch GET 200 https://registry.npmjs.org/p-limit/-/p-limit-3.1.0.tgz 3158ms (cache miss)
+639 http fetch GET 200 https://registry.npmjs.org/object-hash/-/object-hash-3.0.0.tgz 3207ms (cache miss)
+640 http fetch GET 200 https://registry.npmjs.org/picomatch/-/picomatch-2.3.1.tgz 3230ms (cache miss)
+641 http fetch GET 200 https://registry.npmjs.org/object-assign/-/object-assign-4.1.1.tgz 3352ms (cache miss)
+642 http fetch GET 200 https://registry.npmjs.org/nth-check/-/nth-check-2.1.1.tgz 3387ms (cache miss)
+643 http fetch GET 200 https://registry.npmjs.org/normalize-path/-/normalize-path-3.0.0.tgz 3424ms (cache miss)
+644 http fetch GET 200 https://registry.npmjs.org/natural-compare/-/natural-compare-1.4.0.tgz 3490ms (cache miss)
+645 http fetch GET 200 https://registry.npmjs.org/node-releases/-/node-releases-2.0.36.tgz 3592ms (cache miss)
+646 http fetch GET 200 https://registry.npmjs.org/ms/-/ms-2.1.3.tgz 3664ms (cache miss)
+647 http fetch GET 200 https://registry.npmjs.org/nanoid/-/nanoid-3.3.11.tgz 3671ms (cache miss)
+648 http fetch GET 200 https://registry.npmjs.org/optionator/-/optionator-0.9.4.tgz 3767ms (cache miss)
+649 http fetch GET 200 https://registry.npmjs.org/mz/-/mz-2.7.0.tgz 3809ms (cache miss)
+650 http fetch GET 200 https://registry.npmjs.org/sucrase/-/sucrase-3.35.1.tgz 3977ms (cache miss)
+651 http fetch GET 200 https://registry.npmjs.org/locate-path/-/locate-path-6.0.0.tgz 3991ms (cache miss)
+652 http fetch GET 200 https://registry.npmjs.org/merge2/-/merge2-1.4.1.tgz 4121ms (cache miss)
+653 http fetch GET 200 https://registry.npmjs.org/lines-and-columns/-/lines-and-columns-1.2.4.tgz 4157ms (cache miss)
+654 http fetch GET 200 https://registry.npmjs.org/lilconfig/-/lilconfig-3.1.3.tgz 4159ms (cache miss)
+655 http fetch GET 200 https://registry.npmjs.org/levn/-/levn-0.4.1.tgz 4188ms (cache miss)
+656 http fetch GET 200 https://registry.npmjs.org/keyv/-/keyv-4.5.4.tgz 4200ms (cache miss)
+657 http fetch GET 200 https://registry.npmjs.org/@img/sharp-win32-x64/-/sharp-win32-x64-0.34.5.tgz 4241ms (cache miss)
+658 http fetch GET 200 https://registry.npmjs.org/micromatch/-/micromatch-4.0.8.tgz 4215ms (cache miss)
+659 http fetch GET 200 https://registry.npmjs.org/minimatch/-/minimatch-10.2.4.tgz 4218ms (cache miss)
+660 http fetch GET 200 https://registry.npmjs.org/json-stable-stringify-without-jsonify/-/json-stable-stringify-without-jsonify-1.0.1.tgz 4236ms (cache miss)
+661 http fetch GET 200 https://registry.npmjs.org/json-schema-traverse/-/json-schema-traverse-0.4.1.tgz 4242ms (cache miss)
+662 http fetch GET 200 https://registry.npmjs.org/isexe/-/isexe-2.0.0.tgz 4285ms (cache miss)
+663 http fetch GET 200 https://registry.npmjs.org/is-number/-/is-number-7.0.0.tgz 4298ms (cache miss)
+664 http fetch GET 200 https://registry.npmjs.org/is-glob/-/is-glob-4.0.3.tgz 4314ms (cache miss)
+665 http fetch GET 200 https://registry.npmjs.org/imurmurhash/-/imurmurhash-0.1.4.tgz 4322ms (cache miss)
+666 http fetch GET 200 https://registry.npmjs.org/is-binary-path/-/is-binary-path-2.1.0.tgz 4322ms (cache miss)
+667 http fetch GET 200 https://registry.npmjs.org/json-buffer/-/json-buffer-3.0.1.tgz 4353ms (cache miss)
+668 http fetch GET 200 https://registry.npmjs.org/is-extglob/-/is-extglob-2.1.1.tgz 4351ms (cache miss)
+669 http fetch GET 200 https://registry.npmjs.org/is-core-module/-/is-core-module-2.16.1.tgz 4351ms (cache miss)
+670 http fetch GET 200 https://registry.npmjs.org/hasown/-/hasown-2.0.2.tgz 4404ms (cache miss)
+671 http fetch GET 200 https://registry.npmjs.org/ignore/-/ignore-5.3.2.tgz 4422ms (cache miss)
+672 http fetch GET 200 https://registry.npmjs.org/has-flag/-/has-flag-4.0.0.tgz 4426ms (cache miss)
+673 http fetch GET 200 https://registry.npmjs.org/function-bind/-/function-bind-1.1.2.tgz 4431ms (cache miss)
+674 http fetch GET 200 https://registry.npmjs.org/glob-parent/-/glob-parent-6.0.2.tgz 4436ms (cache miss)
+675 http fetch GET 200 https://registry.npmjs.org/flat-cache/-/flat-cache-4.0.1.tgz 4492ms (cache miss)
+676 http fetch GET 200 https://registry.npmjs.org/htmlparser2/-/htmlparser2-8.0.2.tgz 4500ms (cache miss)
+677 http fetch GET 200 https://registry.npmjs.org/find-up/-/find-up-5.0.0.tgz 4544ms (cache miss)
+678 http fetch GET 200 https://registry.npmjs.org/fill-range/-/fill-range-7.1.1.tgz 4544ms (cache miss)
+679 http fetch GET 200 https://registry.npmjs.org/file-entry-cache/-/file-entry-cache-8.0.0.tgz 4553ms (cache miss)
+680 http fetch GET 200 https://registry.npmjs.org/jiti/-/jiti-1.21.7.tgz 4558ms (cache miss)
+681 http fetch GET 200 https://registry.npmjs.org/fast-levenshtein/-/fast-levenshtein-2.0.6.tgz 4558ms (cache miss)
+682 http fetch GET 200 https://registry.npmjs.org/flatted/-/flatted-3.4.1.tgz 4573ms (cache miss)
+683 http fetch GET 200 https://registry.npmjs.org/fast-json-stable-stringify/-/fast-json-stable-stringify-2.1.0.tgz 4593ms (cache miss)
+684 http fetch GET 200 https://registry.npmjs.org/fastq/-/fastq-1.20.1.tgz 4617ms (cache miss)
+685 http fetch GET 200 https://registry.npmjs.org/fast-deep-equal/-/fast-deep-equal-3.1.3.tgz 4620ms (cache miss)
+686 http fetch GET 200 https://registry.npmjs.org/estraverse/-/estraverse-5.3.0.tgz 4624ms (cache miss)
+687 http fetch GET 200 https://registry.npmjs.org/esutils/-/esutils-2.0.3.tgz 4633ms (cache miss)
+688 http fetch GET 200 https://registry.npmjs.org/esrecurse/-/esrecurse-4.3.0.tgz 4632ms (cache miss)
+689 http fetch GET 200 https://registry.npmjs.org/fast-glob/-/fast-glob-3.3.3.tgz 4674ms (cache miss)
+690 http fetch GET 200 https://registry.npmjs.org/escape-string-regexp/-/escape-string-regexp-4.0.0.tgz 4723ms (cache miss)
+691 http fetch GET 200 https://registry.npmjs.org/espree/-/espree-11.2.0.tgz 4736ms (cache miss)
+692 http fetch GET 200 https://registry.npmjs.org/fraction.js/-/fraction.js-5.3.4.tgz 4743ms (cache miss)
+693 http fetch GET 200 https://registry.npmjs.org/esquery/-/esquery-1.7.0.tgz 4742ms (cache miss)
+694 http fetch GET 200 https://registry.npmjs.org/escalade/-/escalade-3.2.0.tgz 4743ms (cache miss)
+695 http fetch GET 200 https://registry.npmjs.org/domhandler/-/domhandler-5.0.3.tgz 4753ms (cache miss)
+696 http fetch GET 200 https://registry.npmjs.org/eslint-visitor-keys/-/eslint-visitor-keys-5.0.1.tgz 4776ms (cache miss)
+697 http fetch GET 200 https://registry.npmjs.org/eslint-scope/-/eslint-scope-9.1.2.tgz 4779ms (cache miss)
+698 http fetch GET 200 https://registry.npmjs.org/domelementtype/-/domelementtype-2.3.0.tgz 4844ms (cache miss)
+699 http fetch GET 200 https://registry.npmjs.org/dlv/-/dlv-1.1.3.tgz 4848ms (cache miss)
+700 http fetch GET 200 https://registry.npmjs.org/didyoumean/-/didyoumean-1.2.2.tgz 4850ms (cache miss)
+701 http fetch GET 200 https://registry.npmjs.org/detect-libc/-/detect-libc-2.1.2.tgz 4852ms (cache miss)
+702 http fetch GET 200 https://registry.npmjs.org/entities/-/entities-4.5.0.tgz 4863ms (cache miss)
+703 http fetch GET 200 https://registry.npmjs.org/debug/-/debug-4.4.3.tgz 4880ms (cache miss)
+704 http fetch GET 200 https://registry.npmjs.org/dom-serializer/-/dom-serializer-2.0.0.tgz 4897ms (cache miss)
+705 http fetch GET 200 https://registry.npmjs.org/deep-is/-/deep-is-0.1.4.tgz 4907ms (cache miss)
+706 http fetch GET 200 https://registry.npmjs.org/cross-spawn/-/cross-spawn-7.0.6.tgz 4921ms (cache miss)
+707 http fetch GET 200 https://registry.npmjs.org/cssesc/-/cssesc-3.0.0.tgz 4927ms (cache miss)
+708 http fetch GET 200 https://registry.npmjs.org/domutils/-/domutils-3.2.2.tgz 4988ms (cache miss)
+709 http fetch GET 200 https://registry.npmjs.org/commander/-/commander-4.1.1.tgz 4989ms (cache miss)
+710 http fetch GET 200 https://registry.npmjs.org/css-what/-/css-what-6.2.2.tgz 5004ms (cache miss)
+711 http fetch GET 200 https://registry.npmjs.org/color-name/-/color-name-1.1.4.tgz 5014ms (cache miss)
+712 http fetch GET 200 https://registry.npmjs.org/critters/-/critters-0.0.23.tgz 5024ms (cache miss)
+713 http fetch GET 200 https://registry.npmjs.org/color-convert/-/color-convert-2.0.1.tgz 5026ms (cache miss)
+714 http fetch GET 200 https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.5.307.tgz 5072ms (cache miss)
+715 http fetch GET 200 https://registry.npmjs.org/client-only/-/client-only-0.0.1.tgz 5067ms (cache miss)
+716 http fetch GET 200 https://registry.npmjs.org/csstype/-/csstype-3.2.3.tgz 5092ms (cache miss)
+717 http fetch GET 200 https://registry.npmjs.org/chalk/-/chalk-4.1.2.tgz 5106ms (cache miss)
+718 http fetch GET 200 https://registry.npmjs.org/chokidar/-/chokidar-3.6.0.tgz 5116ms (cache miss)
+719 http fetch GET 200 https://registry.npmjs.org/camelcase-css/-/camelcase-css-2.0.1.tgz 5125ms (cache miss)
+720 http fetch GET 200 https://registry.npmjs.org/css-select/-/css-select-5.2.2.tgz 5137ms (cache miss)
+721 http fetch GET 200 https://registry.npmjs.org/browserslist/-/browserslist-4.28.1.tgz 5141ms (cache miss)
+722 http fetch GET 200 https://registry.npmjs.org/boolbase/-/boolbase-1.0.0.tgz 5144ms (cache miss)
+723 http fetch GET 200 https://registry.npmjs.org/binary-extensions/-/binary-extensions-2.3.0.tgz 5166ms (cache miss)
+724 http fetch GET 200 https://registry.npmjs.org/brace-expansion/-/brace-expansion-5.0.4.tgz 5235ms (cache miss)
+725 http fetch GET 200 https://registry.npmjs.org/anymatch/-/anymatch-3.1.3.tgz 5242ms (cache miss)
+726 http fetch GET 200 https://registry.npmjs.org/arg/-/arg-5.0.2.tgz 5262ms (cache miss)
+727 http fetch GET 200 https://registry.npmjs.org/balanced-match/-/balanced-match-4.0.4.tgz 5290ms (cache miss)
+728 http fetch GET 200 https://registry.npmjs.org/braces/-/braces-3.0.3.tgz 5300ms (cache miss)
+729 http fetch GET 200 https://registry.npmjs.org/baseline-browser-mapping/-/baseline-browser-mapping-2.10.0.tgz 5312ms (cache miss)
+730 http fetch GET 200 https://registry.npmjs.org/any-promise/-/any-promise-1.3.0.tgz 5311ms (cache miss)
+731 http fetch GET 200 https://registry.npmjs.org/autoprefixer/-/autoprefixer-10.4.27.tgz 5342ms (cache miss)
+732 http fetch GET 200 https://registry.npmjs.org/acorn-jsx/-/acorn-jsx-5.3.2.tgz 5367ms (cache miss)
+733 http fetch GET 200 https://registry.npmjs.org/eslint-visitor-keys/-/eslint-visitor-keys-3.4.3.tgz 5400ms (cache miss)
+734 http fetch GET 200 https://registry.npmjs.org/ansi-styles/-/ansi-styles-4.3.0.tgz 5436ms (cache miss)
+735 http fetch GET 200 https://registry.npmjs.org/fdir/-/fdir-6.5.0.tgz 5462ms (cache miss)
+736 http fetch GET 200 https://registry.npmjs.org/glob-parent/-/glob-parent-5.1.2.tgz 5507ms (cache miss)
+737 http fetch GET 200 https://registry.npmjs.org/glob-parent/-/glob-parent-5.1.2.tgz 5537ms (cache miss)
+738 http fetch GET 200 https://registry.npmjs.org/acorn/-/acorn-8.16.0.tgz 5591ms (cache miss)
+739 http fetch GET 200 https://registry.npmjs.org/picomatch/-/picomatch-4.0.3.tgz 5623ms (cache miss)
+740 http fetch GET 200 https://registry.npmjs.org/postcss/-/postcss-8.4.31.tgz 5733ms (cache miss)
+741 http fetch GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001777.tgz 6154ms (cache miss)
+742 http fetch GET 200 https://registry.npmjs.org/tailwindcss/-/tailwindcss-3.4.19.tgz 6690ms (cache miss)
+743 http fetch GET 200 https://registry.npmjs.org/eslint/-/eslint-10.0.3.tgz 6730ms (cache miss)
+744 http fetch GET 200 https://registry.npmjs.org/ajv/-/ajv-6.14.0.tgz 6743ms (cache miss)
+745 http fetch GET 200 https://registry.npmjs.org/react-dom/-/react-dom-19.2.4.tgz 7881ms (cache miss)
+746 http fetch GET 200 https://registry.npmjs.org/typescript/-/typescript-5.9.3.tgz 11660ms (cache miss)
+747 http fetch GET 200 https://registry.npmjs.org/@next/swc-win32-x64-msvc/-/swc-win32-x64-msvc-15.5.12.tgz 27404ms (cache miss)
+748 http fetch GET 200 https://registry.npmjs.org/next/-/next-15.5.12.tgz 32222ms (cache miss)
+749 info run sharp@0.34.5 install node_modules/sharp node install/check.js || npm run build
+750 info run sharp@0.34.5 install { code: 0, signal: null }
+751 silly CHANGE node_modules/@types/react
+752 silly CHANGE node_modules/@types/node
+753 silly CHANGE node_modules/@types/estree
+754 silly CHANGE node_modules/@types/json-schema
+755 silly CHANGE node_modules/@types/esrecurse
+756 silly CHANGE node_modules/@swc/helpers
+757 silly CHANGE node_modules/@nodelib/fs.walk
+758 silly CHANGE node_modules/@nodelib/fs.stat
+759 silly CHANGE node_modules/@nodelib/fs.scandir
+760 silly CHANGE node_modules/@next/swc-win32-x64-msvc
+761 silly CHANGE node_modules/@next/env
+762 silly CHANGE node_modules/@jridgewell/sourcemap-codec
+763 silly CHANGE node_modules/@jridgewell/trace-mapping
+764 silly CHANGE node_modules/@jridgewell/resolve-uri
+765 silly CHANGE node_modules/@jridgewell/gen-mapping
+766 silly CHANGE node_modules/@img/sharp-win32-x64
+767 silly CHANGE node_modules/@img/colour
+768 silly CHANGE node_modules/@humanwhocodes/retry
+769 silly CHANGE node_modules/@humanwhocodes/module-importer
+770 silly CHANGE node_modules/@humanfs/node
+771 silly CHANGE node_modules/@humanfs/core
+772 silly CHANGE node_modules/@eslint-community/regexpp
+773 silly CHANGE node_modules/@eslint-community/eslint-utils
+774 silly CHANGE node_modules/@eslint-community/eslint-utils/node_modules/eslint-visitor-keys
+775 silly CHANGE node_modules/@eslint/plugin-kit
+776 silly CHANGE node_modules/@eslint/object-schema
+777 silly CHANGE node_modules/@eslint/core
+778 silly CHANGE node_modules/@eslint/config-helpers
+779 silly CHANGE node_modules/@eslint/config-array
+780 silly CHANGE node_modules/@alloc/quick-lru
+781 silly CHANGE node_modules/yocto-queue
+782 silly CHANGE node_modules/word-wrap
+783 silly CHANGE node_modules/which
+784 silly CHANGE node_modules/util-deprecate
+785 silly CHANGE node_modules/uri-js
+786 silly CHANGE node_modules/update-browserslist-db
+787 silly CHANGE node_modules/undici-types
+788 silly CHANGE node_modules/typescript
+789 silly CHANGE node_modules/type-check
+790 silly CHANGE node_modules/tslib
+791 silly CHANGE node_modules/ts-interface-checker
+792 silly CHANGE node_modules/to-regex-range
+793 silly CHANGE node_modules/tinyglobby
+794 silly CHANGE node_modules/tinyglobby/node_modules/fdir
+795 silly CHANGE node_modules/tinyglobby/node_modules/picomatch
+796 silly CHANGE node_modules/thenify-all
+797 silly CHANGE node_modules/thenify
+798 silly CHANGE node_modules/tailwindcss
+799 silly CHANGE node_modules/supports-preserve-symlinks-flag
+800 silly CHANGE node_modules/supports-color
+801 silly CHANGE node_modules/sucrase
+802 silly CHANGE node_modules/styled-jsx
+803 silly CHANGE node_modules/source-map-js
+804 silly CHANGE node_modules/shebang-regex
+805 silly CHANGE node_modules/shebang-command
+806 silly CHANGE node_modules/sharp
+807 silly CHANGE node_modules/semver
+808 silly CHANGE node_modules/scheduler
+809 silly CHANGE node_modules/run-parallel
+810 silly CHANGE node_modules/reusify
+811 silly CHANGE node_modules/resolve
+812 silly CHANGE node_modules/readdirp
+813 silly CHANGE node_modules/read-cache
+814 silly CHANGE node_modules/react-dom
+815 silly CHANGE node_modules/react
+816 silly CHANGE node_modules/queue-microtask
+817 silly CHANGE node_modules/punycode
+818 silly CHANGE node_modules/prelude-ls
+819 silly CHANGE node_modules/postcss-value-parser
+820 silly CHANGE node_modules/postcss-selector-parser
+821 silly CHANGE node_modules/postcss-nested
+822 silly CHANGE node_modules/postcss-media-query-parser
+823 silly CHANGE node_modules/postcss-load-config
+824 silly CHANGE node_modules/postcss-js
+825 silly CHANGE node_modules/postcss-import
+826 silly CHANGE node_modules/postcss
+827 silly CHANGE node_modules/pirates
+828 silly CHANGE node_modules/pify
+829 silly CHANGE node_modules/picomatch
+830 silly CHANGE node_modules/picocolors
+831 silly CHANGE node_modules/path-parse
+832 silly CHANGE node_modules/path-key
+833 silly CHANGE node_modules/path-exists
+834 silly CHANGE node_modules/p-locate
+835 silly CHANGE node_modules/p-limit
+836 silly CHANGE node_modules/optionator
+837 silly CHANGE node_modules/object-hash
+838 silly CHANGE node_modules/object-assign
+839 silly CHANGE node_modules/nth-check
+840 silly CHANGE node_modules/normalize-path
+841 silly CHANGE node_modules/node-releases
+842 silly CHANGE node_modules/next
+843 silly CHANGE node_modules/next/node_modules/postcss
+844 silly CHANGE node_modules/natural-compare
+845 silly CHANGE node_modules/nanoid
+846 silly CHANGE node_modules/mz
+847 silly CHANGE node_modules/ms
+848 silly CHANGE node_modules/minimatch
+849 silly CHANGE node_modules/micromatch
+850 silly CHANGE node_modules/merge2
+851 silly CHANGE node_modules/locate-path
+852 silly CHANGE node_modules/lines-and-columns
+853 silly CHANGE node_modules/lilconfig
+854 silly CHANGE node_modules/levn
+855 silly CHANGE node_modules/keyv
+856 silly CHANGE node_modules/json-stable-stringify-without-jsonify
+857 silly CHANGE node_modules/json-schema-traverse
+858 silly CHANGE node_modules/json-buffer
+859 silly CHANGE node_modules/jiti
+860 silly CHANGE node_modules/isexe
+861 silly CHANGE node_modules/is-number
+862 silly CHANGE node_modules/is-glob
+863 silly CHANGE node_modules/is-extglob
+864 silly CHANGE node_modules/is-core-module
+865 silly CHANGE node_modules/is-binary-path
+866 silly CHANGE node_modules/imurmurhash
+867 silly CHANGE node_modules/ignore
+868 silly CHANGE node_modules/htmlparser2
+869 silly CHANGE node_modules/hasown
+870 silly CHANGE node_modules/has-flag
+871 silly CHANGE node_modules/glob-parent
+872 silly CHANGE node_modules/function-bind
+873 silly CHANGE node_modules/flat-cache
+874 silly CHANGE node_modules/fraction.js
+875 silly CHANGE node_modules/flatted
+876 silly CHANGE node_modules/find-up
+877 silly CHANGE node_modules/fill-range
+878 silly CHANGE node_modules/file-entry-cache
+879 silly CHANGE node_modules/fastq
+880 silly CHANGE node_modules/fast-levenshtein
+881 silly CHANGE node_modules/fast-json-stable-stringify
+882 silly CHANGE node_modules/fast-glob
+883 silly CHANGE node_modules/fast-glob/node_modules/glob-parent
+884 silly CHANGE node_modules/fast-deep-equal
+885 silly CHANGE node_modules/esutils
+886 silly CHANGE node_modules/estraverse
+887 silly CHANGE node_modules/esrecurse
+888 silly CHANGE node_modules/esquery
+889 silly CHANGE node_modules/espree
+890 silly CHANGE node_modules/eslint-visitor-keys
+891 silly CHANGE node_modules/eslint-scope
+892 silly CHANGE node_modules/eslint
+893 silly CHANGE node_modules/escape-string-regexp
+894 silly CHANGE node_modules/escalade
+895 silly CHANGE node_modules/entities
+896 silly CHANGE node_modules/electron-to-chromium
+897 silly CHANGE node_modules/domutils
+898 silly CHANGE node_modules/domhandler
+899 silly CHANGE node_modules/domelementtype
+900 silly CHANGE node_modules/dom-serializer
+901 silly CHANGE node_modules/dlv
+902 silly CHANGE node_modules/didyoumean
+903 silly CHANGE node_modules/detect-libc
+904 silly CHANGE node_modules/debug
+905 silly CHANGE node_modules/deep-is
+906 silly CHANGE node_modules/csstype
+907 silly CHANGE node_modules/cssesc
+908 silly CHANGE node_modules/css-what
+909 silly CHANGE node_modules/css-select
+910 silly CHANGE node_modules/cross-spawn
+911 silly CHANGE node_modules/critters
+912 silly CHANGE node_modules/commander
+913 silly CHANGE node_modules/color-name
+914 silly CHANGE node_modules/color-convert
+915 silly CHANGE node_modules/chalk
+916 silly CHANGE node_modules/client-only
+917 silly CHANGE node_modules/chokidar
+918 silly CHANGE node_modules/chokidar/node_modules/glob-parent
+919 silly CHANGE node_modules/caniuse-lite
+920 silly CHANGE node_modules/camelcase-css
+921 silly CHANGE node_modules/browserslist
+922 silly CHANGE node_modules/braces
+923 silly CHANGE node_modules/brace-expansion
+924 silly CHANGE node_modules/boolbase
+925 silly CHANGE node_modules/binary-extensions
+926 silly CHANGE node_modules/baseline-browser-mapping
+927 silly CHANGE node_modules/balanced-match
+928 silly CHANGE node_modules/autoprefixer
+929 silly CHANGE node_modules/arg
+930 silly CHANGE node_modules/anymatch
+931 silly CHANGE node_modules/any-promise
+932 silly CHANGE node_modules/ansi-styles
+933 silly CHANGE node_modules/ajv
+934 silly CHANGE node_modules/acorn-jsx
+935 silly CHANGE node_modules/acorn
+936 verbose cwd E:\samirapi\finalgpa0000000-main\finalgpa0000000-main
+937 verbose os Windows_NT 10.0.26200
+938 verbose node v24.13.0
+939 verbose npm  v11.6.2
+940 verbose exit 0
+941 info ok
