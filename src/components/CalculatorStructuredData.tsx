@@ -8,33 +8,16 @@ import { jsonLdStringify } from '@/lib/jsonLd';
 const SITE_URL = 'https://topgpacalculator.com';
 const DEFAULT_FEATURES = ['Instant results', 'Free to use', 'Mobile friendly'];
 
-const HOW_TO_STEPS = [
-  {
-    name: 'Add courses',
-    text: 'Add your courses or inputs to the calculator.',
-  },
-  {
-    name: 'Enter grades and credits',
-    text: 'Enter grades, credit hours, or required values for each input.',
-  },
-  {
-    name: 'Calculate GPA',
-    text: 'Click calculate to get your GPA result instantly.',
-  },
-];
-
 const LAYOUT_BREADCRUMB_SLUGS = new Set([
   '5-0-scale-gpa-calculator',
   'academic-gpa-calculator',
   'cumulative-gpa-calculator',
   'final-semester-gpa-calculator',
   'gpa-average-calculator',
-  'gpa-goal-calculator',
   'grade-point-calculator',
   'high-school-gpa-calculator',
   'quick-gpa-calculator',
   'sophomore-gpa-calculator',
-  'target-gpa-calculator',
 ]);
 
 const buildFeatureList = (source: string) => {
@@ -98,19 +81,6 @@ export default function CalculatorStructuredData() {
       },
     };
 
-    const howTo = {
-      '@context': 'https://schema.org',
-      '@type': 'HowTo',
-      name: `How to use ${name}`,
-      description: `Quick steps to use the ${name}.`,
-      step: HOW_TO_STEPS.map((step, index) => ({
-        '@type': 'HowToStep',
-        position: index + 1,
-        name: step.name,
-        text: step.text,
-      })),
-    };
-
     const breadcrumb = LAYOUT_BREADCRUMB_SLUGS.has(slug)
       ? {
           '@context': 'https://schema.org',
@@ -138,26 +108,21 @@ export default function CalculatorStructuredData() {
         }
       : null;
 
-    return { webApplication, howTo, breadcrumb };
+    return { webApplication, breadcrumb };
   }, [pathname]);
 
   if (!schema) return null;
 
   const webApplicationJsonLd = jsonLdStringify(schema.webApplication);
-  const howToJsonLd = jsonLdStringify(schema.howTo);
   const breadcrumbJsonLd = schema.breadcrumb ? jsonLdStringify(schema.breadcrumb) : null;
 
-  if (!webApplicationJsonLd || !howToJsonLd) return null;
+  if (!webApplicationJsonLd) return null;
 
   return (
     <>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: webApplicationJsonLd }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: howToJsonLd }}
       />
       {breadcrumbJsonLd && (
         <script

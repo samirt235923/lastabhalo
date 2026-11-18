@@ -21,12 +21,12 @@ export default function ContactPage() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // In a real application, you would send this to your backend
+    const subject = encodeURIComponent(formData.subject);
+    const body = encodeURIComponent(
+      `Name: ${formData.name}\nEmail: ${formData.email}\n\n${formData.message}`
+    );
+    window.location.href = `mailto:info@topgpacalculator.com?subject=${subject}&body=${body}`;
     setSubmitted(true);
-    setTimeout(() => {
-      setFormData({ name: '', email: '', subject: '', message: '' });
-      setSubmitted(false);
-    }, 3000);
   };
 
   return (
@@ -36,7 +36,7 @@ export default function ContactPage() {
         <div className="max-w-6xl mx-auto px-4">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">Contact Us</h1>
           <p className="text-xl text-blue-100">
-            We'd love to hear from you. Send us a message!
+            Contact us by email with questions or feedback.
           </p>
         </div>
       </section>
@@ -48,8 +48,11 @@ export default function ContactPage() {
           <div className="md:col-span-2">
             {submitted ? (
               <div className="bg-green-100 border-2 border-green-500 text-green-800 p-6 rounded-lg">
-                <p className="text-lg font-semibold">Thank you for your message!</p>
-                <p>We'll get back to you as soon as possible.</p>
+                <p className="text-lg font-semibold">Continue in your email app</p>
+                <p>
+                  Your email app should open with this message. If it does not, email{' '}
+                  <a href="mailto:info@topgpacalculator.com" className="underline">info@topgpacalculator.com</a>.
+                </p>
               </div>
             ) : (
               <form onSubmit={handleSubmit} className="space-y-6">
@@ -143,11 +146,6 @@ export default function ContactPage() {
                     info@topgpacalculator.com
                   </a>
                 </li>
-                <li>
-                  <strong>Response Time:</strong>
-                  <br />
-                  24-48 hours
-                </li>
               </ul>
             </div>
 
@@ -163,14 +161,6 @@ export default function ContactPage() {
         </div>
       </section>
 
-      {/* AdSense */}
-      <section className="py-8 bg-gray-50">
-        <div className="max-w-6xl mx-auto px-4">
-          <div className="bg-gray-100 border-2 border-gray-300 rounded-lg p-8 text-center">
-            <p className="text-gray-600">Advertisement Space</p>
-          </div>
-        </div>
-      </section>
     </div>
   );
 }

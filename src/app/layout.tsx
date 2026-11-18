@@ -10,9 +10,9 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://topgpacalculator.com'),
   title: 'GPA Calculator - Free & Accurate GPA Calculator for Students',
-  description: 'Calculate your GPA instantly with our free GPA calculator. Perfect for college and high school students. Accurate, fast, and easy to use.',
-  keywords: 'GPA calculator, calculate GPA, GPA tool, college GPA, high school GPA',
+  description: 'Estimate your GPA with a free calculator for college and high school coursework. Grading scales vary, so check your school’s policy for official results.',
   icons: {
     icon: [
       { url: '/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
@@ -25,25 +25,19 @@ export const metadata: Metadata = {
   },
   manifest: '/site.webmanifest',
   openGraph: {
-    title: 'GPA Calculator - Free & Accurate GPA Calculator for Students',
-    description: 'Calculate your GPA instantly with our free GPA calculator.',
-    url: 'https://topgpacalculator.com',
-    siteName: 'GPA Calculator',
+    siteName: 'Top GPA Calculator',
     images: [
       {
-        url: 'https://topgpacalculator.com/logo.svg',
+        url: '/logo.svg',
         width: 1200,
         height: 630,
-        alt: 'Top GPA Calculator social card',
+        alt: 'Top GPA Calculator',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'GPA Calculator - Free & Accurate GPA Calculator for Students',
-    description: 'Calculate your GPA instantly with our free GPA calculator.',
-    creator: '@gpacalculator',
-    images: ['https://topgpacalculator.com/logo.svg'],
+    images: ['/logo.svg'],
   },
   robots: {
     index: true,
@@ -72,20 +66,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <meta charSet="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="#0066cc" />
-        <meta property="og:image" content="https://topgpacalculator.com/logo.svg" />
-        <meta property="og:image:alt" content="Top GPA Calculator social card" />
-        <meta property="og:image:width" content="1200" />
-        <meta property="og:image:height" content="630" />
-        <meta name="twitter:image" content="https://topgpacalculator.com/logo.svg" />
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
-        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-        <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48x48.png" />
-        <link rel="shortcut icon" href="/favicon.ico" />
-        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-        <link rel="manifest" href="/site.webmanifest" />
         <style dangerouslySetInnerHTML={{ __html: `
           /* Critical above-the-fold CSS */
           *{margin:0;padding:0;box-sizing:border-box}

@@ -611,8 +611,8 @@ export const blogContent: Record<string, string> = {
     <h2>Why Using a GPA Calculator Matters</h2>
     <p>Understanding your GPA is crucial for several reasons:</p>
     <ul>
-      <li><strong>College Admissions:</strong> Colleges use GPA as a primary factor. According to the <a href="https://nces.ed.gov/" target="_blank" rel="noopener noreferrer">National Center for Education Statistics</a>, GPA remains one of the most heavily weighted criteria.</li>
-      <li><strong>Scholarship Eligibility:</strong> Many scholarships require minimum GPA thresholds. The <a href="https://bigfuture.collegeboard.org/" target="_blank" rel="noopener noreferrer">College Board</a> reports that academic GPA accounts for ~25% of scholarship decisions.</li>
+      <li><strong>College Admissions:</strong> Colleges may consider GPA alongside course rigor, school context, and other parts of an application.</li>
+      <li><strong>Scholarship Eligibility:</strong> Requirements vary by award. Check each scholarship&apos;s official eligibility criteria and deadlines.</li>
       <li><strong>Academic Goal Setting:</strong> Regular GPA checks let you make adjustments throughout the semester.</li>
     </ul>
 

@@ -29,6 +29,7 @@ interface GPAResult {
 }
 
 const gradePoints: { [key: string]: number } = {
+  'A+': 4.0,
   'A': 4.0,
   'A-': 3.7,
   'B+': 3.3,
@@ -37,7 +38,9 @@ const gradePoints: { [key: string]: number } = {
   'C+': 2.3,
   'C': 2.0,
   'C-': 1.7,
+  'D+': 1.3,
   'D': 1.0,
+  'D-': 0.7,
   'F': 0.0,
 };
 
@@ -56,12 +59,23 @@ const exampleCourses: Course[] = [
 
 export default function WeightedGPACalculator() {
   const [courses, setCourses] = useState<Course[]>([
-    { id: '1', name: '', grade: 'A', credits: 3, level: 'Regular' },
+    { id: '1', name: '', grade: '', credits: 3, level: 'Regular' },
   ]);
   const [gpaResult, setGpaResult] = useState<GPAResult | null>(null);
+  const [error, setError] = useState('');
 
   const calculateGPA = () => {
-    if (courses.length === 0) return;
+    const invalidCourse = courses.find((course) =>
+      gradePoints[course.grade] === undefined ||
+      !Number.isFinite(course.credits) ||
+      course.credits <= 0 ||
+      courseWeights[course.level] === undefined
+    );
+    if (invalidCourse) {
+      setGpaResult(null);
+      setError('Select a grade and enter positive credits for every course.');
+      return;
+    }
 
     let totalPoints = 0;
     let totalCredits = 0;
@@ -100,26 +114,31 @@ export default function WeightedGPACalculator() {
       totalCredits,
       breakdown,
     });
+    setError('');
   };
 
   const loadExampleData = () => {
     setCourses(exampleCourses.map((course) => ({ ...course, id: Math.random().toString(36).substr(2, 9) })));
     setGpaResult(null);
+    setError('');
   };
 
   const resetCalculator = () => {
-    setCourses([{ id: '1', name: '', grade: 'A', credits: 3, level: 'Regular' }]);
+    setCourses([{ id: '1', name: '', grade: '', credits: 3, level: 'Regular' }]);
     setGpaResult(null);
+    setError('');
   };
 
   const addCourse = () => {
     const newId = Math.random().toString(36).substr(2, 9);
-    setCourses([...courses, { id: newId, name: '', grade: 'A', credits: 3, level: 'Regular' }]);
+    setCourses([...courses, { id: newId, name: '', grade: '', credits: 3, level: 'Regular' }]);
   };
 
   const removeCourse = (id: string) => {
     if (courses.length > 1) {
       setCourses(courses.filter((course) => course.id !== id));
+      setGpaResult(null);
+      setError('');
     }
   };
 
@@ -129,16 +148,17 @@ export default function WeightedGPACalculator() {
         course.id === id ? { ...course, [field]: value } : course
       )
     );
+    setError('');
+    setGpaResult(null);
   };
 
   const getGPAMessage = (gpa: number) => {
-    if (gpa >= 4.5) return { message: 'Outstanding! Exceptional Academic Achievement 🌟', color: 'bg-purple-500', textColor: 'text-purple-700', icon: '🏆' };
-    if (gpa >= 4.0) return { message: 'Excellent Performance! Top Tier Achievement 📈', color: 'bg-green-500', textColor: 'text-green-700', icon: '🎓' };
-    if (gpa >= 3.7) return { message: 'Very Strong Performance 👏', color: 'bg-blue-500', textColor: 'text-blue-700', icon: '💎' };
-    if (gpa >= 3.5) return { message: 'Good Academic Standing 📚', color: 'bg-blue-400', textColor: 'text-blue-600', icon: '📚' };
-    if (gpa >= 3.0) return { message: 'Solid Performance ✓', color: 'bg-teal-500', textColor: 'text-teal-700', icon: '✓' };
-    if (gpa >= 2.5) return { message: 'Satisfactory Progress', color: 'bg-yellow-500', textColor: 'text-yellow-700', icon: '→' };
-    return { message: 'Room for Improvement - Keep Working! 💪', color: 'bg-orange-500', textColor: 'text-orange-700', icon: '💪' };
+    if (gpa >= 4.5) return { message: 'At least 4.5 on this estimate', color: 'bg-purple-500', textColor: 'text-purple-700', icon: '★' };
+    if (gpa >= 4.0) return { message: '4.0–4.49 on this estimate', color: 'bg-green-500', textColor: 'text-green-700', icon: '✓' };
+    if (gpa >= 3.5) return { message: '3.5–3.99 on this estimate', color: 'bg-blue-500', textColor: 'text-blue-700', icon: '✓' };
+    if (gpa >= 3.0) return { message: '3.0–3.49 on this estimate', color: 'bg-teal-500', textColor: 'text-teal-700', icon: '✓' };
+    if (gpa >= 2.5) return { message: '2.5–2.99 on this estimate', color: 'bg-yellow-500', textColor: 'text-yellow-700', icon: '•' };
+    return { message: 'Below 2.5 on this estimate', color: 'bg-orange-500', textColor: 'text-orange-700', icon: '•' };
   };
 
   return (
@@ -147,7 +167,7 @@ export default function WeightedGPACalculator() {
       <div className="flex flex-col sm:flex-row gap-3 items-start sm:items-center justify-between bg-gradient-to-r from-blue-50 to-purple-50 p-4 rounded-2xl border border-blue-200">
         <div>
           <p className="font-bold text-gray-900 text-lg mb-1">Weighted GPA Calculator</p>
-          <p className="text-sm text-gray-600">Calculate your GPA with Honors and AP course weighting</p>
+          <p className="text-sm text-gray-600">Estimate GPA using the weighting assumptions shown below</p>
         </div>
         <div className="flex flex-col sm:flex-row gap-2 w-full sm:w-auto">
           <button
@@ -164,6 +184,10 @@ export default function WeightedGPACalculator() {
           </button>
         </div>
       </div>
+
+      <p className="rounded-lg border border-amber-200 bg-amber-50 p-3 text-sm text-amber-900">
+        This estimate uses a 4.0 base scale, adds 0.5 for Honors and 1.0 for AP/IB, and does not model every school&apos;s policy. Confirm your school&apos;s scale and course weights.
+      </p>
 
       {/* Weighted GPA Scale Reference */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
@@ -245,6 +269,8 @@ export default function WeightedGPACalculator() {
                     paddingRight: '2.5rem'
                   }}
                 >
+                  <option value="">Select a grade</option>
+                  <option value="A+">A+ (4.0)</option>
                   <option value="A">A (4.0)</option>
                   <option value="A-">A- (3.7)</option>
                   <option value="B+">B+ (3.3)</option>
@@ -253,7 +279,9 @@ export default function WeightedGPACalculator() {
                   <option value="C+">C+ (2.3)</option>
                   <option value="C">C (2.0)</option>
                   <option value="C-">C- (1.7)</option>
+                  <option value="D+">D+ (1.3)</option>
                   <option value="D">D (1.0)</option>
+                  <option value="D-">D- (0.7)</option>
                   <option value="F">F (0.0)</option>
                 </select>
               </div>
@@ -351,6 +379,12 @@ export default function WeightedGPACalculator() {
         </button>
       </div>
 
+      {error && (
+        <p role="alert" className="rounded-lg border border-red-200 bg-red-50 px-4 py-3 text-sm text-red-700">
+          {error}
+        </p>
+      )}
+
       {/* GPA Result */}
       {gpaResult && (
         <div className="space-y-6 animate-fade-in">
@@ -390,23 +424,23 @@ export default function WeightedGPACalculator() {
 
           {/* GPA Benchmarks */}
           <div className="bg-white rounded-2xl p-6 border border-gray-200">
-            <p className="font-bold text-gray-900 mb-4 text-lg">📊 Weighted GPA Benchmarks</p>
+            <p className="font-bold text-gray-900 mb-4 text-lg">📊 Illustrative ranges (not official GPA standards)</p>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
               <div className={`p-3 rounded-lg text-center ${gpaResult.gpa >= 4.5 ? 'bg-purple-100 border border-purple-300' : 'bg-gray-50 border border-gray-200'}`}>
                 <div className="text-sm font-bold text-gray-900">4.5+</div>
-                <div className="text-xs text-gray-600">Elite Performance</div>
+                <div className="text-xs text-gray-600">At least 4.5</div>
               </div>
               <div className={`p-3 rounded-lg text-center ${gpaResult.gpa >= 4.0 && gpaResult.gpa < 4.5 ? 'bg-green-100 border border-green-300' : 'bg-gray-50 border border-gray-200'}`}>
                 <div className="text-sm font-bold text-gray-900">4.0-4.5</div>
-                <div className="text-xs text-gray-600">Excellent</div>
+                <div className="text-xs text-gray-600">4.0 to 4.49</div>
               </div>
               <div className={`p-3 rounded-lg text-center ${gpaResult.gpa >= 3.5 && gpaResult.gpa < 4.0 ? 'bg-blue-100 border border-blue-300' : 'bg-gray-50 border border-gray-200'}`}>
                 <div className="text-sm font-bold text-gray-900">3.5-4.0</div>
-                <div className="text-xs text-gray-600">Very Good</div>
+                <div className="text-xs text-gray-600">3.5 to 3.99</div>
               </div>
               <div className={`p-3 rounded-lg text-center ${gpaResult.gpa < 3.5 ? 'bg-yellow-100 border border-yellow-300' : 'bg-gray-50 border border-gray-200'}`}>
                 <div className="text-sm font-bold text-gray-900">Below 3.5</div>
-                <div className="text-xs text-gray-600">Average</div>
+                <div className="text-xs text-gray-600">Below 3.5</div>
               </div>
             </div>
           </div>
@@ -425,7 +459,7 @@ export default function WeightedGPACalculator() {
                   <th className="text-center py-3 px-4 font-bold text-gray-900">Weighted</th>
                   <th className="text-center py-3 px-4 font-bold text-gray-900">Credits</th>
                   <th className="text-center py-3 px-4 font-bold text-gray-900">Total Points</th>
-                  <th className="text-center py-3 px-4 font-bold text-gray-900">Weight %</th>
+                  <th className="text-center py-3 px-4 font-bold text-gray-900">Credit Share</th>
                 </tr>
               </thead>
               <tbody>
@@ -489,9 +523,9 @@ export default function WeightedGPACalculator() {
           <div>
             <p className="font-bold text-gray-900 mb-2">💡 How to Use This Calculator</p>
             <ul className="text-gray-700 text-sm space-y-1 list-disc list-inside">
-              <li>Select the correct course level (Regular, Honors, or AP/IB) for accurate weighting</li>
+              <li>Select a course level to apply the illustrative weight used by this calculator</li>
               <li>Enter each course's grade, credit hours, and level</li>
-              <li>Honors classes add +0.5 points, AP/IB classes add +1.0 point</li>
+              <li>This estimate adds +0.5 for Honors and +1.0 for AP/IB; actual school rules vary</li>
               <li>Click "Calculate Weighted GPA" to see instant results and detailed breakdown</li>
               <li>Use "Load Example" to see how the calculator works with sample data</li>
             </ul>

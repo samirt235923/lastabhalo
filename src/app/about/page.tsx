@@ -3,8 +3,13 @@ import Link from 'next/link';
 import { jsonLdStringify } from '@/lib/jsonLd';
 
 export const metadata: Metadata = {
-  title: 'About Us - GPA Calculator',
-  description: 'Learn about GPA Calculator and our mission to help students succeed academically.',
+  title: 'About Top GPA Calculator',
+  description: 'Learn how Top GPA Calculator estimates GPA and why school grading policies remain the source of official results.',
+  openGraph: {
+    title: 'About Top GPA Calculator',
+    description: 'Learn how Top GPA Calculator estimates GPA and why school grading policies remain the source of official results.',
+    url: 'https://topgpacalculator.com/about',
+  },
   alternates: {
     canonical: 'https://topgpacalculator.com/about',
   },
@@ -14,14 +19,14 @@ export default function AboutPage() {
   const aboutSchema = {
     '@context': 'https://schema.org',
     '@type': 'AboutPage',
-    name: 'About TopGPAcalculator',
+    name: 'About Top GPA Calculator',
     description:
-      'TopGPAcalculator provides free GPA tools, educational guidance, and resources to help students plan and improve academic performance.',
+      'Top GPA Calculator provides free tools to estimate grade point averages and understand GPA calculations.',
     url: 'https://topgpacalculator.com/about',
     image: 'https://topgpacalculator.com/logo.svg',
     mainEntity: {
       '@type': 'Organization',
-      name: 'TopGPAcalculator',
+      name: 'Top GPA Calculator',
       url: 'https://topgpacalculator.com',
       logo: 'https://topgpacalculator.com/logo.svg',
     },
@@ -41,7 +46,7 @@ export default function AboutPage() {
         <div className="max-w-6xl mx-auto px-4">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">About GPA Calculator</h1>
           <p className="text-xl text-blue-100">
-            Helping students succeed since 2024
+            Independent tools and explanations for understanding GPA
           </p>
         </div>
       </section>
@@ -51,35 +56,35 @@ export default function AboutPage() {
         <div className="max-w-4xl mx-auto px-4">
           <h2 className="text-3xl font-bold text-gray-800 mb-6">Who We Are</h2>
           <p className="text-gray-700 mb-6 leading-relaxed">
-            We are a small, student-first team focused on building simple and reliable GPA tools for learners worldwide.
-            Our goal is to make academic planning easier and more transparent for students at all stages.
+            Top GPA Calculator is an independent educational website with free tools for estimating grade point averages.
+            The calculators are for planning and learning; they are not affiliated with schools or admissions offices.
           </p>
 
           <h2 className="text-3xl font-bold text-gray-800 mb-6">Mission</h2>
           <p className="text-gray-700 mb-6 leading-relaxed">
-            Our mission is to provide accurate, practical, and free GPA calculators plus guidance, so every student can
-            track progress with confidence and make informed academic decisions.
+            Our goal is to make common GPA formulas easier to use and understand. Each estimate depends on the grades,
+            credit values, and scale entered by the visitor.
           </p>
 
-          <h2 className="text-3xl font-bold text-gray-800 mb-6">Experience</h2>
+          <h2 className="text-3xl font-bold text-gray-800 mb-6">How the calculators work</h2>
           <p className="text-gray-700 mb-6 leading-relaxed">
-            Although we started in 2024, we bring active experience helping students improve GPA management through
-            consistent tool updates, user feedback, and real-world education best practices.
-            We are transparent about our beginner-stage journey and committed to growing expertise every day.
+            Most tools apply the grade-point average formula: total grade points divided by the credits included in
+            the calculation. Schools can use different scales and rules for repeats, withdrawals, and pass/fail courses.
+            Check your transcript or registrar for an official result.
           </p>
 
           <h2 className="text-3xl font-bold text-gray-800 mb-6 mt-12">What We Offer</h2>
           <div className="grid md:grid-cols-2 gap-6 mb-8">
             <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-600">
-              <h3 className="text-xl font-bold text-blue-600 mb-3">50+ Free Calculators</h3>
+              <h3 className="text-xl font-bold text-blue-600 mb-3">Free GPA Calculators</h3>
               <p className="text-gray-700">
                 From high school GPA to medical school GPA, we have specialized calculators for every situation.
               </p>
             </div>
             <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-600">
-              <h3 className="text-xl font-bold text-blue-600 mb-3">Expert Blog</h3>
+              <h3 className="text-xl font-bold text-blue-600 mb-3">Guides and Explanations</h3>
               <p className="text-gray-700">
-                Read articles from education experts on improving GPA and academic success strategies.
+                Read plain-language explanations of GPA formulas, grading scales, and academic planning.
               </p>
             </div>
             <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-600">
@@ -91,23 +96,22 @@ export default function AboutPage() {
             <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-600">
               <h3 className="text-xl font-bold text-blue-600 mb-3">Accurate & Reliable</h3>
               <p className="text-gray-700">
-                Uses standard GPA calculation methods recognized by schools and universities.
+                Shows the formula used so visitors can compare it with their school&apos;s grading policy.
               </p>
             </div>
           </div>
 
-          <h2 className="text-3xl font-bold text-gray-800 mb-6 mt-12">Why Trust Us</h2>
+          <h2 className="text-3xl font-bold text-gray-800 mb-6 mt-12">What to know about our estimates</h2>
           <p className="text-gray-700 mb-4 leading-relaxed">
-            We provide transparent methodology, open calculator formulas, and a privacy-first user experience.
-            Our tools are built using standard grading systems recognized across US schools and colleges.
-            We do not require sign-in, and there are no hidden costs, so students can trust us to be reliable and fair.
+            These calculators provide estimates, not official academic records or admissions advice. We do not represent
+            any school, and the same letter grade can have different point values at different institutions.
           </p>
 
           <h2 className="text-3xl font-bold text-gray-800 mb-6 mt-12">Why Choose Us?</h2>
           <ul className="list-disc list-inside space-y-3 text-gray-700 mb-8">
             <li>Simple, intuitive interface that works on all devices</li>
             <li>Instant results without waiting or processing time</li>
-            <li>No ads cluttering the calculator interface</li>
+            <li>No account is required to use the calculators</li>
             <li>Educational content to help you improve your GPA</li>
             <li>Supporting students globally</li>
           </ul>
@@ -125,14 +129,6 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* AdSense */}
-      <section className="py-8 bg-gray-50">
-        <div className="max-w-6xl mx-auto px-4">
-          <div className="bg-gray-100 border-2 border-gray-300 rounded-lg p-8 text-center">
-            <p className="text-gray-600">Advertisement Space</p>
-          </div>
-        </div>
-      </section>
     </div>
   );
 }

@@ -54,7 +54,7 @@ export default function GPACalculatorsPage() {
     "@type": "CollectionPage",
     "@id": "https://topgpacalculator.com/gpa-calculators#collectionpage",
     "name": "All GPA Calculators",
-    "description": "Browse all 50+ free GPA calculators. Find the perfect calculator for college GPA, high school GPA, weighted GPA, and more.",
+    "description": "Browse free GPA calculators for college, high school, weighted, semester, and cumulative GPA estimates.",
     "url": "https://topgpacalculator.com/gpa-calculators",
     "mainEntity": {
       "@type": "ItemList",

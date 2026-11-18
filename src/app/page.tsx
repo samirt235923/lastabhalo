@@ -56,7 +56,7 @@ export default function Home() {
               </h1>
 
               <p className="text-lg lg:text-xl text-secondary-600 mb-8 leading-relaxed max-w-2xl">
-                Get your college or high school GPA instantly with our free, accurate calculator.
+                Estimate your college or high school GPA with a free calculator.
                 Perfect for students, parents, and educators across the United States.
               </p>
 
@@ -87,7 +87,7 @@ export default function Home() {
                   <svg className="w-5 h-5 text-blue-500" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M2.166 4.999A11.954 11.954 0 0010 1.944 11.954 11.954 0 0017.834 5c.11.65.166 1.32.166 2.001 0 5.225-3.34 9.67-8 11.317C5.34 16.67 2 12.225 2 7c0-.682.057-1.35.166-2.001zm11.541 3.708a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                   </svg>
-                  100% Accurate
+                  School scales vary
                 </div>
                 <div className="flex items-center gap-2">
                   <svg className="w-5 h-5 text-purple-500" fill="currentColor" viewBox="0 0 20 20">
@@ -101,54 +101,17 @@ export default function Home() {
             {/* Hero Visual */}
             <div className="relative">
               <div className="relative bg-white rounded-3xl shadow-large p-8 border border-secondary-200">
-                {/* Mock Calculator Interface */}
-                <div className="space-y-6">
-                  <div className="flex items-center justify-between">
-                  <div className="text-xl font-bold text-secondary-900">GPA Calculator</div>
-                    <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse"></div>
-                  </div>
-
-                  {/* Sample Course Inputs */}
-                  <div className="space-y-4">
-                    <div className="grid grid-cols-3 gap-3">
-                      <div className="bg-secondary-50 rounded-xl p-3">
-                        <div className="text-xs text-secondary-500 mb-1">Course</div>
-                        <div className="h-2 bg-secondary-200 rounded animate-pulse"></div>
-                      </div>
-                      <div className="bg-secondary-50 rounded-xl p-3">
-                        <div className="text-xs text-secondary-500 mb-1">Grade</div>
-                        <div className="h-2 bg-secondary-200 rounded animate-pulse"></div>
-                      </div>
-                      <div className="bg-secondary-50 rounded-xl p-3">
-                        <div className="text-xs text-secondary-500 mb-1">Credits</div>
-                        <div className="h-2 bg-secondary-200 rounded animate-pulse"></div>
-                      </div>
-                    </div>
-
-                    <div className="grid grid-cols-3 gap-3">
-                      <div className="bg-secondary-50 rounded-xl p-3">
-                        <div className="h-2 bg-secondary-200 rounded animate-pulse mt-4"></div>
-                      </div>
-                      <div className="bg-secondary-50 rounded-xl p-3">
-                        <div className="h-2 bg-secondary-200 rounded animate-pulse mt-4"></div>
-                      </div>
-                      <div className="bg-secondary-50 rounded-xl p-3">
-                        <div className="h-2 bg-secondary-200 rounded animate-pulse mt-4"></div>
-                      </div>
-                    </div>
-                  </div>
-
-                  {/* Result Display */}
-                  <div className="bg-gradient-primary rounded-xl p-6 text-center text-white">
-                    <div className="text-sm opacity-90 mb-2">Your GPA</div>
-                    <div className="text-4xl font-bold mb-1">3.67</div>
-                    <div className="text-sm opacity-90">Excellent Performance!</div>
-                  </div>
-
-                  <button className="w-full bg-primary-600 hover:bg-primary-700 text-white font-semibold py-3 px-6 rounded-xl transition-all duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5">
-                    Calculate GPA
-                  </button>
+                <h2 className="text-2xl font-bold text-secondary-900 mb-4">How the estimate works</h2>
+                <p className="text-secondary-600 mb-6">
+                  Multiply each course&apos;s grade points by its credits, add those points, then divide by the credits included in the calculation.
+                </p>
+                <div className="rounded-xl bg-primary-50 p-6 text-center">
+                  <p className="text-sm font-semibold text-primary-700">GPA formula</p>
+                  <p className="mt-2 text-xl font-bold text-secondary-900">Grade points earned ÷ GPA credits</p>
                 </div>
+                <p className="mt-6 text-sm text-secondary-600">
+                  Schools may treat plus/minus grades, repeated courses, and pass/fail work differently. Check your transcript rules for an official GPA.
+                </p>
 
                 {/* Floating Elements */}
                 <div className="absolute -top-4 -right-4 w-8 h-8 bg-accent-500 rounded-full flex items-center justify-center shadow-lg animate-bounce-subtle">
@@ -195,7 +158,7 @@ export default function Home() {
               Why Choose Our GPA Calculator?
             </h2>
             <p className="text-lg text-secondary-600 max-w-2xl mx-auto">
-              Join thousands of students who trust our calculator for accurate GPA calculations
+              A straightforward way to estimate GPA and understand the calculation.
             </p>
           </div>
 
@@ -218,9 +181,9 @@ export default function Home() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-bold text-secondary-900 mb-3">100% Accurate</h3>
+              <h3 className="text-xl font-bold text-secondary-900 mb-3">Transparent Formula</h3>
               <p className="text-secondary-600 leading-relaxed">
-                Uses the standard 4.0 GPA scale formula used by colleges and universities across the US.
+                See how course grades and credit hours contribute to the result.
               </p>
             </div>
 
@@ -266,9 +229,9 @@ export default function Home() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-bold text-secondary-900 mb-3">Trusted by Students</h3>
+              <h3 className="text-xl font-bold text-secondary-900 mb-3">No Account Needed</h3>
               <p className="text-secondary-600 leading-relaxed">
-                Used by thousands of students across the United States for accurate GPA calculations.
+                Enter course details directly in the calculator without creating an account.
               </p>
             </div>
           </div>
@@ -326,30 +289,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Stats Section */}
-      <section className="defer-paint py-20 bg-gradient-primary">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 text-center">
-            <div className="text-white">
-              <div className="text-4xl lg:text-5xl font-bold mb-2">50+</div>
-              <div className="text-primary-100 text-lg">GPA Calculators</div>
-            </div>
-            <div className="text-white">
-              <div className="text-4xl lg:text-5xl font-bold mb-2">100K+</div>
-              <div className="text-primary-100 text-lg">Students Helped</div>
-            </div>
-            <div className="text-white">
-              <div className="text-4xl lg:text-5xl font-bold mb-2">4.9/5</div>
-              <div className="text-primary-100 text-lg">User Rating</div>
-            </div>
-            <div className="text-white">
-              <div className="text-4xl lg:text-5xl font-bold mb-2">100%</div>
-              <div className="text-primary-100 text-lg">Free Forever</div>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Blog Preview */}
       <section className="defer-paint py-20 bg-secondary-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -396,7 +335,7 @@ export default function Home() {
                   How to Improve Your GPA
                 </h3>
                 <p className="text-secondary-600 leading-relaxed mb-6">
-                  Discover proven strategies to boost your GPA and academic performance. From study habits to time management techniques.
+                  Explore practical strategies for improving study habits and planning your coursework.
                 </p>
                 <Link href="/blog/how-to-improve-gpa" className="inline-flex items-center text-primary-600 font-semibold hover:text-primary-700 transition-colors">
                   <span>Read Article</span>

@@ -11,48 +11,48 @@ const faqItems = [
   },
   { 
     question: 'What GPA do I need to reach my goal?', 
-    answer: 'The GPA you need depends on your current standing and how many credits you have remaining. Use our target GPA calculator to determine exactly what grades you need in your upcoming courses to achieve your desired cumulative GPA.' 
+    answer: 'The average GPA you need depends on your current standing and how many GPA-bearing credits remain. Enter those values to estimate the average needed across your upcoming courses.'
   },
   { 
-    question: 'Can I reach a 4.0 GPA if my current GPA is lower?', 
-    answer: 'Reaching a 4.0 cumulative GPA is only possible if you have very few credits completed with a lower GPA. Once you accumulate significant credits, mathematically achieving a perfect 4.0 becomes impossible. Use our calculator to see if your target is achievable.' 
+    question: 'Can I reach a 4.0 GPA if my current GPA is lower?',
+    answer: 'It depends on your completed credits and future GPA-bearing credits. Enter your values to see the required average; a required average above the selected scale maximum cannot be reached through future grades alone.'
   },
   { 
     question: 'Is my target GPA realistic?', 
-    answer: 'A target GPA is realistic if the required GPA for upcoming courses is 4.0 or below. If the calculator shows you need above a 4.0, your goal is mathematically impossible. If you need 3.7-4.0, it is difficult but achievable with mostly A grades.' 
+    answer: 'A required average above the selected scale maximum is not attainable through future coursework alone. The weighted option uses assumptions and may not match your school\'s rules.'
   },
   { 
     question: 'How many credits affect my GPA the most?', 
     answer: 'Courses with more credit hours have a greater impact on your GPA. A 4-credit course affects your GPA twice as much as a 2-credit course. Focus on performing well in high-credit courses to maximize your GPA improvement.' 
   },
   { 
-    question: 'How does weighted GPA affect my target?', 
-    answer: 'Honors courses add 0.5 to your grade points, and AP courses add 1.0 (up to a maximum of 5.0). Taking weighted courses can help you achieve a higher GPA more easily, but the impact depends on your school\'s grading policy.' 
-  },
-  { 
-    question: 'What if I need a higher GPA than 4.0 to reach my goal?', 
-    answer: 'If the calculator shows you need above a 4.0 GPA in upcoming courses, your target is mathematically impossible to achieve. Consider adjusting your target to a more realistic goal, or explore options like retaking courses to replace lower grades.' 
+    question: 'What if the required GPA is above my scale maximum?',
+    answer: 'The target cannot be reached through future coursework alone on the selected scale. Check your school policy and whether options such as retaking a course can affect your official GPA.'
   },
   { 
     question: 'Can I calculate target GPA for multiple semesters?', 
     answer: 'Yes, you can use the calculator for multiple semesters by adding up all your upcoming credits. Enter the total credits you plan to take across all remaining semesters to see what average GPA you need to maintain to reach your goal.' 
   },
+  {
+    question: 'Can I include weighted courses?',
+    answer: 'Yes. Enable the weighted estimate and choose a level for each planned course. It uses +0.5 for Honors and +1.0 for AP as assumptions; enter current and target GPAs on that same scale and confirm your school\'s rules.',
+  },
 ];
 
 export const metadata: Metadata = {
   title: 'Target GPA Calculator – Calculate GPA Needed to Reach Your Goal',
-  description: 'Use our Target GPA Calculator to find out the GPA you need to achieve your academic goal. Enter current GPA and credits for instant results. Free, accurate, and easy to use.',
+  description: 'Estimate the average GPA needed in upcoming courses to reach a cumulative GPA goal using your current GPA and credit totals.',
   keywords: 'target gpa calculator, calculate target gpa, gpa target calculator, required gpa calculator, how to reach target gpa, gpa goal calculator, academic goal planner',
   openGraph: {
     title: 'Target GPA Calculator – Calculate GPA Needed to Reach Your Goal',
-    description: 'Use our Target GPA Calculator to find out the GPA you need to achieve your academic goal. Enter current GPA and credits for instant results.',
+    description: 'Estimate the average GPA needed in upcoming courses to reach a cumulative GPA goal using your current GPA and credit totals.',
     type: 'website',
     url: 'https://topgpacalculator.com/gpa-calculators/target-gpa-calculator',
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Target GPA Calculator – Calculate GPA Needed to Reach Your Goal',
-    description: 'Find out what GPA you need to reach your academic goals. Free calculator with instant results.',
+    description: 'Estimate the average GPA needed in upcoming courses to reach your academic goals.',
   },
   alternates: {
     canonical: 'https://topgpacalculator.com/gpa-calculators/target-gpa-calculator',
@@ -62,8 +62,7 @@ export const metadata: Metadata = {
 const relatedCalculators = [
   { href: '/gpa-calculators/cumulative-gpa-calculator', name: 'Cumulative GPA Calculator' },
   { href: '/gpa-calculators/semester-gpa-calculator', name: 'Semester GPA Calculator' },
-  { href: '/gpa-calculators/cumulative-gpa-calculator', name: 'Cumulative GPA Calculator' },
-  { href: '/gpa-calculators/gpa-goal-calculator', name: 'GPA Goal Calculator' },
+  { href: '/gpa-calculators/college-gpa-calculator', name: 'College GPA Calculator' },
   { href: '/gpa-calculators/weighted-gpa-calculator', name: 'Weighted GPA Calculator' },
 ];
 
@@ -88,12 +87,15 @@ export default function TargetGPACalculatorPage() {
         <header className="bg-gradient-to-r from-blue-600 to-indigo-600 text-white rounded-2xl p-8 mb-8 shadow-xl">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">Target GPA Calculator</h1>
           <p className="text-lg md:text-xl mb-3">
-            Use our <strong>target GPA calculator</strong> to find out exactly what GPA you need in your upcoming courses to reach your academic goals. 
+            Use our <strong>target GPA calculator</strong> to estimate the average GPA you need in upcoming courses to reach a cumulative GPA goal.
             Enter your current GPA, completed credits, and desired target GPA for instant results.
           </p>
           <p className="text-blue-100">
-            Whether you are aiming for a 3.5 for graduate school or a 3.0 for scholarship eligibility, 
+            Whether you are aiming for an academic goal,
             this calculator helps you plan your path to success.
+          </p>
+          <p className="text-sm text-blue-100 mt-3">
+            The default estimate uses a 4.0 scale. Optional weighted estimates use illustrative course bonuses; your school&apos;s GPA and credit rules may differ.
           </p>
         </header>
 
@@ -121,14 +123,13 @@ export default function TargetGPACalculatorPage() {
         <section id="what-is" className="bg-white rounded-2xl p-6 mb-8 border border-gray-200 shadow-sm">
           <h2 className="text-2xl font-bold mb-4">What Is a Target GPA Calculator</h2>
           <p className="text-gray-700 mb-4">
-            A <strong>target GPA calculator</strong> is an essential academic planning tool that helps students determine exactly what grades they need 
-            to achieve in upcoming courses to reach their desired cumulative GPA. Whether you are a college student aiming for graduate school admission, 
+            A <strong>target GPA calculator</strong> estimates the average GPA needed in upcoming courses to reach a desired cumulative GPA. The default uses a standard 4.0 scale; an optional weighted estimate is also available.
             a high school student working toward scholarship eligibility, or anyone looking to improve their academic standing, this calculator provides 
             the roadmap you need.
           </p>
           <p className="text-gray-700 mb-4">
             Understanding how to calculate your target GPA is crucial for academic success. Many students set goals without knowing whether they are 
-            realistically achievable. Our calculator removes the guesswork by using the standard GPA formula to show you exactly where you stand 
+            realistically achievable.             This calculator uses the standard cumulative-GPA formula to estimate what average you need
             and what it will take to get where you want to be.
           </p>
           <p className="text-gray-700">
@@ -192,8 +193,8 @@ export default function TargetGPACalculatorPage() {
             <li><strong>Upcoming Credits:</strong> Credit hours you plan to take</li>
           </ul>
           <p className="text-gray-700">
-            This formula works by calculating the total grade points needed to achieve your target, subtracting the grade points 
-            you have already earned, and then determining what average you need to maintain in your remaining courses.
+            This formula works by calculating the total grade points needed to achieve your target, subtracting the grade points
+            you have already earned, and then determining what average you need in your remaining GPA-bearing credits. Weighted estimates depend on your school's rules.
           </p>
         </section>
 
@@ -208,7 +209,7 @@ export default function TargetGPACalculatorPage() {
             <ul className="text-gray-700 space-y-1">
               <li>Current GPA: 3.2</li>
               <li>Current Credits: 30</li>
-              <li>Target GPA: 3.5</li>
+              <li>Target GPA: 3.4</li>
               <li>Upcoming Credits: 10 (next semester)</li>
             </ul>
           </div>
@@ -217,18 +218,18 @@ export default function TargetGPACalculatorPage() {
           </p>
           <div className="bg-slate-100 p-4 rounded-xl mb-4 font-mono text-sm">
             <p>Total Credits = 30 + 10 = 40</p>
-            <p>Required GPA = (3.5 × 40 − 3.2 × 30) ÷ 10</p>
+            <p>Required GPA = (3.4 × 40 − 3.2 × 30) ÷ 10</p>
             <p>Required GPA = (140 − 96) ÷ 10</p>
-            <p>Required GPA = 44 ÷ 10</p>
+            <p>Required GPA = 40 ÷ 10</p>
             <p className="text-lg font-bold text-blue-600">Required GPA = 4.0</p>
           </div>
           <p className="text-gray-700 mb-4">
-            <strong>Result:</strong> This student needs to achieve a perfect 4.0 GPA (straight A\'s) in all upcoming courses to reach a 3.5 cumulative GPA. 
+            <strong>Result:</strong> This student needs a 4.0 average on a standard 4.0 scale across upcoming courses to reach a 3.4 cumulative GPA.
             This would be classified as a <span className="text-orange-600 font-semibold">difficult</span> goal.
           </p>
           <p className="text-gray-700">
             If the calculation shows a required GPA above 4.0, the goal is mathematically impossible. In such cases, 
-            the student should either adjust their target GPA or consider taking additional credits to make the goal achievable.
+            The student should adjust the goal or add more GPA-bearing credits to the plan, if available.
           </p>
         </section>
 
@@ -258,7 +259,7 @@ export default function TargetGPACalculatorPage() {
 
           <h3 className="text-lg font-semibold text-gray-900 mb-2">Course Selection</h3>
           <ul className="list-disc list-inside text-gray-700 space-y-2">
-            <li>Take honors or AP courses for weighted GPA benefits (if available)</li>
+            <li>Check your school&apos;s grading policy, including whether it uses a weighted scale</li>
             <li>Research professors and choose those with teaching styles that match your learning</li>
             <li>Register for classes early to get the best schedules</li>
             <li>Consider summer courses to spread out your workload</li>
@@ -320,8 +321,7 @@ export default function TargetGPACalculatorPage() {
         <footer className="text-center text-sm text-gray-500 py-8 border-t border-gray-200">
           <p className="mb-2">© {new Date().getFullYear()} Top GPA Calculator. All rights reserved.</p>
           <p>
-            Use our target GPA calculator to plan your academic success. Always verify calculations with your 
-            school\'s official grading policy.
+            Use our target GPA calculator to plan your academic success.             Always verify calculations with your school&apos;s official grading policy.
           </p>
         </footer>
       </div>

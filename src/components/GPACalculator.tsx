@@ -10,7 +10,8 @@ interface Course {
   courseType: 'Regular' | 'Honors' | 'AP' | 'Advanced';
 }
 
-const gradePoints: { [key: string]: number } = {
+const gradePoints: Record<string, number | null> = {
+  'A+': 4.0,
   'A': 4.0,
   'A-': 3.7,
   'B+': 3.3,
@@ -21,12 +22,16 @@ const gradePoints: { [key: string]: number } = {
   'C-': 1.7,
   'D+': 1.3,
   'D': 1.0,
+  'D-': 0.7,
   'F': 0.0,
+  'P': null,
+  'NP': null,
+  'W': null,
 };
 
 export default function GPACalculator() {
   const [courses, setCourses] = useState<Course[]>([
-    { id: '1', name: '', grade: 'A', creditHours: 3, courseType: 'Regular' },
+    { id: '1', name: '', grade: '', creditHours: 3, courseType: 'Regular' },
   ]);
 
   const { gpa, weightedGPA, totalCredits, totalGradePoints, totalWeightedGradePoints, isValid } = useMemo(() => {
@@ -39,7 +44,11 @@ export default function GPACalculator() {
     }
 
     courses.forEach((course) => {
-      const basePoints = gradePoints[course.grade] || 0;
+      const basePoints = gradePoints[course.grade];
+      if (basePoints === null || basePoints === undefined || course.creditHours <= 0) {
+        return;
+      }
+
       const weightBoost =
         course.courseType === 'Honors' ? 0.5 :
         course.courseType === 'AP' ? 1.0 :
@@ -62,14 +71,21 @@ export default function GPACalculator() {
       totalCredits: totalCreds,
       totalGradePoints: parseFloat(totalPoints.toFixed(2)),
       totalWeightedGradePoints: parseFloat(totalWeightedPoints.toFixed(2)),
-      isValid: totalCreds > 0
+      isValid:
+        totalCreds > 0 &&
+        courses.every(
+          (course) =>
+            Object.prototype.hasOwnProperty.call(gradePoints, course.grade) &&
+            Number.isFinite(course.creditHours) &&
+            course.creditHours > 0
+        )
     };
   }, [courses]);
 
   const addCourse = () => {
     if (courses.length >= 25) return;
     const newId = Math.random().toString(36).substr(2, 9);
-    setCourses([...courses, { id: newId, name: '', grade: 'A', creditHours: 3, courseType: 'Regular' }]);
+    setCourses([...courses, { id: newId, name: '', grade: '', creditHours: 3, courseType: 'Regular' }]);
   };
 
   const removeCourse = (id: string) => {
@@ -87,7 +103,7 @@ export default function GPACalculator() {
   };
 
   const resetCalculator = () => {
-    setCourses([{ id: '1', name: '', grade: 'A', creditHours: 3, courseType: 'Regular' }]);
+    setCourses([{ id: '1', name: '', grade: '', creditHours: 3, courseType: 'Regular' }]);
   };
 
   const getGPAMessage = (gpaVal: number) => {
@@ -99,7 +115,7 @@ export default function GPACalculator() {
   };
 
   const handleCreditChange = (id: string, value: string) => {
-    const numValue = parseInt(value) || 0;
+    const numValue = parseFloat(value) || 0;
     updateCourse(id, 'creditHours', numValue);
   };
 
@@ -167,6 +183,8 @@ export default function GPACalculator() {
                       paddingRight: '2.5rem'
                     }}
                   >
+                    <option value="">Select a grade</option>
+                    <option value="A+">A+ (4.0 default)</option>
                     <option value="A">A (4.0)</option>
                     <option value="A-">A- (3.7)</option>
                     <option value="B+">B+ (3.3)</option>
@@ -177,7 +195,11 @@ export default function GPACalculator() {
                     <option value="C-">C- (1.7)</option>
                     <option value="D+">D+ (1.3)</option>
                     <option value="D">D (1.0)</option>
+                    <option value="D-">D- (0.7)</option>
                     <option value="F">F (0.0)</option>
+                    <option value="P">P (excluded)</option>
+                    <option value="NP">NP (excluded)</option>
+                    <option value="W">W (excluded)</option>
                   </select>
                 </div>
 
@@ -212,8 +234,9 @@ export default function GPACalculator() {
                   </label>
                   <input
                     type="number"
-                    min="1"
+                    min="0"
                     max="12"
+                    step="0.5"
                     placeholder="3"
                     value={course.creditHours}
                     onChange={(e) => handleCreditChange(course.id, e.target.value)}
@@ -266,7 +289,7 @@ export default function GPACalculator() {
         {/* GPA Summary */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
           <div className="rounded-xl p-4 bg-white border border-secondary-200">
-            <div className="text-sm font-semibold text-secondary-500">Total Credits</div>
+            <div className="text-sm font-semibold text-secondary-500">GPA Credits</div>
             <div className="text-2xl font-bold text-secondary-900">{totalCredits}</div>
           </div>
           <div className="rounded-xl p-4 bg-white border border-secondary-200">
@@ -334,9 +357,9 @@ export default function GPACalculator() {
             <div>
               <p className="font-semibold text-secondary-900 mb-2">How GPA is Calculated</p>
               <p className="text-secondary-600 text-sm leading-relaxed">
-                Your GPA is calculated by multiplying each course's grade points by its credit hours,
-                summing these values, and dividing by the total credit hours. This uses the standard
-                4.0 GPA scale used by colleges and universities across the United States.
+                Multiply each course&apos;s grade points by its credits, add those points, then divide by the credits included.
+                A+, pass/fail, withdrawal, and repeated-course rules vary by school. P, NP, and W are excluded here;
+                check your school&apos;s policy for official results.
               </p>
             </div>
           </div>

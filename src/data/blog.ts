@@ -1,7 +1,7 @@
 // Blog data for SEO blog posts
 import { blogContent } from './blogContent';
 
-export const blogPosts = [
+const posts = [
   {
     id: 'what-is-gpa',
     slug: 'what-is-gpa',
@@ -9,10 +9,9 @@ export const blogPosts = [
     metaDescription: 'Learn what GPA is, how it is calculated, and why it matters for your academic and professional future.',
     excerpt: 'GPA (Grade Point Average) is a numerical representation of your academic performance. Understanding GPA is crucial for college admissions.',
     content: blogContent['what-is-gpa'],
-    author: 'GPA Experts',
+    author: 'Top GPA Calculator Editorial Team',
     publishedDate: '2026-04-10',
     dateModified: '2026-04-10',
-    readTime: 8,
   },
   {
     id: 'how-to-improve-gpa',
@@ -21,10 +20,9 @@ export const blogPosts = [
     metaDescription: 'Discover effective strategies to improve your GPA and boost your academic performance.',
     excerpt: "If your GPA is lower than you'd like, don't worry. These 10 proven strategies will help you improve.",
     content: blogContent['how-to-improve-gpa'],
-    author: 'GPA Experts',
+    author: 'Top GPA Calculator Editorial Team',
     publishedDate: '2026-04-10',
     dateModified: '2026-04-10',
-    readTime: 10,
   },
   {
     id: 'gpa-for-ivy-league',
@@ -33,10 +31,9 @@ export const blogPosts = [
     metaDescription: 'Learn what GPA you need to be competitive for Ivy League universities.',
     excerpt: 'Ivy League schools have competitive GPA requirements. Discover what it takes to get accepted.',
     content: blogContent['gpa-for-ivy-league'],
-    author: 'GPA Experts',
+    author: 'Top GPA Calculator Editorial Team',
     publishedDate: '2026-04-10',
     dateModified: '2026-04-10',
-    readTime: 9,
   },
   {
     id: 'gpa-for-scholarships',
@@ -45,10 +42,9 @@ export const blogPosts = [
     metaDescription: 'Understand GPA requirements for various scholarships and how to maximize your eligibility.',
     excerpt: 'Many scholarships have GPA requirements. Learn what you need to qualify for financial aid.',
     content: blogContent['gpa-for-scholarships'],
-    author: 'GPA Experts',
+    author: 'Top GPA Calculator Editorial Team',
     publishedDate: '2026-04-10',
     dateModified: '2026-04-10',
-    readTime: 9,
   },
   {
     id: 'gpa-needed-harvard',
@@ -57,10 +53,9 @@ export const blogPosts = [
     metaDescription: 'Find out the GPA requirements for Harvard University admission and how to be competitive.',
     excerpt: 'Harvard is one of the most selective universities in the world. Discover the GPA needed to apply.',
     content: blogContent['gpa-needed-harvard'],
-    author: 'GPA Experts',
+    author: 'Top GPA Calculator Editorial Team',
     publishedDate: '2026-04-10',
     dateModified: '2026-04-10',
-    readTime: 9,
   },
   {
     id: 'how-gpa-affects-college-admission',
@@ -69,10 +64,9 @@ export const blogPosts = [
     metaDescription: 'Learn how your GPA impacts your college admission chances and overall academic future.',
     excerpt: 'Your GPA is one of the most important factors in college admissions. Understand its impact.',
     content: blogContent['gpa-affects-college-admission'],
-    author: 'GPA Experts',
+    author: 'Top GPA Calculator Editorial Team',
     publishedDate: '2026-04-10',
     dateModified: '2026-04-10',
-    readTime: 8,
   },
   {
     id: 'how-to-calculate-gpa',
@@ -81,10 +75,9 @@ export const blogPosts = [
     metaDescription: 'Learn how to calculate GPA with a simple formula and clear examples.',
     excerpt: 'A beginner-friendly guide to calculating GPA by hand, including weighted vs unweighted.',
     content: blogContent['how-to-calculate-gpa'],
-    author: 'GPA Experts',
+    author: 'Top GPA Calculator Editorial Team',
     publishedDate: '2026-04-10',
     dateModified: '2026-04-10',
-    readTime: 7,
   },
   {
     id: 'gpa-calculator-101',
@@ -93,11 +86,24 @@ export const blogPosts = [
     metaDescription: 'Learn how to use a GPA calculator effectively and understand why it matters for your academic success.',
     excerpt: 'A comprehensive guide to understanding and using GPA calculators for academic success.',
     content: blogContent['gpa-calculator-101'],
-    author: 'GPA Experts',
+    author: 'Top GPA Calculator Editorial Team',
     publishedDate: '2026-04-10',
     dateModified: '2026-04-10',
-    readTime: 8,
   },
 ];
+
+export const blogPosts = posts.map((post) => ({
+  ...post,
+  readTime: Math.max(
+    1,
+    Math.ceil(
+      post.content
+        .replace(/<[^>]*>/g, ' ')
+        .replace(/&nbsp;|&amp;|&quot;|&#39;/g, ' ')
+        .split(/\s+/)
+        .filter(Boolean).length / 200
+    )
+  ),
+}));
 
 export default blogPosts;

@@ -1,8 +1,13 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Privacy Policy - GPA Calculator',
-  description: 'Privacy policy for GPA Calculator. Learn how we protect your information.',
+  title: 'Privacy Policy - Top GPA Calculator',
+  description: 'Learn what information Top GPA Calculator processes, how Google Analytics works, and how advertising privacy choices will be handled.',
+  openGraph: {
+    title: 'Privacy Policy - Top GPA Calculator',
+    description: 'Learn what information Top GPA Calculator processes, how Google Analytics works, and how advertising privacy choices will be handled.',
+    url: 'https://topgpacalculator.com/privacy-policy',
+  },
   alternates: {
     canonical: 'https://topgpacalculator.com/privacy-policy',
   },
@@ -16,7 +21,7 @@ export default function PrivacyPolicyPage() {
         <div className="max-w-6xl mx-auto px-4">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">Privacy Policy</h1>
           <p className="text-xl text-blue-100">
-            Last updated: {new Date().toLocaleDateString()}
+            Last updated: November 18, 2026
           </p>
         </div>
       </section>
@@ -26,42 +31,44 @@ export default function PrivacyPolicyPage() {
         <div className="max-w-4xl mx-auto px-4 prose prose-lg max-w-none">
           <h2 className="text-3xl font-bold text-gray-800 mt-8 mb-4">1. Introduction</h2>
           <p className="text-gray-700 mb-6">
-            Welcome to GPA Calculator ("we," "us," "our," or "Company"). We are committed to protecting your
-            privacy and ensuring you have a positive experience on our website.
+            This policy explains how Top GPA Calculator handles information when you visit this website. The calculators
+            do not require an account, and the course details you enter are processed in your browser rather than sent
+            to our server.
           </p>
 
           <h2 className="text-3xl font-bold text-gray-800 mt-8 mb-4">2. Information We Collect</h2>
           <p className="text-gray-700 mb-6">
-            We collect information you provide directly to us, such as when you:
+            We do not ask visitors to create accounts. If you contact us, the contact form opens your email application;
+            information is sent only if you choose to send that email. Calculator entries are processed locally in your
+            browser and are not submitted to us.
           </p>
           <ul className="list-disc list-inside space-y-2 text-gray-700 mb-6">
-            <li>Use our GPA calculator</li>
-            <li>Contact us via email or contact form</li>
-            <li>Subscribe to our newsletter</li>
-            <li>Browse our website</li>
+            <li>Use the contact link or email us at info@topgpacalculator.com</li>
+            <li>Visit pages while Google Analytics is enabled in the production site</li>
           </ul>
 
           <h2 className="text-3xl font-bold text-gray-800 mt-8 mb-4">3. Data Collection</h2>
           <p className="text-gray-700 mb-6">
-            We collect data to operate and improve the website. This may include:
+            Google Analytics may process usage and device information to report how the site is used. Hosting providers
+            may also process technical request data needed to deliver pages and protect the service. This can include:
           </p>
           <ul className="list-disc list-inside space-y-2 text-gray-700 mb-6">
             <li>Usage data (pages visited, time on site, interaction events)</li>
             <li>Device and browser information (IP address, user agent, screen size)</li>
             <li>Cookies and similar tracking technologies</li>
-            <li>Data you provide directly (form submissions, support requests)</li>
+            <li>Contact information and message text you choose to send by email</li>
           </ul>
 
           <h2 className="text-3xl font-bold text-gray-800 mt-8 mb-4">4. How We Use Your Information</h2>
           <p className="text-gray-700 mb-6">
-            We use the information we collect for various purposes:
+            We use this information to operate the site, understand aggregate page usage, respond to messages, and protect
+            the service. We do not store GPA entries or use them to identify visitors.
           </p>
           <ul className="list-disc list-inside space-y-2 text-gray-700 mb-6">
             <li>To provide and improve our services</li>
             <li>To respond to your inquiries</li>
-            <li>To send service-related announcements</li>
             <li>To analyze site usage and trends</li>
-            <li>To improve website functionality</li>
+            <li>To respond to messages you choose to send</li>
           </ul>
 
           <h2 className="text-3xl font-bold text-gray-800 mt-8 mb-4">5. Data Security</h2>
@@ -70,58 +77,79 @@ export default function PrivacyPolicyPage() {
             against unauthorized access, alteration, disclosure, or destruction.
           </p>
 
-          <h2 className="text-3xl font-bold text-gray-800 mt-8 mb-4">5. Third-Party Services</h2>
+          <h2 className="text-3xl font-bold text-gray-800 mt-8 mb-4">6. Third-Party Services</h2>
           <p className="text-gray-700 mb-6">
             Our website may include links to third-party websites and services. We are not responsible for the
             privacy practices of external sites. Please review their privacy policies before providing any
             information.
           </p>
 
-          <h2 className="text-3xl font-bold text-gray-800 mt-8 mb-4">6. Google Analytics and Google AdSense</h2>
+          <h2 className="text-3xl font-bold text-gray-800 mt-8 mb-4">7. Analytics and Advertising</h2>
           <p className="text-gray-700 mb-6">
-            We use Google Analytics to analyze website traffic and improve user experiences. Google Analytics
-            uses cookies to track page views and user interactions. We also display advertisements through Google
-            AdSense, which may collect information about your visits to this and other sites to provide targeted ads.
-            For more information, please review the Google Analytics and Google AdSense privacy policies.
+            Google Analytics is enabled on the production site and may use cookies or similar technologies to measure
+            visits and interactions. The site does not currently display Google AdSense ads. If advertising is enabled,
+            Google and other third-party vendors may use cookies or similar identifiers to serve ads based on a visitor&apos;s
+            previous visits to this or other websites. Google&apos;s use of advertising cookies enables it and its partners
+            to serve ads based on those visits.
+          </p>
+          <p className="text-gray-700 mb-6">
+            Learn how Google uses information from sites and apps that use its services at{' '}
+            <a className="text-blue-600 underline" href="https://policies.google.com/technologies/partner-sites">
+              Google&apos;s partner-sites policy
+            </a>
+            . You can manage ad personalization in{' '}
+            <a className="text-blue-600 underline" href="https://adssettings.google.com/">
+              Google Ads Settings
+            </a>{' '}
+            or opt out of participating third-party vendors through{' '}
+            <a className="text-blue-600 underline" href="https://www.aboutads.info/choices/">
+              the Digital Advertising Alliance
+            </a>
+            . These controls do not disable all advertising.
+          </p>
+          <p className="text-gray-700 mb-6">
+            If ads are introduced, we will update this notice and use any consent mechanism required for the regions
+            where ads are served before enabling advertising there.
           </p>
 
-          <h2 className="text-3xl font-bold text-gray-800 mt-8 mb-4">7. Cookies</h2>
+          <h2 className="text-3xl font-bold text-gray-800 mt-8 mb-4">8. Cookies</h2>
           <p className="text-gray-700 mb-6">
-            We may use cookies to enhance your experience. Most web browsers automatically accept cookies, but
-            you can usually modify your browser settings to refuse cookies or receive a warning before a cookie
-            is saved.
+            Google Analytics and, if enabled in the future, advertising providers may use cookies or similar technologies.
+            You can control cookies in your browser settings; blocking them may affect some site features or measurement.
           </p>
 
-          <h2 className="text-3xl font-bold text-gray-800 mt-8 mb-4">8. Children's Privacy</h2>
+          <h2 className="text-3xl font-bold text-gray-800 mt-8 mb-4">9. Children&apos;s Privacy</h2>
           <p className="text-gray-700 mb-6">
-            Our website is designed for educational purposes and may be accessed by students of all ages. We do
-            not knowingly collect personal information from children under 13 without parental consent.
+            The site provides general educational tools and does not ask users to provide personal information to use
+            the calculators. We do not knowingly collect personal information from children under 13. Please do not
+            include identifying information in calculator fields. If you believe a child has sent us personal information,
+            contact us so we can review and address the request.
           </p>
 
-          <h2 className="text-3xl font-bold text-gray-800 mt-8 mb-4">9. Changes to Privacy Policy</h2>
+          <h2 className="text-3xl font-bold text-gray-800 mt-8 mb-4">10. Data Retention and Privacy Rights</h2>
           <p className="text-gray-700 mb-6">
-            We reserve the right to update this privacy policy at any time. We will notify you of any changes
-            by posting the new policy on this page and updating the "Last Updated" date.
+            We retain information only as long as needed for the purposes described above. Google Analytics retention is
+            controlled by the settings of the Analytics property. Depending on where you live, privacy laws may give you
+            rights to request access to, correction of, or deletion of personal information, or to opt out of certain
+            processing. To make a request, email info@topgpacalculator.com.
           </p>
 
-          <h2 className="text-3xl font-bold text-gray-800 mt-8 mb-4">10. Contact Us</h2>
+          <h2 className="text-3xl font-bold text-gray-800 mt-8 mb-4">11. Changes to This Policy</h2>
+          <p className="text-gray-700 mb-6">
+            We may update this policy when site practices change. The latest revision date will appear at the top of
+            this page.
+          </p>
+
+          <h2 className="text-3xl font-bold text-gray-800 mt-8 mb-4">12. Contact Us</h2>
           <p className="text-gray-700 mb-6">
             If you have any questions or concerns about our privacy policy, please contact us at:
           </p>
           <p className="text-gray-700">
-            <strong>Email:</strong> privacy@topgpacalculator.com
+            <strong>Email:</strong> info@topgpacalculator.com
           </p>
         </div>
       </section>
 
-      {/* AdSense */}
-      <section className="py-8 bg-gray-50">
-        <div className="max-w-6xl mx-auto px-4">
-          <div className="bg-gray-100 border-2 border-gray-300 rounded-lg p-8 text-center">
-            <p className="text-gray-600">Advertisement Space</p>
-          </div>
-        </div>
-      </section>
     </div>
   );
 }

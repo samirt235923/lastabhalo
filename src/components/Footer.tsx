@@ -15,12 +15,12 @@ export default function Footer() {
                 <span className="font-bold text-white text-lg">GPA</span>
               </div>
               <div>
-                <h3 className="text-xl font-bold">GPA Calculator</h3>
-                <p className="text-sm text-secondary-400">Free & Accurate</p>
+                <h3 className="text-xl font-bold">Top GPA Calculator</h3>
+                <p className="text-sm text-secondary-400">GPA estimate tools</p>
               </div>
             </Link>
             <p className="text-secondary-300 leading-relaxed mb-6">
-              Calculate your GPA instantly with our free, accurate calculator. Perfect for college and high school students across the United States.
+              Estimate your GPA with free tools. Grading scales and school policies vary, so use your transcript or registrar for official results.
             </p>
             <div className="flex space-x-4">
               <a
@@ -139,28 +139,15 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Newsletter */}
+          {/* Updates */}
           <div>
-            <p className="text-lg font-semibold mb-6 text-white">Stay Updated</p>
+            <p className="text-lg font-semibold mb-6 text-white">More Resources</p>
             <p className="text-secondary-300 mb-4 leading-relaxed">
-              Get GPA tips, calculator updates, and study advice delivered to your inbox.
+              Read the latest GPA explanations and practical academic planning guides.
             </p>
-            <form className="space-y-3">
-              <input
-                type="email"
-                placeholder="Enter your email"
-                className="w-full px-4 py-3 bg-secondary-800 border border-secondary-700 rounded-xl text-white placeholder-secondary-400 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-primary-500 transition-all duration-200"
-              />
-              <button
-                type="submit"
-                className="w-full bg-primary-600 hover:bg-primary-700 text-white font-semibold py-3 px-4 rounded-xl transition-all duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
-              >
-                Subscribe
-              </button>
-            </form>
-            <p className="text-xs text-secondary-400 mt-3">
-              No spam, unsubscribe anytime.
-            </p>
+            <Link href="/blog" className="inline-flex items-center text-primary-300 hover:text-white font-semibold">
+              Visit the GPA blog
+            </Link>
           </div>
         </div>
 
@@ -168,7 +155,7 @@ export default function Footer() {
         <div className="py-6 border-t border-secondary-800">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-secondary-400 text-sm">
-              © {currentYear} GPA Calculator. All rights reserved.
+              © {currentYear} Top GPA Calculator.
             </p>
             <div className="flex items-center gap-6 text-sm text-secondary-400">
               <span className="flex items-center gap-2">
@@ -181,7 +168,7 @@ export default function Footer() {
                 <svg className="w-4 h-4 text-blue-500" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M2.166 4.999A11.954 11.954 0 0010 1.944 11.954 11.954 0 0017.834 5c.11.65.166 1.32.166 2.001 0 5.225-3.34 9.67-8 11.317C5.34 16.67 2 12.225 2 7c0-.682.057-1.35.166-2.001zm11.541 3.708a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                 </svg>
-                100% Accurate
+                Check your school&apos;s grading rules
               </span>
               <span className="flex items-center gap-2">
                 <svg className="w-4 h-4 text-purple-500" fill="currentColor" viewBox="0 0 20 20">

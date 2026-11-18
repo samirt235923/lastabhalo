@@ -76,12 +76,12 @@ export default async function BlogPostPage({ params }: Props) {
       '@id': postUrl,
     },
     author: {
-      '@type': 'Person',
+      '@type': 'Organization',
       name: post.author,
     },
     publisher: {
       '@type': 'Organization',
-      name: 'GPA Calculator',
+      name: 'Top GPA Calculator',
     },
   };
   const blogPostingJsonLd = jsonLdStringify(blogPostingSchema);
@@ -126,6 +126,9 @@ export default async function BlogPostPage({ params }: Props) {
                 <p className="text-xl leading-relaxed text-gray-700 mb-6">
                   {post.excerpt}
                 </p>
+                <p className="text-sm text-gray-600 mb-6">
+                  This is general educational information from Top GPA Calculator, an independent site not affiliated with any school. Confirm school-specific rules with the institution.
+                </p>
 
                 {/<\/?[a-z][\s\S]*>/i.test(post.content) ? (
                   <div
@@ -148,11 +151,6 @@ export default async function BlogPostPage({ params }: Props) {
                   <CreditHourGPACalculator />
                 </div>
               )}
-
-              {/* AdSense */}
-              <div className="mt-12 p-8 bg-gray-100 border-2 border-gray-300 rounded-lg text-center">
-                <p className="text-gray-600">Advertisement Space</p>
-              </div>
 
               {/* Related Posts */}
               <section className="mt-12">
@@ -220,10 +218,6 @@ export default async function BlogPostPage({ params }: Props) {
                 </ul>
               </div>
 
-              {/* AdSense Sidebar */}
-              <div className="bg-gray-100 p-6 rounded-lg border-2 border-gray-300 text-center">
-                <p className="text-gray-600 text-sm">Advertisement Space</p>
-              </div>
             </div>
           </div>
         </section>

@@ -22,7 +22,6 @@ const dedicatedPages = new Set([
   'sophomore-gpa-calculator',
   'junior-gpa-calculator',
   'semester-gpa-calculator',
-  'target-gpa-calculator',
   'academic-gpa-calculator',
   'university-gpa-calculator',
   'gpa-average-calculator',
@@ -30,7 +29,6 @@ const dedicatedPages = new Set([
   'gpa-weight-calculator',
   'grade-point-calculator',
   'credit-hour-gpa-calculator',
-  'gpa-goal-calculator',
   'online-free-gpa-calculator',
   'weighted-gpa-calculator',
   'transfer-gpa-calculator',
@@ -44,6 +42,7 @@ const dedicatedPages = new Set([
   'community-college-gpa-calculator',
   'college-gpa-calculator',
   '4-0-scale-gpa-calculator',
+  'target-gpa-calculator',
 ]);
 
 export async function generateStaticParams() {
@@ -102,24 +101,24 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 const sampleFAQs = [
   {
-    question: 'How do I calculate GPA online?',
-    answer: 'Start by entering course names, grades, and credit hours. The online calculator uses grade points (grade value × credit hours) and divides by total credits for your GPA.',
+    question: 'How is GPA estimated?',
+    answer: 'For courses included in GPA, multiply each grade-point value by its credits, add those points, then divide by the included credits. Use the scale and rules on your transcript for an official result.',
   },
   {
-    question: 'Is this an accurate online GPA calculator?',
-    answer: 'Yes, this calculator uses the standard 4.0 scale and optional weighted values for Honors/AP, providing accurate GPA results for most college grading systems.',
+    question: 'Do course credits affect the estimate?',
+    answer: 'Yes. A course with more credits contributes more to the weighted average than a course with fewer credits.',
   },
   {
-    question: 'Can I calculate weighted GPA online?',
-    answer: 'Yes, choose Honors/AP/Advanced for course type to apply weighted score adjustments in the online calculator.',
+    question: 'Is this my school’s official GPA?',
+    answer: 'No. Schools may use different grade-point scales and rules for plus/minus grades, course repeats, withdrawals, and pass/fail work. Check your transcript or registrar for the official method.',
   },
   {
-    question: 'What is a good GPA?',
-    answer: 'A good GPA generally begins at 3.0, with 3.5+ considered strong. Your target should align with career, scholarship and grad school goals.',
+    question: 'How are repeated courses handled?',
+    answer: 'This estimate uses the grades and credits you enter. It does not apply a school’s course-repeat or grade-replacement policy automatically.',
   },
   {
-    question: 'How does credit hour affect GPA?',
-    answer: 'Credit hours multiply the grade points for each course; high credits with strong grades can raise your GPA significantly, while poor grades in high-credit courses can drag it down.',
+    question: 'Can I compare this estimate across schools?',
+    answer: 'Not reliably without the schools’ grading policies. Grade values, weighting, and treatment of special course results can differ between institutions.',
   },
 ];
 
@@ -138,9 +137,9 @@ export default async function CalculatorPage({ params }: Props) {
   ];
 
   const breadcrumbSchema = [
-    { name: 'Home', url: 'https://gpacalculator.com' },
-    { name: 'Calculators', url: 'https://gpacalculator.com/gpa-calculators' },
-    { name: calculator.name, url: `https://gpacalculator.com/gpa-calculators/${calculator.id}` },
+    { name: 'Home', url: 'https://topgpacalculator.com' },
+    { name: 'Calculators', url: 'https://topgpacalculator.com/gpa-calculators' },
+    { name: calculator.name, url: `https://topgpacalculator.com/gpa-calculators/${calculator.id}` },
   ];
   const breadcrumbJsonLd = jsonLdStringify({
     '@context': 'https://schema.org',
@@ -157,7 +156,7 @@ export default async function CalculatorPage({ params }: Props) {
     '@type': 'EducationalApplication',
     name: calculator.title,
     description: calculator.metaDescription,
-    url: `https://gpacalculator.com/gpa-calculators/${calculator.id}`,
+    url: `https://topgpacalculator.com/gpa-calculators/${calculator.id}`,
     applicationCategory: 'EducationalApplication',
     offers: {
       '@type': 'Offer',
@@ -223,7 +222,7 @@ export default async function CalculatorPage({ params }: Props) {
                 <div className="mb-8">
                   <h2 className="text-2xl font-bold text-gray-800 mb-4">Table of Contents</h2>
                   <ul className="list-decimal list-inside space-y-2 text-gray-700">
-                    <li><a href="#what-is-gpa-calculator" className="text-blue-600 hover:underline">What Is a GPA Calculator</a></li>
+                    <li><a href="#what-is" className="text-blue-600 hover:underline">What Is a GPA Calculator</a></li>
                     <li><a href="#how-to-use" className="text-blue-600 hover:underline">How to Use the GPA Calculator</a></li>
                     <li><a href="#gpa-formula" className="text-blue-600 hover:underline">GPA Calculation Formula Explained</a></li>
                     <li><a href="#weighted-vs-unweighted" className="text-blue-600 hover:underline">Weighted vs Unweighted GPA</a></li>
@@ -288,7 +287,7 @@ export default async function CalculatorPage({ params }: Props) {
                   </tbody>
                 </table>
 
-                <p className="text-gray-700 mb-6">Optional weighted calculations: Honors +0.5, AP +1.0 (max 5.0 per class). Use the course type selector in the calculator to automatically store this data in your result.</p>
+                <p className="text-gray-700 mb-6">The calculator offers example Honors (+0.5) and AP/Advanced (+1.0) adjustments. Weighting rules vary by school, so change course types only when they match your transcript policy.</p>
 
                 <h2 id="example-calculation" className="text-3xl font-bold text-gray-800 mb-4">Example Calculation</h2>
                 <p className="text-gray-700 leading-relaxed mb-4">Use this weighted example to confirm your calculator usage:</p>
@@ -313,8 +312,8 @@ export default async function CalculatorPage({ params }: Props) {
                 <h2 className="text-3xl font-bold text-gray-800 mb-4" id="related-calculators">Related GPA Calculators</h2>
                 <p className="text-gray-700 mb-4">Explore these tools for comprehensive GPA planning:</p>
                   <ul className="list-disc list-inside space-y-2 text-gray-700 mb-6">
-                  <li><a href="/junior-gpa-calculator" className="text-blue-600 hover:underline">Junior GPA Calculator</a></li>
-                  <li><a href="/gpa-calculators/gpa-goal-calculator" className="text-blue-600 hover:underline">GPA Goal Calculator</a></li>
+                  <li><a href="/gpa-calculators/junior-gpa-calculator" className="text-blue-600 hover:underline">Junior GPA Calculator</a></li>
+                  <li><a href="/gpa-calculators/target-gpa-calculator" className="text-blue-600 hover:underline">Target GPA Calculator</a></li>
                 </ul>
 
                 <h2 className="text-3xl font-bold text-gray-800 mb-4">Trusted Planning Resources</h2>
@@ -328,10 +327,6 @@ export default async function CalculatorPage({ params }: Props) {
                 <p className="text-gray-700 leading-relaxed">Bookmark and revisit after each semester. Use it for trend analysis; compare first year and second year to figure out GPA targets for junior year. This page is designed to be fast, lightweight, and mobile-friendly for students on the go.</p>
               </article>
 
-              {/* AdSense Block */}
-              <div className="my-12 p-8 bg-gray-100 border-2 border-gray-300 rounded-lg text-center">
-                <p className="text-gray-600">Advertisement Space</p>
-              </div>
             </div>
 
             {/* Sidebar */}
@@ -341,17 +336,13 @@ export default async function CalculatorPage({ params }: Props) {
                 <h3 className="text-xl font-bold text-blue-900 mb-4">Quick Facts</h3>
                 <ul className="space-y-3 text-sm text-gray-700">
                   <li>✓ <strong>Instant Calculation:</strong> Get results in seconds</li>
-                  <li>✓ <strong>100% Accurate:</strong> Uses standard GPA formula</li>
+                  <li>✓ <strong>Transparent formula:</strong> Shows how grade points and credits are combined</li>
                   <li>✓ <strong>Free to Use:</strong> No registration required</li>
                   <li>✓ <strong>Mobile Friendly:</strong> Works on all devices</li>
                   <li>✓ <strong>For {calculator.targetAudience}</strong></li>
                 </ul>
               </div>
 
-              {/* AdSense Sidebar */}
-              <div className="bg-gray-100 p-6 rounded-lg border-2 border-gray-300 mb-8 text-center">
-                <p className="text-gray-600 text-sm">Advertisement Space</p>
-              </div>
             </div>
           </div>
         </section>
@@ -362,14 +353,6 @@ export default async function CalculatorPage({ params }: Props) {
         {/* Related Calculators */}
         <RelatedCalculators relatedIds={calculator.relatedCalculators} />
 
-        {/* Bottom AdSense */}
-        <section className="py-8 bg-white">
-          <div className="max-w-6xl mx-auto px-4">
-            <div className="bg-gray-100 border-2 border-gray-300 rounded-lg p-8 text-center">
-              <p className="text-gray-600">Advertisement Space</p>
-            </div>
-          </div>
-        </section>
       </div>
     </>
   );

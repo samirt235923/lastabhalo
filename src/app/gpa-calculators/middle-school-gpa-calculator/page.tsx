@@ -319,10 +319,6 @@ export default function MiddleSchoolGPACalculatorPage() {
                 </ul>
               </article>
 
-              {/* AdSense Block */}
-              <div className="my-12 p-8 bg-gray-100 border-2 border-gray-300 rounded-lg text-center">
-                <p className="text-gray-600">Advertisement Space</p>
-              </div>
             </div>
 
             {/* Sidebar */}
@@ -339,10 +335,6 @@ export default function MiddleSchoolGPACalculatorPage() {
                 </ul>
               </div>
 
-              {/* AdSense Sidebar */}
-              <div className="bg-gray-100 p-6 rounded-lg border-2 border-gray-300 mb-8 text-center">
-                <p className="text-gray-600 text-sm">Advertisement Space</p>
-              </div>
             </div>
           </div>
         </section>
@@ -353,14 +345,6 @@ export default function MiddleSchoolGPACalculatorPage() {
         {/* Related Calculators */}
         <RelatedCalculators relatedIds={calculator.relatedCalculators} />
 
-        {/* Bottom AdSense */}
-        <section className="py-8 bg-white">
-          <div className="max-w-6xl mx-auto px-4">
-            <div className="bg-gray-100 border-2 border-gray-300 rounded-lg p-8 text-center">
-              <p className="text-gray-600">Advertisement Space</p>
-            </div>
-          </div>
-        </section>
       </div>
     </>
   );

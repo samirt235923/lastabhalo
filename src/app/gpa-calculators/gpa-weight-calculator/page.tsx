@@ -50,7 +50,7 @@ const relatedCalculators = [
   { href: '/college-gpa-calculator', label: 'College GPA Calculator' },
   { href: '/high-school-gpa-calculator', label: 'High School GPA Calculator' },
   { href: '/gpa-calculators/semester-gpa-calculator', label: 'Semester GPA Calculator' },
-  { href: '/gpa-calculators/gpa-goal-calculator', label: 'GPA Goal Calculator' },
+  { href: '/gpa-calculators/target-gpa-calculator', label: 'Target GPA Calculator' },
 ];
 
 export default function Page() {

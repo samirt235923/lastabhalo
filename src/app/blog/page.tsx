@@ -4,8 +4,13 @@ import { blogPosts } from '@/data/blog';
 import { jsonLdStringify } from '@/lib/jsonLd';
 
 export const metadata: Metadata = {
-  title: 'Blog - GPA Tips, Strategies & Articles | GPA Calculator',
-  description: 'Read expert articles and tips on GPA management, college admissions, scholarships, and improving academic performance.',
+  title: 'GPA Guides and Articles | Top GPA Calculator',
+  description: 'Read practical guides to GPA calculations, academic planning, and interpreting school grading policies.',
+  openGraph: {
+    title: 'GPA Guides and Articles | Top GPA Calculator',
+    description: 'Read practical guides to GPA calculations, academic planning, and interpreting school grading policies.',
+    url: 'https://topgpacalculator.com/blog',
+  },
   alternates: {
     canonical: 'https://topgpacalculator.com/blog',
   },
@@ -59,7 +64,7 @@ export default function BlogPage() {
           <div className="max-w-6xl mx-auto px-4">
             <h1 className="text-4xl md:text-5xl font-bold mb-4">GPA Calculator Blog</h1>
             <p className="text-xl text-blue-100">
-              Expert tips, strategies, and guides for student success
+              Plain-language explanations and practical academic planning guides
             </p>
           </div>
         </section>
@@ -98,14 +103,6 @@ export default function BlogPage() {
           </div>
         </section>
 
-        {/* AdSense */}
-        <section className="py-8 bg-gray-50">
-          <div className="max-w-6xl mx-auto px-4">
-            <div className="bg-gray-100 border-2 border-gray-300 rounded-lg p-8 text-center">
-              <p className="text-gray-600">Advertisement Space</p>
-            </div>
-          </div>
-        </section>
       </div>
     </>
   );
