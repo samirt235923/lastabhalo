@@ -1,4 +1,5 @@
 import type { Metadata, Viewport } from 'next';
+import Script from 'next/script';
 import Analytics from '@/components/Analytics';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
@@ -67,6 +68,12 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <meta name="theme-color" content="#0066cc" />
+        <Script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5159148916272403"
+          crossOrigin="anonymous"
+          strategy="beforeInteractive"
+        />
         <style dangerouslySetInnerHTML={{ __html: `
           /* Critical above-the-fold CSS */
           *{margin:0;padding:0;box-sizing:border-box}
