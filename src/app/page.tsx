@@ -7,9 +7,9 @@ import HomeFAQ from '@/components/HomeFAQ';
 export default function Home() {
   const featuredCalculators = calculatorData.slice(0, 6);
   const pageUrl = 'https://topgpacalculator.com';
-  const pageTitle = 'GPA Calculator - Free & Accurate GPA Calculator for Students';
+  const pageTitle = 'GPA Calculator - Free GPA Estimate for Students';
   const pageDescription =
-    'Calculate your GPA instantly with our free GPA calculator. Perfect for college and high school students. Accurate, fast, and easy to use.';
+    'Estimate your GPA with a free calculator for college and high school coursework. Results depend on your school&apos;s grading and credit policies.';
   const faqData = [
     {
       question: 'Is this GPA calculator free to use?',

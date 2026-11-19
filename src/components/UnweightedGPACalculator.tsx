@@ -181,6 +181,7 @@ export default function UnweightedGPACalculator() {
                   <tr key={course.id} className="border-t border-gray-200">
                     <td className="px-2 py-2">
                       <input
+                        aria-label={`Course ${idx + 1} name`}
                         type="text"
                         value={course.name}
                         onChange={(e) => updateCourse(course.id, 'name', e.target.value)}
@@ -190,6 +191,7 @@ export default function UnweightedGPACalculator() {
                     </td>
                     <td className="px-2 py-2 w-36">
                       <select
+                        aria-label={`Course ${idx + 1} grade`}
                         value={course.grade}
                         onChange={(e) => updateCourse(course.id, 'grade', e.target.value)}
                         className="w-full border border-gray-300 rounded-lg px-2 py-1.5 focus:outline-none focus:ring-2 focus:ring-blue-500"
@@ -204,6 +206,7 @@ export default function UnweightedGPACalculator() {
                     {useCredits && (
                       <td className="px-2 py-2 w-24">
                         <input
+                          aria-label={`Course ${idx + 1} credits`}
                           type="number"
                           min="1"
                           max="12"
@@ -277,8 +280,9 @@ export default function UnweightedGPACalculator() {
 
           <div className="grid gap-4 md:grid-cols-3">
             <div>
-              <label className="block text-sm font-semibold text-gray-700 mb-2">Weighted GPA</label>
+              <label htmlFor="weighted-gpa" className="block text-sm font-semibold text-gray-700 mb-2">Weighted GPA</label>
               <input
+                id="weighted-gpa"
                 type="number"
                 min="0"
                 max="5"
@@ -290,8 +294,9 @@ export default function UnweightedGPACalculator() {
               />
             </div>
             <div>
-              <label className="block text-sm font-semibold text-gray-700 mb-2">Total Courses</label>
+              <label htmlFor="total-converter-courses" className="block text-sm font-semibold text-gray-700 mb-2">Total Courses</label>
               <input
+                id="total-converter-courses"
                 type="number"
                 min="1"
                 value={totalCourses}
@@ -301,8 +306,9 @@ export default function UnweightedGPACalculator() {
               />
             </div>
             <div>
-              <label className="block text-sm font-semibold text-gray-700 mb-2">Avg Weight Bonus</label>
+              <label htmlFor="average-weight-bonus" className="block text-sm font-semibold text-gray-700 mb-2">Avg Weight Bonus</label>
               <select
+                id="average-weight-bonus"
                 value={avgWeightBonus}
                 onChange={(e) => setAvgWeightBonus(e.target.value)}
                 className="w-full border border-gray-300 rounded-lg px-4 py-2.5 focus:outline-none focus:ring-2 focus:ring-blue-500"
@@ -351,7 +357,7 @@ export default function UnweightedGPACalculator() {
 
       {/* Grade Scale Reference */}
       <div className="mt-6 p-4 bg-gray-100 rounded-xl">
-        <h4 className="font-semibold text-gray-800 mb-2">Unweighted Grade Scale (4.0)</h4>
+        <h2 className="font-semibold text-gray-800 mb-2">Unweighted Grade Scale (4.0)</h2>
         <div className="grid grid-cols-2 md:grid-cols-5 gap-2 text-xs text-gray-600">
           <div><span className="font-bold">A</span> = 4.0</div>
           <div><span className="font-bold">A-</span> = 3.7</div>

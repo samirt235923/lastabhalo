@@ -311,19 +311,19 @@ export const blogContent: Record<string, string> = {
     </ul>
 
     <h2>Typical GPA Ranges (General Guidance)</h2>
-    <p>There is no universal GPA requirement. Many merit scholarships prefer strong GPAs, but the exact number depends on the program and your overall profile.</p>
+    <p>There is no universal GPA requirement. The table above is illustrative only and is not evidence of a particular scholarship&apos;s cutoff. Always verify the current eligibility rules on the awarding organization&apos;s official website before applying.</p>
     <table>
       <thead>
         <tr>
           <th>Scholarship Type</th>
-          <th>Common GPA Range</th>
-          <th>Notes</th>
+          <th>Illustrative GPA Guidance</th>
+          <th>Important Notes</th>
         </tr>
       </thead>
       <tbody>
-        <tr><td>Local community awards</td><td>2.5 to 3.5</td><td>Often less competitive</td></tr>
-        <tr><td>Merit-based college awards</td><td>3.0 to 3.8</td><td>May include course rigor</td></tr>
-        <tr><td>National competitive awards</td><td>3.5+</td><td>Strong academics plus leadership</td></tr>
+        <tr><td>Local community awards</td><td>Examples vary widely</td><td>Check each award&apos;s current eligibility rules</td></tr>
+        <tr><td>Merit-based college awards</td><td>Examples vary widely</td><td>Course rigor and institutional policy may matter</td></tr>
+        <tr><td>National competitive awards</td><td>Examples vary widely</td><td>GPA is usually one of several requirements</td></tr>
       </tbody>
     </table>
 

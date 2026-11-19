@@ -163,7 +163,7 @@ export default function SophomoreGPACalculatorPage() {
           <h2 id="related">Related Calculators</h2>
           <ul>
 
-            <li><Link href="/junior-gpa-calculator" className="text-blue-600 hover:underline">Junior GPA Calculator</Link></li>
+            <li><Link href="/gpa-calculators/junior-gpa-calculator" className="text-blue-600 hover:underline">Junior GPA Calculator</Link></li>
 
             <li><Link href="/gpa-calculators/target-gpa-calculator" className="text-blue-600 hover:underline">Target GPA Calculator</Link></li>
             <li><Link href="/gpa-calculators/cumulative-gpa-calculator" className="text-blue-600 hover:underline">Cumulative GPA Calculator</Link></li>

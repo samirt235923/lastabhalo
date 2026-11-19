@@ -16,7 +16,7 @@ const faqItems = [
   },
   {
     question: 'How is GPA calculated for med school applications?',
-    answer: 'Med school GPA is calculated by multiplying each course\'s grade points by credit hours, summing all grade points, then dividing by total credit hours. Use the standard 4.0 scale where A=4.0, A-=3.7, B+=3.3, etc. AMCAS recalculates GPA using their own standards.',
+    answer: 'A planning estimate multiplies entered grade points by credit hours, sums grade points, and divides by entered credits. AMCAS and individual schools use their own official course categorization, grade-conversion, repeat, and inclusion rules.',
   },
   {
     question: 'What is a good GPA for medical school?',
@@ -90,9 +90,10 @@ export default function MedicalSchoolGPACalculatorPage() {
           </h1>
 
           <p className="text-lg text-gray-700 mb-8 leading-relaxed">
-            Use our free <strong>GPA for Medical School Calculator</strong> to calculate your overall GPA and science GPA for medical school applications.
-            This medical school admission GPA calculator is designed for pre-med students who want to estimate their AMCAS GPA and understand how grades impact admissions.
-            Our calculator uses the standard 4.0 grading scale and automatically separates science courses (Biology, Chemistry, Physics, Math) to calculate your BCPM GPA.
+            Use our free <strong>GPA for Medical School Calculator</strong> to estimate an overall GPA and a BCPM-style science GPA.
+            AMCAS and individual medical schools control their own course categorization, grade conversion, repeat, and inclusion rules.
+            This independent tool uses a standard 4.0 map and does not certify an AMCAS application GPA. Confirm the result against
+            <a className="text-blue-600 underline" href="https://students-residents.aamc.org/how-submit-your-aamc-amcas-application/amcas-course-classification-guide" target="_blank" rel="noopener noreferrer"> the current AAMC course classification guide</a>.
           </p>
 
           {/* Calculator Component */}
@@ -125,7 +126,8 @@ export default function MedicalSchoolGPACalculatorPage() {
               <div className="bg-green-50 border-l-4 border-green-400 p-4 my-6">
                 <p className="text-green-800 font-medium">
                   💡 <strong>Key Point:</strong> Medical schools recalculate your GPA using AMCAS standards,
-                  which may differ from your institution's calculation. Always use our medical school GPA calculator to get an accurate estimate.
+                  which may differ from your institution&apos;s calculation. Use this calculator only as an independent estimate,
+                  and verify course categories and repeats against current AAMC guidance.
                 </p>
               </div>
             </section>

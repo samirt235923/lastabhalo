@@ -15,7 +15,7 @@ const faqItems = [
   },
   {
     question: 'How do you calculate LSAC GPA?',
-    answer: 'LSAC GPA is calculated by multiplying each course\'s grade points by credit hours, summing all grade points, then dividing by total credit hours. LSAC uses a specific grade scale where A+ = 4.33, A = 4.0, A- = 3.67, B+ = 3.33, B = 3.0, etc.',
+    answer: 'A planning estimate multiplies each entered grade-point value by credit hours, sums the grade points, and divides by entered credits. LSAC applies additional official inclusion, exclusion, repeat, transfer, and grade-conversion rules that this independent tool does not replace.',
   },
   {
     question: 'Is a 3.7 GPA good for law school?',
@@ -90,9 +90,10 @@ export default function LawSchoolGPACalculatorPage() {
           </h1>
 
           <p className="text-lg text-gray-700 mb-8 leading-relaxed">
-            Use our free <strong>law school GPA calculator</strong> to estimate your LSAC GPA for law school applications.
-            The LSAC (Law School Admission Council) recalculates your GPA using their own standards and grading scale.
-            Our calculator uses the official LSAC grading scale so you can see exactly how law schools will evaluate your academic credentials.
+            Use our free <strong>law school GPA calculator</strong> to estimate an LSAC-style GPA for planning.
+            LSAC (the Law School Admission Council) controls the official calculation and applies its own course,
+            transfer, grade, repeat, and accreditation rules. This tool does not submit or certify an applicant record.
+            Always confirm an estimate against LSAC&apos;s current instructions before making application decisions.
           </p>
 
           {/* Calculator Component */}
@@ -140,7 +141,7 @@ export default function LawSchoolGPACalculatorPage() {
                 The process is straightforward once you understand which courses LSAC includes and what grade scale to use.
               </p>
               <ol className="list-decimal list-inside space-y-3 text-gray-700 mb-6">
-                <li><strong>Convert grades to LSAC points:</strong> Use the official LSAC scale (A+ = 4.33, A = 4.0, etc.)</li>
+                <li><strong>Convert grades to points:</strong> This tool uses an illustrative grade map (A+ = 4.33, A = 4.0, etc.) and may not match every source transcript.</li>
                 <li><strong>Identify eligible courses:</strong> Only include grades from accredited institutions that count toward your degree</li>
                 <li><strong>Multiply grade points by credits:</strong> Calculate quality points for each course</li>
                 <li><strong>Sum all eligible grades:</strong> Add up total grade points and total credits</li>
@@ -152,8 +153,9 @@ export default function LawSchoolGPACalculatorPage() {
                 Understanding these rules helps you calculate the most accurate predicted LSAC GPA.
               </p>
               <p className="text-gray-700 mb-4 leading-relaxed">
-                For the most accurate LSAC GPA estimate, use only courses from your primary undergraduate institution and apply the official LSAC grading scale.
-                Our law school GPA calculator automatically applies these standards for you.
+                For planning, enter only courses you believe LSAC will include. Course exclusions and repeat rules can change
+                the result. Review the <a className="text-blue-600 underline" href="https://www.lsac.org/applying-law-school/jd-applicants/lsac-jd-gpa-calculator" target="_blank" rel="noopener noreferrer">current LSAC GPA Calculator guidance</a>
+                and your official law-school report before relying on this estimate.
               </p>
             </section>
 
@@ -168,7 +170,7 @@ export default function LawSchoolGPACalculatorPage() {
                 Understanding this scale is essential for predicting your law school application competitiveness.
               </p>
               <div className="bg-white border border-gray-200 rounded-lg p-6 mb-6">
-                <h3 className="text-xl font-bold text-gray-900 mb-4">Official LSAC Grade Scale</h3>
+                <h3 className="text-xl font-bold text-gray-900 mb-4">Illustrative Grade Map</h3>
                 <div className="grid md:grid-cols-2 gap-8">
                   <div>
                     <h3 className="font-bold text-gray-900 mb-3">Letter Grades</h3>

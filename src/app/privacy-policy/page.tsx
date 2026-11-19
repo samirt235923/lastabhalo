@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Privacy Policy - Top GPA Calculator',
-  description: 'Learn what information Top GPA Calculator processes, how Google Analytics works, and how advertising privacy choices will be handled.',
+  description: 'Learn what information Top GPA Calculator processes, how Google Analytics works, and how Google advertising cookies and privacy choices are handled.',
   openGraph: {
     title: 'Privacy Policy - Top GPA Calculator',
     description: 'Learn what information Top GPA Calculator processes, how Google Analytics works, and how advertising privacy choices will be handled.',
@@ -87,10 +87,11 @@ export default function PrivacyPolicyPage() {
           <h2 className="text-3xl font-bold text-gray-800 mt-8 mb-4">7. Analytics and Advertising</h2>
           <p className="text-gray-700 mb-6">
             Google Analytics is enabled on the production site and may use cookies or similar technologies to measure
-            visits and interactions. The site does not currently display Google AdSense ads. If advertising is enabled,
-            Google and other third-party vendors may use cookies or similar identifiers to serve ads based on a visitor&apos;s
-            previous visits to this or other websites. Google&apos;s use of advertising cookies enables it and its partners
-            to serve ads based on those visits.
+            visits and interactions. Google advertising products and other third-party vendors may use cookies or similar
+            identifiers to read and write data, serve ads, personalize content, measure ad performance, and reduce fraud
+            when advertising is enabled on this site. This includes the use of IP addresses and web beacons where permitted.
+            Third-party vendors may serve ads and may use information about your previous visits to this or other websites
+            to provide advertising.
           </p>
           <p className="text-gray-700 mb-6">
             Learn how Google uses information from sites and apps that use its services at{' '}
@@ -108,14 +109,17 @@ export default function PrivacyPolicyPage() {
             . These controls do not disable all advertising.
           </p>
           <p className="text-gray-700 mb-6">
-            If ads are introduced, we will update this notice and use any consent mechanism required for the regions
-            where ads are served before enabling advertising there.
+            We will maintain and update this notice as advertising or analytics practices change. Where required by
+            applicable law, we will obtain consent or provide a consent-management option before enabling advertising
+            technologies for visitors in that region. Users may change available ad choices through Google and their browser.
           </p>
 
           <h2 className="text-3xl font-bold text-gray-800 mt-8 mb-4">8. Cookies</h2>
           <p className="text-gray-700 mb-6">
-            Google Analytics and, if enabled in the future, advertising providers may use cookies or similar technologies.
-            You can control cookies in your browser settings; blocking them may affect some site features or measurement.
+            Google Analytics and advertising providers may use cookies or similar technologies. You can control cookies
+            in your browser settings; blocking them may affect some site features or measurement. Where the site uses
+            advertising cookies, Google and participating partners may use those technologies for ad personalization,
+            frequency capping, measurement, and fraud prevention, subject to your available choices and applicable consent.
           </p>
 
           <h2 className="text-3xl font-bold text-gray-800 mt-8 mb-4">9. Children&apos;s Privacy</h2>

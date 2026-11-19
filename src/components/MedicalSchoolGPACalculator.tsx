@@ -187,10 +187,11 @@ const MedicalSchoolGPACalculator: React.FC = () => {
           <div key={course.id} className="bg-white border border-gray-200 rounded-lg p-4 shadow-sm">
             <div className="grid md:grid-cols-5 gap-4 items-end">
               <div>
-                <label className="block text-sm font-medium text-gray-700 mb-1">
+                <label htmlFor={`medical-course-name-${course.id}`} className="block text-sm font-medium text-gray-700 mb-1">
                   Course Name
                 </label>
                 <input
+                  id={`medical-course-name-${course.id}`}
                   type="text"
                   value={course.name}
                   onChange={(e) => updateCourse(course.id, 'name', e.target.value)}
@@ -199,10 +200,11 @@ const MedicalSchoolGPACalculator: React.FC = () => {
                 />
               </div>
               <div>
-                <label className="block text-sm font-medium text-gray-700 mb-1">
+                <label htmlFor={`medical-credits-${course.id}`} className="block text-sm font-medium text-gray-700 mb-1">
                   Credits
                 </label>
                 <input
+                  id={`medical-credits-${course.id}`}
                   type="number"
                   min="1"
                   max="6"
@@ -212,10 +214,11 @@ const MedicalSchoolGPACalculator: React.FC = () => {
                 />
               </div>
               <div>
-                <label className="block text-sm font-medium text-gray-700 mb-1">
+                <label htmlFor={`medical-grade-${course.id}`} className="block text-sm font-medium text-gray-700 mb-1">
                   Grade
                 </label>
                 <select
+                  id={`medical-grade-${course.id}`}
                   value={course.grade}
                   onChange={(e) => updateCourse(course.id, 'grade', e.target.value)}
                   className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
@@ -233,10 +236,11 @@ const MedicalSchoolGPACalculator: React.FC = () => {
                 </select>
               </div>
               <div>
-                <label className="block text-sm font-medium text-gray-700 mb-1">
+                <label htmlFor={`medical-category-${course.id}`} className="block text-sm font-medium text-gray-700 mb-1">
                   Category
                 </label>
                 <select
+                  id={`medical-category-${course.id}`}
                   value={course.category}
                   onChange={(e) => updateCourse(course.id, 'category', e.target.value as CourseCategory)}
                   className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"

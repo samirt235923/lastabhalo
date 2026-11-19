@@ -154,10 +154,11 @@ export default function GPACalculator() {
               <div className="grid grid-cols-1 md:grid-cols-12 gap-4 items-end">
                 {/* Course Name */}
                 <div className="md:col-span-4">
-                  <label className="block text-sm font-semibold text-secondary-700 mb-2">
+                  <label htmlFor={`course-name-${course.id}`} className="block text-sm font-semibold text-secondary-700 mb-2">
                     Course Name <span className="text-secondary-400">(Optional)</span>
                   </label>
                   <input
+                    id={`course-name-${course.id}`}
                     type="text"
                     placeholder="e.g., Introduction to Psychology"
                     value={course.name}
@@ -168,10 +169,11 @@ export default function GPACalculator() {
 
                 {/* Grade */}
                 <div className="md:col-span-2">
-                  <label className="block text-sm font-semibold text-secondary-700 mb-2">
+                  <label htmlFor={`grade-${course.id}`} className="block text-sm font-semibold text-secondary-700 mb-2">
                     Grade
                   </label>
                   <select
+                    id={`grade-${course.id}`}
                     value={course.grade}
                     onChange={(e) => updateCourse(course.id, 'grade', e.target.value)}
                     className="w-full px-4 py-3 bg-white border border-secondary-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-primary-500 transition-all duration-200 text-secondary-900 appearance-none cursor-pointer"
@@ -205,10 +207,11 @@ export default function GPACalculator() {
 
                 {/* Course Type */}
                 <div className="md:col-span-2">
-                  <label className="block text-sm font-semibold text-secondary-700 mb-2">
+                  <label htmlFor={`course-type-${course.id}`} className="block text-sm font-semibold text-secondary-700 mb-2">
                     Course Type
                   </label>
                   <select
+                    id={`course-type-${course.id}`}
                     value={course.courseType}
                     onChange={(e) => updateCourse(course.id, 'courseType', e.target.value)}
                     className="w-full px-4 py-3 bg-white border border-secondary-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-primary-500 transition-all duration-200 text-secondary-900 appearance-none cursor-pointer"
@@ -229,10 +232,11 @@ export default function GPACalculator() {
 
                 {/* Credit Hours */}
                 <div className="md:col-span-2">
-                  <label className="block text-sm font-semibold text-secondary-700 mb-2">
+                  <label htmlFor={`credits-${course.id}`} className="block text-sm font-semibold text-secondary-700 mb-2">
                     Credits
                   </label>
                   <input
+                    id={`credits-${course.id}`}
                     type="number"
                     min="0"
                     max="12"

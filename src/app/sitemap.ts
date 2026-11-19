@@ -20,6 +20,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const blogPaths = blogPosts.map((post) => `blog/${post.slug}`);
 
   return [...staticPaths, ...calculatorPaths, ...blogPaths].map((path) => ({
-    url: path ? `${siteUrl}/${path}` : `${siteUrl}/`,
+    url: path ? `${siteUrl}/${path}` : siteUrl,
   }));
 }

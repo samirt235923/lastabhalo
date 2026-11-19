@@ -123,7 +123,11 @@ export default function GPACalculatorsPage() {
 
           {/* Search/Filter */}
           <div className="mb-8">
+            <label htmlFor="calculator-search" className="mb-2 block text-sm font-semibold text-gray-700">
+              Search GPA calculators
+            </label>
             <input
+              id="calculator-search"
               type="text"
               value={searchQuery}
               onChange={(event) => setSearchQuery(event.target.value)}

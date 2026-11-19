@@ -195,10 +195,11 @@ export default function LawSchoolGPACalculator() {
             <div className="grid grid-cols-1 md:grid-cols-12 gap-4 items-end">
               {/* Course Name */}
               <div className="md:col-span-4">
-                <label className="block text-sm font-semibold text-gray-700 mb-2">
+                <label htmlFor={`law-course-name-${course.id}`} className="block text-sm font-semibold text-gray-700 mb-2">
                   Course Name <span className="text-gray-400">(Optional)</span>
                 </label>
                 <input
+                  id={`law-course-name-${course.id}`}
                   type="text"
                   placeholder="e.g., Constitutional Law"
                   value={course.name}
@@ -209,10 +210,11 @@ export default function LawSchoolGPACalculator() {
 
               {/* Grade */}
               <div className="md:col-span-3">
-                <label className="block text-sm font-semibold text-gray-700 mb-2">
+                <label htmlFor={`law-grade-${course.id}`} className="block text-sm font-semibold text-gray-700 mb-2">
                   Grade
                 </label>
                 <select
+                  id={`law-grade-${course.id}`}
                   value={course.grade}
                   onChange={(e) => {
                     updateCourse(course.id, 'grade', e.target.value);
@@ -243,10 +245,11 @@ export default function LawSchoolGPACalculator() {
 
               {/* Credits */}
               <div className="md:col-span-3">
-                <label className="block text-sm font-semibold text-gray-700 mb-2">
+                <label htmlFor={`law-credits-${course.id}`} className="block text-sm font-semibold text-gray-700 mb-2">
                   Credit Hours
                 </label>
                 <input
+                  id={`law-credits-${course.id}`}
                   type="number"
                   min="0.5"
                   max="12"

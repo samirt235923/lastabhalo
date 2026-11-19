@@ -11,7 +11,7 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://topgpacalculator.com'),
-  title: 'GPA Calculator - Free & Accurate GPA Calculator for Students',
+  title: 'GPA Calculator - Free GPA Estimate for Students',
   description: 'Estimate your GPA with a free calculator for college and high school coursework. Grading scales vary, so check your school’s policy for official results.',
   icons: {
     icon: [

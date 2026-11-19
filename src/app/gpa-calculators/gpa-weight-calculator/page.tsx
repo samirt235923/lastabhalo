@@ -46,9 +46,9 @@ const faqItems = [
 ];
 
 const relatedCalculators = [
-  { href: '/weighted-gpa-calculator', label: 'Weighted GPA Calculator' },
-  { href: '/college-gpa-calculator', label: 'College GPA Calculator' },
-  { href: '/high-school-gpa-calculator', label: 'High School GPA Calculator' },
+  { href: '/gpa-calculators/weighted-gpa-calculator', label: 'Weighted GPA Calculator' },
+  { href: '/gpa-calculators/college-gpa-calculator', label: 'College GPA Calculator' },
+  { href: '/gpa-calculators/high-school-gpa-calculator', label: 'High School GPA Calculator' },
   { href: '/gpa-calculators/semester-gpa-calculator', label: 'Semester GPA Calculator' },
   { href: '/gpa-calculators/target-gpa-calculator', label: 'Target GPA Calculator' },
 ];

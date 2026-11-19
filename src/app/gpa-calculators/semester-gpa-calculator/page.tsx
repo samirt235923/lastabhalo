@@ -571,10 +571,10 @@ export default function SemesterGPACalculatorPage() {
                 Keep planning with these tools. Each link supports the next step after you calculate semester GPA.
               </p>
               <div className="grid sm:grid-cols-2 gap-4">
-                <Link href="/cumulative-gpa-calculator" className="rounded-xl border border-slate-200 p-4 hover:bg-slate-50">
+                <Link href="/gpa-calculators/cumulative-gpa-calculator" className="rounded-xl border border-slate-200 p-4 hover:bg-slate-50">
                   Cumulative GPA Calculator
                 </Link>
-                <Link href="/college-gpa-calculator" className="rounded-xl border border-slate-200 p-4 hover:bg-slate-50">
+                <Link href="/gpa-calculators/college-gpa-calculator" className="rounded-xl border border-slate-200 p-4 hover:bg-slate-50">
                   College GPA Calculator
                 </Link>
                 <Link href="/gpa-calculators/cumulative-gpa-calculator" className="rounded-xl border border-slate-200 p-4 hover:bg-slate-50">

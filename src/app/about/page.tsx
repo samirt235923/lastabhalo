@@ -73,6 +73,15 @@ export default function AboutPage() {
             Check your transcript or registrar for an official result.
           </p>
 
+          <h2 className="text-3xl font-bold text-gray-800 mb-6">Editorial and Review Process</h2>
+          <p className="text-gray-700 mb-6 leading-relaxed">
+            We review calculator formulas and educational explanations for internal consistency and correct them when grading
+            assumptions or school-specific guidance change. Calculator entries remain in the visitor&apos;s browser and are not used
+            to create an academic record. Facts, scholarship criteria, and admissions guidance should be checked against current
+            official sources before relying on them. Editorial corrections or policy updates can be reported through our
+            <Link href="/contact" className="text-blue-600 underline"> contact page</Link>.
+          </p>
+
           <h2 className="text-3xl font-bold text-gray-800 mb-6 mt-12">What We Offer</h2>
           <div className="grid md:grid-cols-2 gap-6 mb-8">
             <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-600">
